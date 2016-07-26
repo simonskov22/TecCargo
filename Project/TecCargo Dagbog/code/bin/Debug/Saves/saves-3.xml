@@ -1,0 +1,29 @@
+<NewDataSet>
+  <general>
+    <version>1.0</version>
+  </general>
+  <indhold>
+    <navn>test</navn>
+    <cvr>112213123-3123</cvr>
+  </indhold>
+  <log>
+    <date>15-09-2015 00:00:00</date>
+    <text>1
+</text>
+  </log>
+  <log>
+    <date>28-09-2015 00:00:00</date>
+    <text>2
+</text>
+  </log>
+  <log>
+    <date>05-09-2015 00:00:00</date>
+    <text>3
+</text>
+  </log>
+  <log>
+    <date>10-09-2015 00:00:00</date>
+    <text>4
+</text>
+  </log>
+</NewDataSet>

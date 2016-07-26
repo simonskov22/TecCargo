@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="TecCargo_Faktura.Controls.Gebyr"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TecCargo_Faktura.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="600"
+             x:Name="_Gebyr">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_0" Click="CheckBoxButton_Gebyr_Click" Grid.Row="0" Grid.Column="0" Text="Chaufførmedhjælper" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_1" Click="CheckBoxButton_Gebyr_Click" Grid.Row="1" Grid.Column="0" Text="Flytte tillæg" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_2" Click="CheckBoxButton_Gebyr_Click" Grid.Row="2" Grid.Column="0" Text="ADR-tillæg" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_3" Click="CheckBoxButton_Gebyr_Click" Grid.Row="3" Grid.Column="0" Text="Aften- og nattillæg" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_4" Click="CheckBoxButton_Gebyr_Click" Grid.Row="4" Grid.Column="0" Text="Weekendtillæg" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_5" Click="CheckBoxButton_Gebyr_Click" Grid.Row="5" Grid.Column="0" Text="Yderzonetillæg" ImageSize="25" TextSize="18"/>
+
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_6" Click="CheckBoxButton_Gebyr_Click" Grid.Row="0" Grid.Column="2" Text="Byttepalletillæg" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_7" Click="CheckBoxButton_Gebyr_Click" Grid.Row="1" Grid.Column="2" Text="SMS servicetillæg" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_8" Click="CheckBoxButton_Gebyr_Click" Grid.Row="2" Grid.Column="2" Text="Adresse korrektion" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_9" Click="CheckBoxButton_Gebyr_Click" Grid.Row="3" Grid.Column="2" Text="Bro afgift" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_10" Click="CheckBoxButton_Gebyr_Click" Grid.Row="4" Grid.Column="2" Text="Vej afgift" ImageSize="25" TextSize="18"/>
+        <local:CheckBoxButton x:Name="CheckBoxButton_Gebyr_11" Click="CheckBoxButton_Gebyr_Click" Grid.Row="5" Grid.Column="2" Text="Færge afgift" ImageSize="25" TextSize="18"/>
+
+        <local:MyTextbox x:Name="MyTextbox_Gebyr_0" TextChanged="MyTextbox_Gebyr_TextChanged" Grid.Row="0" Grid.Column="1" Placeholder="Personer" IsInt="True" Width="150" TextSize="15" IsUnLock="{Binding Checked, ElementName=CheckBoxButton_Gebyr_0}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Gebyr}" />
+        <local:MyTextbox x:Name="MyTextbox_Gebyr_1" TextChanged="MyTextbox_Gebyr_TextChanged" Grid.Row="1" Grid.Column="1" Placeholder="Enheder" IsInt="True" Width="150" TextSize="15" IsUnLock="{Binding Checked, ElementName=CheckBoxButton_Gebyr_1}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Gebyr}"/>
+        <local:MyTextbox x:Name="MyTextbox_Gebyr_6" TextChanged="MyTextbox_Gebyr_TextChanged" Grid.Row="0" Grid.Column="3" Placeholder="Paller" IsInt="True" Width="150" TextSize="15" IsUnLock="{Binding Checked, ElementName=CheckBoxButton_Gebyr_6}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Gebyr}"/>
+        <local:MyTextbox x:Name="MyTextbox_Gebyr_7" TextChanged="MyTextbox_Gebyr_TextChanged" Grid.Row="1" Grid.Column="3" Placeholder="Adviseringer" IsInt="True" Width="150" TextSize="15" IsUnLock="{Binding Checked, ElementName=CheckBoxButton_Gebyr_7}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Gebyr}"/>
+        <local:MyTextbox x:Name="MyTextbox_Gebyr_9" TextChanged="MyTextbox_Gebyr_TextChanged" Grid.Row="3" Grid.Column="3" Placeholder="Pris" IsDouble="True" Width="150" TextSize="15" IsUnLock="{Binding Checked, ElementName=CheckBoxButton_Gebyr_9}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Gebyr}"/>
+        <local:MyTextbox x:Name="MyTextbox_Gebyr_10" TextChanged="MyTextbox_Gebyr_TextChanged" Grid.Row="4" Grid.Column="3" Placeholder="Pris" IsDouble="True" Width="150" TextSize="15" IsUnLock="{Binding Checked, ElementName=CheckBoxButton_Gebyr_10}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Gebyr}"/>
+        <local:MyTextbox x:Name="MyTextbox_Gebyr_11" TextChanged="MyTextbox_Gebyr_TextChanged" Grid.Row="5" Grid.Column="3" Placeholder="Pris" IsDouble="True" Width="150" TextSize="15" IsUnLock="{Binding Checked, ElementName=CheckBoxButton_Gebyr_11}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Gebyr}"/>
+    </Grid>
+</UserControl>

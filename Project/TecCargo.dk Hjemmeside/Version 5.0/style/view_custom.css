@@ -1,0 +1,28 @@
+.defaultPageSettings h1,.defaultPageSettings h2,.defaultPageSettings h3,
+.defaultPageSettings h4,.defaultPageSettings h5,.defaultPageSettings h6{
+
+    font-weight: normal !important;
+    line-height: 1.2 !important;
+    margin: 18px 0 !important;
+}
+.defaultPageSettings p{
+    margin: 13px 0px !important;
+}
+.defaultPageSettings ul,.defaultPageSettings ol{
+    margin: 13px 0px !important;
+    list-style: initial !important;
+    padding: 0 40px !important;
+}
+.defaultPageSettings ul li{
+    list-style: initial !important;
+    list-style-type: disc !important;
+    padding: 5px 0 !important;
+}
+.defaultPageSettings ol li{
+    list-style: initial !important;
+    list-style-type: decimal !important;
+    padding: 5px 0 !important;
+}
+.customCenter{
+    margin: 20px 65px;
+}

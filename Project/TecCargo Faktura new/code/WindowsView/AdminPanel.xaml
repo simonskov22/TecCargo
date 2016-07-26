@@ -1,0 +1,613 @@
+﻿<Window x:Class="TecCargo_Faktura.WindowsView.AdminPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:pie="clr-namespace:PieControls;assembly=PieControls"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        
+        xmlns:datavis="clr-namespace:System.Windows.Controls.DataVisualization;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+        xmlns:chart="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+        Title="Admin Kontrolpanel" Height="2000" Width="1200" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/TecCargo Faktura System;component/Images/Icons/logo.ico" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Image HorizontalAlignment="Right" Height="60" Margin="0,5,10,5" VerticalAlignment="Center" Width="55" Source="/TecCargo Faktura System;component/Images/Pdf/logo.png"/>
+            <Button Content="Start Menu" x:Name="ButtonAdmin_Startmenu" Width="67" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="ButtonAdmin_Startmenu_Click"/>
+            <GroupBox Header="Indstillinger" Padding="10,10,10,-2" Margin="100,0,0,0" Width="auto" Height="auto" Background="#FF35699C" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" BorderBrush="#FF124980" Foreground="Black">
+                <Grid>
+                    <Button x:Name="ButtonAdmin_UseBoldPDF" Content="Brug fed skrift i PDF" Height="18" HorizontalAlignment="Left" Padding="10,0,10,0" Margin="0,0,10,10" VerticalAlignment="Top" Click="ButtonAdmin_UseBoldPDF_Click" FontWeight="Normal"/>
+                    <Button x:Name="ButtonAdmin_ResetToNew" Content="Indstil som ny"  Height="18" Padding="10,0,10,0" Margin="142,0,10,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonAdmin_ResetToNew_Click"  FontWeight="Normal"/>
+                    <Button x:Name="ButtonAdmin_ChangeFolder" Content="Skift data mappe"  Height="18" Padding="10,0,10,0" Margin="252,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonAdmin_ChangeFolder_Click"  FontWeight="Normal"/>
+                    <Button x:Name="ButtonAdmin_ChangeFolderDefault" Visibility="Collapsed" Content="X" Background="Red" Height="18" Width="auto" Padding="5,0,5,0" Margin="365,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonAdmin_ChangeFolderDefault_Click" FontWeight="Normal"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <ScrollViewer Grid.Row="1" Margin="0,10,0,0">
+            <Grid  Width="auto" Height="auto" HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto" MinHeight="400"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Expander Grid.Row="0" Header="Søg efter fragtbrev" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="1000">
+                    <Grid Width="auto" Height="auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="1" Grid.Column="0" Height="auto" Width="auto" Margin="10,0,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+
+                            <Border Grid.Row="0" Padding="5" BorderBrush="#FFB8B8B8" BorderThickness="1" CornerRadius="10" HorizontalAlignment="Left" Height="auto" Margin="0,0,0,10" VerticalAlignment="Top" Width="auto">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="auto" />
+                                        <RowDefinition Height="auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto" />
+                                        <ColumnDefinition Width="auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto" />
+                                            <ColumnDefinition Width="auto" />
+                                            <ColumnDefinition Width="auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Søg efter fragtbreve" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
+                                        <RadioButton Grid.Row="1" Grid.Column="0" x:Name="radioButtonSearch_0" Content="Kontakt person" IsChecked="True" Padding="0,0,15,0" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioButtonSearch_Checked"/>
+                                        <RadioButton Grid.Row="1" Grid.Column="1" x:Name="radioButtonSearch_1" Content="Dato" IsChecked="False" Padding="0,0,15,0" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioButtonSearch_Checked"/>
+                                        <RadioButton Grid.Row="1" Grid.Column="2" x:Name="radioButtonSearch_2" Content="Post nummer" IsChecked="False" Padding="0,0,15,0" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioButtonSearch_Checked"/>
+                                    </Grid>
+
+
+                                    <Grid x:Name="gridSearch_KontP" Grid.Row="1" Grid.Column="0">
+                                        <Label Content="Kontakt person" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <TextBox x:Name="textBoxFragt_KontP" Width="100" Height="24" Margin="100,2,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                                    </Grid>
+                                    <Grid x:Name="gridSearch_Date" Visibility="Collapsed" Grid.Row="2" Grid.Column="0">
+                                        <Label Content="Start" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <Label Content="Slut" Margin="160,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <DatePicker x:Name="datepickerSearchS" Margin="40,1,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <DatePicker x:Name="datepickerSearchE" Margin="190,1,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                    </Grid>
+                                    <Grid  x:Name="gridSearch_Post" Visibility="Collapsed" Grid.Row="3" Grid.Column="0">
+                                        <Label Content="Post nr." Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <TextBox x:Name="textBoxFragt_post" Width="50" Height="24" Margin="60,1,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                    </Grid>
+
+                                    <Button Grid.Row="4" Grid.Column="0" Width="100" Content="Søg" Margin="10,5,10,5" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Center" Click="ButtonSearchFragt_Click" />
+
+                                </Grid>
+                            </Border>
+                            <ListView Grid.Row="1" Visibility="Visible" Grid.Column="0" Grid.ColumnSpan="2" x:Name="listViewSearch_Output" Width="auto" Height="auto" MaxHeight="500" Margin="0,0,0,10" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Invoice" DisplayMemberBinding="{Binding value1}" Width="60"/>
+                                        <GridViewColumn Header="Dato" DisplayMemberBinding="{Binding value2}" Width="90"/>
+                                        <GridViewColumn Header="Opretter" DisplayMemberBinding="{Binding value3}" Width="auto"/>
+                                        <GridViewColumn Header="Fragtbrev&#10;Status" DisplayMemberBinding="{Binding value4}" Width="auto"/>
+                                        <GridViewColumn Header="Faktura&#10;Status" DisplayMemberBinding="{Binding value5}" Width="auto"/>
+                                        <GridViewColumn Header="Fragtbrev" Width="100">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Content="Åben som PDF" Margin="0" VerticalAlignment="Center" Click="listviewFragtSearchButton_PDF_Click" />
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Faktura" Width="100">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button Content="Åben som PDF" Margin="0" VerticalAlignment="Center" Click="listviewFaktSearchButton_PDF_Click" />
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+
+                        </Grid>
+                    </Grid>
+                </Expander>
+
+                <Expander Grid.Row="2" Header="Kunde Database" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="auto">
+                    <Grid Width="auto" Height="auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+
+                        <DataGrid Grid.Row="0" x:Name="DataGridAdmin_CustomerData" CanUserAddRows="False" AutoGenerateColumns="False" ItemsSource="{Binding AdminKundeDataView}" HorizontalAlignment="Left" Margin="10,10,10,0" VerticalAlignment="Top" Width="auto" Height="auto" MaxHeight="600">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Kontakt Nr." Width="100" IsReadOnly="True" Binding="{Binding KontaktNumber}" />
+                                <DataGridTextColumn Header="Firma/Navn" Width="140" IsReadOnly="True" Binding="{Binding FirmaName}" />
+                                <DataGridTextColumn Header="Adresse" Width="140" IsReadOnly="True" Binding="{Binding Adresse}" />
+                                <DataGridTextColumn Header="Post Nr." Width="70" IsReadOnly="True" Binding="{Binding PostNumber}" />
+                                <DataGridTemplateColumn Width="50">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Fjern" Margin="0" VerticalAlignment="Center" Click="Button_Click_Custom_Delete" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button  Grid.Row="1" Content="Slet alle" x:Name="ButtonAdminCustom_deleteAll" Click="Button_Click_Custom_DeleteAll" Width="70" HorizontalAlignment="Right" Margin="0,5,10,10" VerticalAlignment="Top"/>
+
+
+                    </Grid>
+                </Expander>
+
+                <Expander Grid.Row="3" Header="Fragtbreve" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="1000">
+                    <Grid Width="auto" Height="auto">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0" Width="auto" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+                            <Label Content="PDF" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" />
+
+                            <DataGrid Grid.Row="0" x:Name="DataGridAdmin_FragtPdfData" CanUserAddRows="False" AutoGenerateColumns="False" ItemsSource="{Binding emptyValues}" HorizontalAlignment="Left" Margin="10,30,10,0" VerticalAlignment="Top" Width="auto" Height="auto" MaxHeight="600">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Filnavn" IsReadOnly="True" Width="150" Binding="{Binding value1}" />
+                                    <DataGridTextColumn Header="Ændringsdato" IsReadOnly="True" Width="100" Binding="{Binding value3}" />
+                                    <DataGridTemplateColumn Width="50">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Button Content="Fjern" Margin="0" VerticalAlignment="Center" Click="Button_Click_fragtbrevPdf_Delete" />
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                            <Button Grid.Row="1" Content="Slet alle" x:Name="ButtonAdminFragtbrevPdf_deleteAll" Click="Button_Click_fragtbrevPdf_DeleteAll"  Width="67" HorizontalAlignment="Right" Margin="0,5,10,10" VerticalAlignment="Top"/>
+
+                        </Grid>
+                        <Grid Grid.Column="1" Width="auto" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+                            <Label Content="Gemte Filer" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" />
+                            <DataGrid Grid.Row="0" x:Name="DataGridAdmin_FragtXmlData" CanUserAddRows="False" AutoGenerateColumns="False" ItemsSource="{Binding emptyValues}" HorizontalAlignment="Left" Margin="10,30,10,0" VerticalAlignment="Top" Width="auto" Height="auto" MaxHeight="600">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Filnavn" IsReadOnly="True" Width="150" Binding="{Binding value1}" />
+                                    <DataGridTextColumn Header="Ændringsdato" IsReadOnly="True" Width="100" Binding="{Binding value2}" />
+                                    <DataGridTemplateColumn Width="50">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Button Content="Fjern" Margin="0" VerticalAlignment="Center" Click="Button_Click_fragtbrevXml_Delete" />
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                            <Button Grid.Row="1" Content="Slet alle" x:Name="ButtonAdminFragtbrevXml_deleteAll" Click="Button_Click_fragtbrevXml_DeleteAll" Width="67" HorizontalAlignment="Right" Margin="0,5,10,10" VerticalAlignment="Top"/>
+
+                        </Grid>
+
+                    </Grid>
+                </Expander>
+
+                <Expander Grid.Row="4" Header="Faktura" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="1000">
+                    <Grid Width="auto" Height="auto">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0" Width="auto" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+                            <Label Content="PDF" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" />
+
+                            <DataGrid Grid.Row="0" x:Name="DataGridAdmin_FakturaPdfData" CanUserAddRows="False" AutoGenerateColumns="False" ItemsSource="{Binding emptyValues}" HorizontalAlignment="Left" Margin="10,30,10,0" VerticalAlignment="Top" Width="auto" Height="auto" MaxHeight="600">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Filnavn" IsReadOnly="True" Width="150" Binding="{Binding value1}" />
+                                    <DataGridTextColumn Header="Ændringsdato" IsReadOnly="True" Width="100" Binding="{Binding value3}" />
+                                    <DataGridTemplateColumn Width="50">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Button Content="Fjern" Margin="0" VerticalAlignment="Center" Click="Button_Click_FakturaPdf_Delete" />
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                            <Button Grid.Row="1" Content="Slet alle" x:Name="ButtonAdminFragtbrevPdf_deleteAll_Copy" Click="Button_Click_FakturaPdf_DeleteAll"  Width="67" HorizontalAlignment="Right" Margin="0,5,10,10" VerticalAlignment="Top"/>
+
+                        </Grid>
+
+                        <Grid Grid.Column="1" Width="auto" Margin="0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+
+                            <Label Content="Gemte Filer" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" />
+                            <DataGrid Grid.Row="0" x:Name="DataGridAdmin_FakturaXmlData" CanUserAddRows="False" AutoGenerateColumns="False" ItemsSource="{Binding emptyValues}" HorizontalAlignment="Left" Margin="10,30,10,0" VerticalAlignment="Top" Width="auto" Height="auto" MaxHeight="600">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Filnavn" IsReadOnly="True" Width="150" Binding="{Binding value1}" />
+                                    <DataGridTextColumn Header="Ændringsdato" IsReadOnly="True" Width="100" Binding="{Binding value2}" />
+                                    <DataGridTemplateColumn Width="50">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Button Content="Fjern" Margin="0" VerticalAlignment="Center" Click="Button_Click_FakturaXml_Delete" />
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                            <Button Grid.Row="1" Content="Slet alle" x:Name="ButtonAdminFragtbrevXml_deleteAll_Copy" Click="Button_Click_FakturaXml_DeleteAll" Width="67" HorizontalAlignment="Right" Margin="0,5,10,10" VerticalAlignment="Top"/>
+
+
+                        </Grid>
+
+                    </Grid>
+                </Expander>
+
+                <Expander Grid.Row="1" IsExpanded="True" Header="Diagram Status" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="1000">
+                    <Grid Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                                <Button x:Name="ButtonFilesUpdate" Content="Opdater" Padding="10,0,10,0" Margin="25,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="ButtonFilesUpdate_Click"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="0" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+                                <chart:Chart Grid.Row="0" Name="pieFragt_Status" Title="Fragtbreve Status" Width="400" Height="200" Background="Transparent" BorderBrush="Transparent" Foreground="Blue">
+                                    <chart:Chart.Series>
+                                        <chart:PieSeries IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}" />
+                                    </chart:Chart.Series>
+                                </chart:Chart>
+
+                                <Expander Grid.Row="1" Header="Status info" Width="auto" Margin="10,-20,0,10" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                    <Grid Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,0">
+                                        <ListView x:Name="listViewFragt_NotDone" Width="auto" MaxWidth="470" Height="auto" MaxHeight="500" Margin="25,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                            <ListView.View>
+                                                <GridView>
+                                                    <GridViewColumn Header="Filnavn" DisplayMemberBinding="{Binding value1}" Width="130"/>
+                                                    <GridViewColumn Header="Dato" DisplayMemberBinding="{Binding value2}" Width="90"/>
+                                                    <GridViewColumn Header="Opretter" DisplayMemberBinding="{Binding value3}" Width="auto"/>
+                                                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding value4}" Width="auto"/>
+                                                </GridView>
+                                            </ListView.View>
+                                        </ListView>
+                                    </Grid>
+                                </Expander>
+
+                            </Grid>
+
+                            <Grid Grid.Row="1" Grid.Column="1" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+                                <chart:Chart Grid.Row="0" Name="pieFaktura_Status"  Title="Faktura Status" Width="400" Height="200" Background="Transparent" BorderBrush="Transparent" Foreground="Blue">
+                                    <chart:Chart.Series>
+                                        <chart:PieSeries IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}" />
+                                    </chart:Chart.Series>
+                                </chart:Chart>
+                                <Expander Grid.Row="1" Header="Status info" Width="auto" Margin="10,-20,0,10" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                    <Grid Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,0">
+                                        <ListView x:Name="listViewFakt_NotDone" Width="auto" MaxWidth="470" Height="auto" MaxHeight="500" Margin="25,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                            <ListView.View>
+                                                <GridView>
+                                                    <GridViewColumn Header="Filnavn" DisplayMemberBinding="{Binding value1}" Width="130"/>
+                                                    <GridViewColumn Header="Dato" DisplayMemberBinding="{Binding value2}" Width="90"/>
+                                                    <GridViewColumn Header="Opretter" DisplayMemberBinding="{Binding value3}" Width="auto"/>
+                                                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding value4}" Width="auto"/>
+                                                </GridView>
+                                            </ListView.View>
+                                        </ListView>
+                                    </Grid>
+                                </Expander>
+                            </Grid>
+
+                            <Grid Grid.Row="2" Grid.Column="0" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+
+                                <chart:Chart Grid.Row="0" Title="Afsluttet Fragtbreve Status" Name="pieFragt_PdfDone" Width="400" Height="200" Background="Transparent" BorderBrush="Transparent" Foreground="Blue">
+                                    <chart:Chart.Series>
+                                        <chart:PieSeries IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}" />
+                                    </chart:Chart.Series>
+                                </chart:Chart>
+
+                                <GroupBox Grid.Row="1" Grid.Column="0" Width="290" Height="100" VerticalAlignment="Top" Margin="0,0,0,10" HorizontalAlignment="Center">
+                                    <Grid>
+                                        <Label Content="Vis fra" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
+                                        <Label Content="Start" Margin="40,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <Label Content="Slut" Margin="190,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <DatePicker x:Name="datePickDateFragtS" SelectedDate="{x:Static sys:DateTime.MinValue}" Width="120" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,30,0,0" SelectedDateChanged="datePickDateUpdate_SelectedDateChanged"/>
+                                        <DatePicker x:Name="datePickDateFragtE" SelectedDate="{x:Static sys:DateTime.Now}" Width="120" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="150,30,0,0" SelectedDateChanged="datePickDateUpdate_SelectedDateChanged"/>
+
+                                        <RadioButton x:Name="radioSelectFragtUge" Content="Uge" Margin="20,70,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdatePieSelect_Checked"/>
+                                        <RadioButton x:Name="radioSelectFragtMouth" IsChecked="True" Content="Måned" Margin="110,70,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdatePieSelect_Checked"/>
+                                        <RadioButton x:Name="radioSelectFragtYear" Content="År" Margin="220,70,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdatePieSelect_Checked"/>
+                                    </Grid>
+                                </GroupBox>
+                            </Grid>
+
+                            <Grid Grid.Row="2" Grid.Column="1" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+
+                                <chart:Chart Grid.Row="0" Title="Afsluttet Faktura Status" Name="pieFaktura_PdfDone" Width="400" Height="200" Background="Transparent" BorderBrush="Transparent" Foreground="Blue">
+                                    <chart:Chart.Series>
+                                        <chart:PieSeries IndependentValueBinding="{Binding Path=Key}" DependentValueBinding="{Binding Path=Value}" />
+                                    </chart:Chart.Series>
+                                </chart:Chart>
+                                <GroupBox Grid.Row="1" Grid.Column="1" Width="290" Height="100" VerticalAlignment="Top" HorizontalAlignment="Center">
+                                    <Grid>
+                                        <Label Content="Vis fra" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" />
+                                        <Label Content="Start" Margin="40,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <Label Content="Slut" Margin="190,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                        <DatePicker x:Name="datePickDateFakturaS" SelectedDate="{x:Static sys:DateTime.MinValue}" Width="120" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,30,0,0" SelectedDateChanged="datePickDateUpdate_SelectedDateChanged"/>
+                                        <DatePicker x:Name="datePickDateFakturaE" SelectedDate="{x:Static sys:DateTime.Now}" Width="120" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="150,30,0,0" SelectedDateChanged="datePickDateUpdate_SelectedDateChanged"/>
+
+                                        <RadioButton x:Name="radioSelectFakturaUge" Content="Uge" Margin="20,70,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdatePieSelect_Checked"/>
+                                        <RadioButton x:Name="radioSelectFakturaMouth" IsChecked="True" Content="Måned" Margin="110,70,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdatePieSelect_Checked"/>
+                                        <RadioButton x:Name="radioSelectFakturaYear" Content="År" Margin="220,70,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdatePieSelect_Checked"/>
+                                    </Grid>
+                                </GroupBox>
+                            </Grid>
+
+
+                            <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+
+                                <chart:Chart Grid.Row="0" Title="Indtjening" x:Name="chartFaktura_Price" Height="300" BorderBrush="Transparent" Foreground="Blue" />
+                                <GroupBox  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Width="auto" Height="auto" VerticalAlignment="Top" Margin="0,0,0,10" HorizontalAlignment="Center">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                            <RowDefinition Height="auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto" />
+                                            <ColumnDefinition Width="auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <Grid Grid.Row="0" Grid.Column="0" Width="auto" Height="auto" Margin="7,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                            <RadioButton x:Name="radioSelectFaktp_0" IsChecked="False" Content="Uge" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Checked="radioUpdateFaktPSelect_Checked"/>
+                                            <RadioButton x:Name="radioSelectFaktp_1" IsChecked="False" Content="Måned" Margin="110,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdateFaktPSelect_Checked"/>
+                                            <RadioButton x:Name="radioSelectFaktp_2" IsChecked="True" Content="År" Margin="220,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Checked="radioUpdateFaktPSelect_Checked"/>
+                                        </Grid>
+                                        <Grid Visibility="Collapsed" Grid.Row="1" Grid.Column="0" x:Name="gridFaktMonth" Width="246" Height="auto" VerticalAlignment="Top" Margin="23,0,0,0" HorizontalAlignment="Left">
+                                            <CheckBox x:Name="checkboxFaktPriceM_0" IsChecked="True" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_1" IsChecked="True" Margin="19,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_2" IsChecked="True" Margin="38,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_3" IsChecked="True" Margin="57,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_4" IsChecked="True" Margin="76,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_5" IsChecked="True" Margin="95,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_6" IsChecked="True" Margin="114,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_7" IsChecked="True" Margin="133,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_8" IsChecked="True" Margin="152,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_9" IsChecked="True" Margin="171,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_10" IsChecked="True" Margin="190,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                                            <CheckBox x:Name="checkboxFaktPriceM_11" IsChecked="True" Margin="209,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" />
+
+                                            <Label Content="Januar" HorizontalAlignment="Left" Width="100" Margin="-41,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="Februar" HorizontalAlignment="Left" Width="100" Margin="-23,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="Marts" HorizontalAlignment="Left" Width="100" Margin="-3,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="April" HorizontalAlignment="Left" Width="100" Margin="16,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="Maj" HorizontalAlignment="Left" Width="100" Margin="35,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="Juni" HorizontalAlignment="Left" Width="100" Margin="54,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="Juli" HorizontalAlignment="Left" Width="100" Margin="73,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="August" HorizontalAlignment="Left" Width="100" Margin="92,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="September" HorizontalAlignment="Left" Width="100" Margin="111,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="Oktober" HorizontalAlignment="Left" Width="100" Margin="130,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="November" HorizontalAlignment="Left" Width="100" Margin="149,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                            <Label Content="December" HorizontalAlignment="Left" Width="100" Margin="168,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+                                                <Label.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform/>
+                                                        <SkewTransform/>
+                                                        <RotateTransform Angle="90"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Label.RenderTransform>
+                                            </Label>
+                                        </Grid>
+                                        <Grid Visibility="Collapsed" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" x:Name="gridFaktYear" Width="137" Height="auto" Margin="0,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                                            <ListView x:Name="listviewFaktPrice_years" HorizontalAlignment="Left" Height="125" Margin="0,0,0,0" VerticalAlignment="Top" Width="137">
+                                                <ListView.View>
+                                                    <GridView>
+                                                        <GridViewColumn Header="Vis For" Width="70"/>
+                                                        <GridViewColumn Width="50">
+                                                            <GridViewColumn.CellTemplate>
+                                                                <DataTemplate>
+
+                                                                    <Button
+                                                                    Content="Fjern"
+                                                                    Margin="0"
+                                                                    VerticalAlignment="Center"
+                                                                    Click="listviewFaktPrice_years_button_removeClick" />
+                                                                </DataTemplate>
+                                                            </GridViewColumn.CellTemplate>
+                                                        </GridViewColumn>
+                                                    </GridView>
+                                                </ListView.View>
+                                            </ListView>
+                                            <Button x:Name="buttonFaktPrice_years" Content="Tilføj" HorizontalAlignment="Left" Margin="97,130,0,0" VerticalAlignment="Top" Width="40" Click="buttonFaktPrice_years_Click"/>
+                                            <ComboBox x:Name="comboboxFaktPrice_years" HorizontalAlignment="Left" Margin="0,130,0,0" VerticalAlignment="Top" Width="81" />
+                                        </Grid>
+
+                                        <Button  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="Hent Diagram" HorizontalAlignment="Right" Padding="10,0,10,0" Margin="0,10,0,0" VerticalAlignment="Top" Width="auto" Click="ButtonFaktPriceChart_Click"/>
+
+                                    </Grid>
+                                </GroupBox>
+                            </Grid>
+
+                        </Grid>
+
+                    </Grid>
+                </Expander>
+
+                
+
+            </Grid>
+        </ScrollViewer>
+
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Label x:Name="LabelVersion_version" Content="Version: " HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="Kodet af: Simon Skov" HorizontalAlignment="Left" Margin="0,24,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+    </Grid>
+
+</Window>

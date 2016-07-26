@@ -1,0 +1,87 @@
+<Filnavn_x0020_Fragtbrev-1002>
+  <Version>
+    <ver>2.1.2</ver>
+  </Version>
+  <FileDone>
+    <CreateFaktura>True</CreateFaktura>
+    <EkstraTekst />
+  </FileDone>
+  <Afsender>
+    <Kontakt>8080 8080</Kontakt>
+    <Firma>Bobo</Firma>
+    <Adresse>adresse 2</Adresse>
+    <Post_x002F_By>8000</Post_x002F_By>
+    <Betaler>False</Betaler>
+    <pKont />
+  </Afsender>
+  <Modtager>
+    <Kontakt>10101010</Kontakt>
+    <Firma>ss</Firma>
+    <Adresse>12</Adresse>
+    <Post_x002F_By>1111</Post_x002F_By>
+    <Betaler>True</Betaler>
+    <pKont />
+  </Modtager>
+  <AndenBetaler>
+    <InUse>False</InUse>
+    <Kontakt />
+    <Firma />
+    <Adresse />
+    <Post_x002F_By />
+    <Betaler>False</Betaler>
+    <pKont />
+  </AndenBetaler>
+  <Generelt>
+    <Refercence>111</Refercence>
+    <Fragtmand />
+    <Type>0</Type>
+    <Dato_x0020_dag_x0020_1>13-08-2015</Dato_x0020_dag_x0020_1>
+    <Rute_x0020_dag_x0020_1>1111</Rute_x0020_dag_x0020_1>
+    <Dato_x0020_dag_x0020_2 />
+    <Rute_x0020_dag_x0020_2 />
+    <Efterkrav-On>False</Efterkrav-On>
+    <Efterkrav />
+    <Forsikringssum />
+    <Præmie />
+    <I_x0020_Alt />
+  </Generelt>
+  <Godslinjer_x0020_Type>
+    <Transport_x0020_Type>2</Transport_x0020_Type>
+    <Pakke_x0020_Type>1</Pakke_x0020_Type>
+    <Bil_x0020_Type>-1</Bil_x0020_Type>
+  </Godslinjer_x0020_Type>
+  <Godslinjer>
+    <Adresse>111</Adresse>
+    <Antal>1</Antal>
+    <Art>PLL</Art>
+    <Indhold>111</Indhold>
+    <Pakke_x0020_size>-1</Pakke_x0020_size>
+    <Vægt>11</Vægt>
+    <Rumfang>12x21x13</Rumfang>
+  </Godslinjer>
+  <Byttepaller>
+    <Byttepalle-On>False</Byttepalle-On>
+    <_x0031__x002F_1_x0020_palle />
+    <_x0031__x002F_2_x0020_palle />
+    <_x0031__x002F_4_x0020_palle />
+  </Byttepaller>
+  <ekstraComment>
+    <Bemærkninger xml:space="preserve">
+
+
+</Bemærkninger>
+  </ekstraComment>
+  <Initialer>
+    <Id>SS</Id>
+  </Initialer>
+  <AfslutFragtBrev>
+    <Læsse>0</Læsse>
+    <Aflæsse>0</Aflæsse>
+    <Vente>0</Vente>
+    <Medhjælper>0</Medhjælper>
+    <Leveringsdato_x0020_Dag>06-08-2015 00:00:00</Leveringsdato_x0020_Dag>
+    <Leveringsdato_x0020_Tid>06-08-2015 11:07:24</Leveringsdato_x0020_Tid>
+    <Rabat>0</Rabat>
+    <Kilometer>0</Kilometer>
+  </AfslutFragtBrev>
+</Filnavn_x0020_Fragtbrev-1002>

@@ -1,0 +1,490 @@
+.priceClass
+{
+    width: 65px;
+    text-align: right;
+}
+.fieldsetprice
+{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 550px;
+}
+div.admin-page
+{
+    padding-top: 20px;
+}
+.admin-page
+{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.adminMsg
+{
+    color: #000;
+}
+.admin-form
+{
+    float: left;
+    margin-right: 30px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.admin-form-edit
+{
+    margin-left: 500px;
+    width: 200px;
+    margin-bottom: 100px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.admin-form-head h2
+{
+    padding: 10px;
+}
+.admin-form-head
+{
+    background: #6F6F6F;
+    color: #fff;
+    width: 200px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.admin-form-body
+{
+    background: #BEBEBE;
+    padding: 10px;
+    width: 180px;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.user-form fieldset
+{
+
+    background: #A3A3A3;
+    border-radius: 15px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.create-submit,.create-reset
+{
+    width: 85px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 5px;border: none;
+    width: 190px;
+    height: 50px; 
+    font-size: 18px;
+}
+.create-reset
+{
+    background: #0369EB; 
+}
+.create-submit
+{
+    background: #00C700;
+}
+.admin-site-img
+{
+    margin-bottom: 125px;
+    margin-left: 190px;
+}
+.create-msg
+{
+    float: left;
+    width: 200px;
+
+    margin-right: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.create-msg-head
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #6F6F6F;
+    text-align: center;
+    color: #fff;
+}
+.create-msg-head h2
+{
+    margin: 0;
+    padding: 10px;
+}
+.create-msg-body
+{
+    background: #BEBEBE;
+    color: #000;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.create-msg-body td
+{
+    border-bottom: 1px solid #fff;
+}
+.msg-tr-group
+{
+    padding-top: 15px;
+}
+.msg-box-ok
+{
+    width: 100px;
+    margin-bottom: 10px;
+    background: #6F6F6F;
+    color: #fff;
+    border: 2px outset #9E9D9D;
+}
+.msg-box-ok
+{
+    background: #525252;
+    border: 2px outset #6D6B6B;
+}
+.msg-box-style h2
+{
+    padding: 10px;
+}
+.msg-box-style
+{
+    background: #6F6F6F;
+    font-family: sans-serif;
+}
+.msg-box-style-edit
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.msg-box-img-edit
+{
+    float: right;
+    width: 160px;
+}
+.msg-box-head
+{
+    background: #6F6F6F;
+    text-align: center;
+    color: #fff;
+}
+.msg-box-body
+{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.user-table
+{
+    border-collapse: collapse;
+    width: 298px;
+}
+.user-table td
+{
+    border-top: 1px solid black;
+}
+.edit-user-list
+{
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+.edit-user-list-body-head
+{
+    background: #fff;
+    border-bottom: 1px solid black;
+}
+.edit-user-list-body
+{
+    background: #fff;
+    height: 350px;
+    overflow: scroll;
+}
+.selectet
+{
+    background: red;
+}
+.delete-button-box
+{
+    margin-top: 100px;
+    margin-left: 380px;
+    position: absolute;
+
+}
+.delete-button-box button
+{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.delete-user-list
+{
+    margin-left: auto;
+    width: 300px;
+}
+.delete-div-button
+{
+    border: 1px solid black;
+    border-top: 2px solid black;
+    height: 70px;
+    background: #6F6F6F;
+}
+.delete-div-button button
+{
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 280px;
+}
+.msg-center-box
+{
+    background: rgba(0, 0, 0, 0.82);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.msg-box-center
+{
+    width: 250px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.admin4
+{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.deleteDiv
+{
+    
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.pricecenter
+{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top left, #B5BBB3 0%, #3B5341 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top left, #B5BBB3 0%, #3B5341 100%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top left, #B5BBB3 0%, #3B5341 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #B5BBB3), color-stop(1, #3B5341));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top left, #B5BBB3 0%, #3B5341 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom right, #B5BBB3 0%, #3B5341 100%);
+
+    background-color: #8F8F8F;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+.label-text
+{
+    margin-left: 20px;
+    color: #BEB9B6;
+    font-family: sans-serif;
+    text-shadow: 1px 2px 1px #000;
+}
+.inputbutton
+{
+    background: #2B5EC9;
+    border: 2px outset #416FD1;
+
+    margin-left: 25px;
+    height: 30px;
+    width: 50px;
+}
+.inputbutton:hover
+{
+    background: #1647AD;
+    border: 2px outset #0037AD;
+}
+.beregntable
+{
+    
+    color: #000000;
+    
+    border-collapse: collapse;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.beregntable th
+{
+    text-align: left;
+    border: 1px solid;
+    width: 100px;
+}
+.beregntable td
+{
+    text-align: right;
+    border: 1px solid;
+}
+.placeholder
+{
+  color: #aaa;
+}
+.billede-upload img
+{
+    max-height: 50px;
+    float: right; 
+    margin-right: 20px;
+}
+.billeder
+{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+.billeder td,.billeder th
+{
+    border: 1px solid black;
+}
+input[type='button'],.billede-upload input[type='submit']
+{
+    height: 30px;
+    color: #fff;
+    padding: 0px 10px;
+    background: #0D4AE7;
+    border: 2px outset #275CE6;
+}
+.fileUpload 
+{
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.filebutton
+{
+    color: #fff;
+    padding: 5px 10px;
+    background: #0D4AE7;
+    border: 2px outset #275CE6;
+    display: inline;
+    margin: 2px;
+}
+.formUpload
+{
+    margin: 0 300px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 65px;
+    background: #BBB;
+    margin-bottom: 20px;
+}
+.status
+{
+    background: #bbb;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.submitDelete
+{
+    background: #f73700;
+    border: 2px outset #F8311F;
+
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 280px;
+
+    height: 30px;
+    color: #fff;
+    padding: 0px 10px;
+}
+.submitDelete:hover
+{
+    background: #D30B0B;
+    border: 2px outset #B82013;
+}
+.deleteNext
+{
+    background: #21DADA;
+    color: #000;
+    border: 2px outset #1ECEF0;
+}
+.deleteNext:hover
+{
+    background: #10BDBD;
+    border: 2px outset #07A5C3;
+}
+.deleteRest
+{
+    background: #3270F5;
+    color: #000;
+    border: 2px outset #216DF5;
+}
+.deleteRest:hover
+{
+    background: #1950C7;
+    border: 2px outset #2462D1;
+}
+
+.gopartB
+{
+    width: 280px;
+    height: 50px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.pakkePris
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pakkePris input[type='text']
+{
+    text-align: right;
+    width: 100px;
+}
+.pakkePris table
+{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    width: 160px;
+}
+.pakkePris table td,.pakkePris table th
+{
+    border: 1px solid black;
+}
+.AdminDiv h2,.AdminDiv p
+{
+    margin: 0;
+}

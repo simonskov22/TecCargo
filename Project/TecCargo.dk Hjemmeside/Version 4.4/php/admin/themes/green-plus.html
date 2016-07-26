@@ -1,0 +1,14 @@
+<div class="AdminDiv">
+    <div class="pakkePris">
+        <div id="statusDiv" %STATUSDISPLAY% class="status">
+            <h2>Status</h2>
+            <button style="float: right; margin-right: 20px;">OK</button>
+            <p style="margin-bottom: 15px;">%STATUS%</p>
+        </div>
+        <form method="post" action="%TECCARGO%php/admin/php/price/pakke.php">
+                %INPUT%
+                <input type="reset" value="Reset" class="create-reset">
+                <input type="submit" value="Gem" class="create-submit">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,5 @@
+Et program til at oprette fragtbreve og faktura, så eleverne kan lære, hvordan et fragtbrev og faktura virker.
+
+++ ny version hvor der bliver brugt custom controls.
+
+## ikke færdig

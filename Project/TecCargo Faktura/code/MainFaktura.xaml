@@ -1,0 +1,208 @@
+﻿<Window x:Class="TecCargo_Faktura.MainFaktura"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfToolsKit="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+        Title="Faktura - " Height="889.95" Width="2185" Icon="Images/Icons/logo.ico" WindowStartupLocation="CenterScreen" WindowState="Maximized" Closing="Window_Closing" Loaded="Window_Loaded" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" MinHeight="70"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" MinHeight="50"/>
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Row="1" Margin="0,0,0,10" HorizontalScrollBarVisibility="Auto">
+            <Grid  Margin="0,0,0,0" Width="auto" HorizontalAlignment="Center" GotFocus="Grid_GotFocus">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!-- Faktura indhold -->
+                <Grid Grid.Column="0" Margin="0,0,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <!-- Faktura addresse til tidforbrug / toppen -->
+                    <GroupBox Grid.Row="0" Header="Faktura Adresse" IsEnabled="False" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="499" FontWeight="Bold">
+                        <Grid Margin="0,0,-2,-1">
+                            <Label Content="Kontakt nr." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,10,0,0" FontWeight="Normal"/>
+                            <Label Content="Firma/Navn" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,35,0,0" FontWeight="Normal"/>
+                            <Label Content="Adresse" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="253,10,-155,0" FontWeight="Normal"/>
+                            <Label Content="Post nr." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="253,35,-153,0" FontWeight="Normal"/>
+                            <TextBox x:Name="TextBoxFaktura_customId" HorizontalAlignment="Left" Height="20" Margin="92,14,-82,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" UndoLimit="110" FontWeight="Normal" TabIndex="1000100"/>
+                            <TextBox x:Name="TextBoxFaktura_firma" HorizontalAlignment="Left" Height="20" Margin="92,39,-82,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" FontWeight="Normal" TabIndex="1000101" />
+                            <TextBox x:Name="TextBoxFaktura_adresse" HorizontalAlignment="Left" Height="20" Margin="310,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" FontWeight="Normal" TabIndex="1000102"/>
+                            <TextBox x:Name="TextBoxFaktura_post" HorizontalAlignment="Left" Height="20" Margin="310,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" FontWeight="Normal" TabIndex="1000103" TextChanged="TextBoxFaktura_post_TextChanged"/>
+                            <Label x:Name="LabelFaktura_bynavn" Content="" HorizontalAlignment="Left" Margin="362,36,0,0" VerticalAlignment="Top" FontWeight="Normal" Width="114" Padding="5"/>
+                            
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Grid.Row="0" Header="Transport Type" IsEnabled="False" HorizontalAlignment="Left" Height="100" Margin="522,10,0,0" VerticalAlignment="Top" Width="489" FontWeight="Bold">
+                        <Grid Margin="0,0,0,0">
+                            <ComboBox x:Name="ComboBoxTransport_type1" SelectedIndex="0" SelectionChanged="ComboBoxTransport_type1_SelectChanged" HorizontalAlignment="Left" Margin="19,20,0,0" VerticalAlignment="Top" Width="120" FontWeight="Normal" />
+                            <ComboBox Visibility="Hidden" x:Name="ComboBoxTransport_type2" SelectionChanged="ComboBoxTransport_type2_SelectChanged" HorizontalAlignment="Left" Margin="166,20,0,0" VerticalAlignment="Top" Width="120" FontWeight="Normal"/>
+                            <ComboBox Visibility="Hidden" x:Name="ComboBoxTransport_type3" SelectionChanged="ComboBoxTransport_type3_SelectChanged" HorizontalAlignment="Left" Margin="312,20,0,0" VerticalAlignment="Top" Width="120" FontWeight="Normal"/>
+                            <Label Visibility="Hidden" x:Name="LabelTransport_kilometer" Content="Antal kilometer:" HorizontalAlignment="Left" Margin="20,46,0,0" VerticalAlignment="Top" FontWeight="Normal" />
+                            <TextBox Visibility="Hidden" x:Name="TextBoxTransport_kilometer" HorizontalAlignment="Left" Padding="0,1,0,0" Height="23" Margin="113,49,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="41" FontWeight="Normal"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Grid.Row="0" Header="Generelt" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Height="91" Width="499" FontWeight="Bold" Margin="10,123,0,0">
+                        <Grid HorizontalAlignment="Left" Width="489" Margin="0,0,-2,-2">
+                            <Label Content="Leveringsdato" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <DatePicker x:Name="DatePickerGenerelt_Dato" HorizontalAlignment="Left" Margin="108,11,0,0" VerticalAlignment="Top" Width="170" FontWeight="Normal" SelectedDateFormat="Long" />
+                            <wpfToolsKit:TimePicker x:Name="DatePickerGenerelt_Tid" HorizontalAlignment="Left" Format="Custom" FormatString="H:mm" Margin="283,10,0,35" Height="24" Width="83" FontWeight="Normal"/>
+
+                            <Label Content="Rabat" HorizontalAlignment="Left" Margin="382,11,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <TextBox x:Name="TextBoxGenerelt_Rabat" HorizontalAlignment="Left" Height="23" Margin="428,11,0,0" TextWrapping="Wrap" Text="0" Padding="0,3,0,0" VerticalAlignment="Top" Width="39" FontWeight="Normal"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Grid.Row="0" Header="Tidsforbrug" IsEnabled="False" HorizontalAlignment="Left" Height="91" Margin="522,123,0,0" VerticalAlignment="Top" Width="489" FontWeight="Bold">
+                        <Grid Margin="0,0,0,0">
+                            <TextBox x:Name="TextBoxTidsforbrug_Load" HorizontalAlignment="Left" Padding="0,1,0,0" Height="23" Margin="79,22,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26" FontWeight="Normal"/>
+                            <TextBox x:Name="TextBoxTidsforbrug_Unload" HorizontalAlignment="Left" Padding="0,1,0,0" Height="23" Margin="199,22,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26" FontWeight="Normal"/>
+                            <TextBox x:Name="TextBoxTidsforbrug_Vente" HorizontalAlignment="Left" Padding="0,1,0,0" Height="23" Margin="288,22,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26" FontWeight="Normal"/>
+                            <TextBox x:Name="TextBoxTidsforbrug_Helper" HorizontalAlignment="Left" Padding="0,1,0,0" Height="23" Margin="416,22,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26" FontWeight="Normal"/>
+                            <Label Content="Læsse tid" HorizontalAlignment="Left" Margin="14,19,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content="Aflæssning tid" HorizontalAlignment="Left" Margin="109,19,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content="Vente tid" HorizontalAlignment="Left" Margin="230,18,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content="Medhjælper tid" HorizontalAlignment="Left" Margin="319,19,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                        </Grid>
+                    </GroupBox>
+                    
+                    <!-- Faktura pakkerne -->
+                    <Grid  Grid.Row="1" Height="auto" Margin="0,10,0,10" VerticalAlignment="Top">
+                        <DataGrid Visibility="Visible" CanUserAddRows="False" HorizontalAlignment="Center" CanUserDeleteRows="False" CanUserReorderColumns="False" x:Name="DataGridTransport_Pakker"  VirtualizingPanel.IsVirtualizing="False" IsReadOnly="False" ItemsSource="{Binding FakturaTransportDataView}" AutoGenerateColumns="False" Height="auto" MaxHeight="250" VerticalAlignment="Top" Width="auto" />
+                    </Grid>
+                    <!--  Ekstra kommentar -->
+
+                    <Button Grid.Row="2" x:Name="CheckBoxEkstraText_Button_1" Content="Tilføj Bemærkning" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxEkstratext_Button_Click" Focusable="False" Background="Green" Height="22"/>
+                    <GroupBox  Grid.Row="2" Header="Evt. Bemærkninger" x:Name="GroupBoxEkstraText" Visibility="Collapsed" HorizontalAlignment="Left" Margin="10,32,0,0" Width="997" FontWeight="Bold" Height="auto" VerticalAlignment="Top">
+                        <Grid Margin="0,0,0,0">
+                            <RichTextBox x:Name="RichTextBoxEktra_Comment" HorizontalAlignment="Left" Height="122" VerticalAlignment="Top" Width="782" Margin="26,10,0,10" FontWeight="Normal">
+                                <RichTextBox.Resources>
+                                    <Style TargetType="{x:Type Paragraph}">
+                                        <Setter Property="Margin" Value="0"/>
+                                    </Style>
+                                </RichTextBox.Resources>
+                                <FlowDocument>
+                                    <Paragraph>
+                                        <Run Text=""/>
+                                    </Paragraph>
+                                </FlowDocument>
+                            </RichTextBox>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+                
+                <!-- Ekstra tillæg og prislisten -->            
+                <Grid Margin="0,0,0,0" Grid.Column="1" Width="auto" Height="auto" Grid.RowSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+                    
+                    <!-- Ekstra tillæg -->
+                    <GroupBox Grid.Row="0" Visibility="Visible" Header="Ekstra Tillæg" x:Name="GroupBoxEkstraGebyr" HorizontalAlignment="Left" Height="359" Margin="0,10,0,0" VerticalAlignment="Top" Width="390" FontWeight="Bold">
+                        <Grid Width="auto" HorizontalAlignment="Center">
+                            <Button x:Name="CheckBoxGebyr_Button_0" Content="Chaufførmedhjælper" HorizontalAlignment="Left" Margin="0,9,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+                            <Button x:Name="CheckBoxGebyr_Button_1" Content="Flytte tillæg" HorizontalAlignment="Left" Margin="0,36,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+                            <Button x:Name="CheckBoxGebyr_Button_2" Content="ADR-tillæg" HorizontalAlignment="Left" Margin="0,63,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+                            <Button x:Name="CheckBoxGebyr_Button_3" Content="Aften- og nattillæg" HorizontalAlignment="Left" Margin="0,90,0,0" VerticalAlignment="top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+                            <Button x:Name="CheckBoxGebyr_Button_4" Content="Weekendtillæg" HorizontalAlignment="Left" Margin="0,117,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+                            <Button x:Name="CheckBoxGebyr_Button_5" Content="Yderzonetillæg" HorizontalAlignment="Left" Margin="0,144,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+                            <Button x:Name="CheckBoxGebyr_Button_6" Content="Byttepalletillæg" HorizontalAlignment="Left" Margin="0,171,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+                            <Button x:Name="CheckBoxGebyr_Button_7" Content="SMS servicetillæg" HorizontalAlignment="Left" Margin="0,198,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+                            <Button x:Name="CheckBoxGebyr_Button_8" Content="Adresse korrektion" HorizontalAlignment="Left" Margin="0,225,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+                            <Button x:Name="CheckBoxGebyr_Button_9" Content="Bro afgift" HorizontalAlignment="Left" Margin="0,252,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+                            <Button x:Name="CheckBoxGebyr_Button_10" Content="Vej afgift" HorizontalAlignment="Left" Margin="0,279,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+                            <Button x:Name="CheckBoxGebyr_Button_11" Content="Færge afgift" HorizontalAlignment="Left" Margin="0,306,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+
+                            <TextBox x:Name="CheckBoxGebyr_TextBox_0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,9,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontWeight="Normal" LostFocus="CheckBoxGebyr_TextBox_LostFocus" KeyUp="CheckBoxGebyr_TextBox_KeyUp"/>
+                            <TextBox x:Name="CheckBoxGebyr_TextBox_1" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,36,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontWeight="Normal" LostFocus="CheckBoxGebyr_TextBox_LostFocus" KeyUp="CheckBoxGebyr_TextBox_KeyUp"/>
+                            <TextBox x:Name="CheckBoxGebyr_TextBox_6" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,171,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontWeight="Normal" LostFocus="CheckBoxGebyr_TextBox_LostFocus" KeyUp="CheckBoxGebyr_TextBox_KeyUp"/>
+                            <TextBox x:Name="CheckBoxGebyr_TextBox_7" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,198,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontWeight="Normal" LostFocus="CheckBoxGebyr_TextBox_LostFocus" KeyUp="CheckBoxGebyr_TextBox_KeyUp"/>
+                            <TextBox x:Name="CheckBoxGebyr_TextBox_9" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,254,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontWeight="Normal" LostFocus="CheckBoxGebyr_TextBox_LostFocus" KeyUp="CheckBoxGebyr_TextBox_KeyUp"/>
+                            <TextBox x:Name="CheckBoxGebyr_TextBox_10" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,281,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontWeight="Normal" LostFocus="CheckBoxGebyr_TextBox_LostFocus" KeyUp="CheckBoxGebyr_TextBox_KeyUp"/>
+                            <TextBox x:Name="CheckBoxGebyr_TextBox_11" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,308,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontWeight="Normal" LostFocus="CheckBoxGebyr_TextBox_LostFocus" KeyUp="CheckBoxGebyr_TextBox_KeyUp"/>
+
+                            <Label Content="Antal personer" HorizontalAlignment="Left" Margin="201,7,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content="Antal personer/enheder" HorizontalAlignment="Left" Margin="201,34,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content="Antal paller" HorizontalAlignment="Left" Margin="201,168,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content="Antal advisering" HorizontalAlignment="Left" Margin="201,194,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content=".Kr" HorizontalAlignment="Left" Margin="201,250,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content=".Kr" HorizontalAlignment="Left" Margin="201,277,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                            <Label Content=".kr" HorizontalAlignment="Left" Margin="201,304,0,0" VerticalAlignment="Top" FontWeight="Normal"/>
+                        </Grid>
+                    </GroupBox>
+                    
+                    <!-- Prislisten -->
+                    <GroupBox Grid.Row="1" Visibility="Visible" Header="Prislist" x:Name="GroupBoxPrislist" HorizontalAlignment="Left" Height="auto" MaxHeight="360" Margin="0,10,0,10" VerticalAlignment="Top" Width="390" FontWeight="Bold">
+                        <Grid>
+                            <Button x:Name="CheckBoxPris_Button_Update" Content="Opdater" HorizontalAlignment="Left" Margin="290,-18,0,0" VerticalAlignment="Top" Width="80" Padding="5,2,5,2" Background="CadetBlue" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Center" Click="CheckBoxPrisUpdate_Button_Click" />
+                            <DataGrid Grid.Row="1" x:Name="datagridPricelist" Margin="0,15,0,5" FontWeight="Normal" HorizontalAlignment="Center" CanUserDeleteRows="False" IsReadOnly="True"  CanUserAddRows="False" CanUserReorderColumns="False" AutoGenerateColumns="False" VerticalAlignment="Top" Height="auto" Width="380" ItemsSource="{Binding FakturaPriceDataView}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Navn" Binding="{Binding name}" MinWidth="150" />
+                                    <DataGridTextColumn Header="Pris" Binding="{Binding price}" MinWidth="100">
+                                        <DataGridTextColumn.CellStyle>
+                                            <Style>
+                                                <Setter Property="FrameworkElement.HorizontalAlignment" Value="Right"/>
+                                            </Style>
+                                        </DataGridTextColumn.CellStyle>
+                                    </DataGridTextColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
+        
+        <!-- Toolbar -->
+        <Grid Grid.Row="0" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Button Visibility="Visible" HorizontalAlignment="Left" Height="30" Margin="10,29,0,0" VerticalAlignment="Top" Width="auto" TabIndex="2000000" PreviewMouseLeftButtonUp="ToolbarButton_Click_NewFaktura">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left" Source="Images/Icons/1416249682_698913-icon-81-document-add-128.png" ToolTip="Nyt fragtbrev"/>
+            </Button>
+            <Button x:Name="toolbarButton_Save" HorizontalAlignment="Left" Height="30" Width="auto" Margin="45,29,0,0" VerticalAlignment="Top" TabIndex="2000000" ToolTip="Gem" PreviewMouseUp="ToolbarButton_Click_SaveFaktura">
+                <Image x:Name="toolbarButton_SaveImage" Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left" Source="Images/Icons/1417631293_save.png"/>
+            </Button>
+            <Button HorizontalAlignment="Left" Height="30" Width="auto" Margin="80,29,0,0" VerticalAlignment="Top"  PreviewMouseUp="ToolbarButton_Click_ExportPDF" TabIndex="2000000">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left" Source="Images/Icons/1417103306_699434-icon-70-document-file-pdf-128.png" ToolTip="Exporter til pdf"/>
+            </Button>
+
+
+            <Button x:Name="Button_EkstraGebyr_Show" HorizontalAlignment="Left" Height="30" Width="auto" Margin="157,29,0,0" VerticalAlignment="Top" PreviewMouseUp="Button_EkstraGebyr_PreviewMouseUp" TabIndex="2000000">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left" Source="Images/Icons/1427293881_698889-icon-146-tag-128.png" ToolTip="Vis ekstra gebyr"/>
+            </Button>
+
+            <Button HorizontalAlignment="Left" Height="30" Width="auto" Margin="192,29,0,0" VerticalAlignment="Top" TabIndex="2000000" PreviewMouseUp="Button_Prislist_PreviewMouseUp">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left" Source="Images/Icons/1427293853_699335-icon-62-document-table-128.png" ToolTip="Vis prisliste"/>
+            </Button>
+
+            <Image HorizontalAlignment="Right" Height="60" Margin="0,5,20,5" VerticalAlignment="Center" Width="55" Source="Images/Pdf/logo.png"/>
+            <Button Content="Ekstra Tillæg" HorizontalAlignment="Left" Margin="127,4,0,0" VerticalAlignment="Top" Width="75" x:Name="ButtonToolsbar_EkstraGebyrB" Click="ButtonToolsbar_EkstraGebyr"/>
+            <Button x:Name="ToolsbarButton_Filer" Content="Filer" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Padding="8,0" Height="20" Margin="10,4,0,0" VerticalAlignment="Top" Click="ToolsbarButton_Filer_Click" MouseLeave="ToolsbarMenu_Filer_MouseLeave" Grid.IsSharedSizeScope="True"/>
+            <Button Content="Start Menu" x:Name="ButtonAdmin_Startmenu" Width="67" HorizontalAlignment="Left" Margin="55,4,0,0" VerticalAlignment="Top" Click="ButtonAdmin_Startmenu_Click"/>
+            <Button Content="Pris Listen" HorizontalAlignment="Left" Margin="207,4,0,0" VerticalAlignment="Top" Width="65" Click="ButtonToolsbar_PrislistOpen"/>
+            <Button Content="Afslut" x:Name="ButtonTool_CloseFragtbrev" Visibility="Visible" IsEnabled="True" Width="auto" Padding="10,1,10,1" HorizontalAlignment="Left" Margin="277,4,0,0" VerticalAlignment="Top" Click="ButtonTool_CloseFragtbrev_Click" Focusable="False"/>
+            <Button HorizontalAlignment="Left" Height="20" Margin="330,4,0,0" x:Name="ButtonTool_CloseFragtbrevComment" Visibility="Visible" IsEnabled="true" VerticalAlignment="Top"  Click="Button_Click_closeFrabrevText" TabIndex="2000000">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left" Source="Images/Icons/1416249686_698873-icon-136-document-edit-128.png" ToolTip="Exporter til pdf"/>
+            </Button>
+            <Button Content="Spar papir" x:Name="ButtonTool_Savepaper" Visibility="Visible" IsEnabled="True" Background="Green" Width="auto" Padding="10,1,10,1" HorizontalAlignment="Left" Margin="357,4,0,0" VerticalAlignment="Top" Click="ButtonTool_Savepaper_Click" Focusable="False"/>
+            <ListBox x:Name="ToolsbarMenu_Filer" Visibility="Hidden" HorizontalAlignment="Left" Height="auto" Width="auto" MinWidth="100" Margin="10,23,0,-85" VerticalAlignment="Top"  Background="#FFDDDDDD" BorderThickness="1" BorderBrush="#FF707070" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" MouseLeave="ToolsbarMenu_Filer_MouseLeave">
+                <ListBoxItem Content="Nyt Faktura" PreviewMouseLeftButtonUp="ToolbarButton_Click_NewFaktura" />
+                <ListBoxItem Content="Nyt Fragtbrev" PreviewMouseLeftButtonUp="ToolbarButton_Click_NewFragtbrev" />
+                <ListBoxItem Content="Åben Faktura" PreviewMouseLeftButtonUp="ToolbarButton_Click_OpenFaktura" />
+                <ListBoxItem Content="Åben Fragtbrev" PreviewMouseLeftButtonUp="ToolbarButton_Click_OpenFragtbrev" />
+                <ListBoxItem Content="Gem Faktura" PreviewMouseLeftButtonUp="ToolbarButton_Click_SaveFaktura"  x:Name="toolbarButton_SaveList"/>
+                <ListBoxItem Content="Exporter Til PDF" PreviewMouseLeftButtonUp="ToolbarButton_Click_ExportPDF" />
+            </ListBox>
+
+        </Grid>
+        <!-- buden -->
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Label x:Name="LabelVersion_version" Content="Version: " HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Content="Kodet af: Simon Skov" HorizontalAlignment="Left" Margin="0,24,0,0" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Window>

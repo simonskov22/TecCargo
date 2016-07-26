@@ -1,0 +1,138 @@
+<KundeInfo>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>1.0.2</ver>
+  </Version>
+  <Version>
+    <ver>1.0.10</ver>
+  </Version>
+  <Version>
+    <ver>1.1.2</ver>
+  </Version>
+  <CustomerIdCheck>
+    <Info_0>11111111</Info_0>
+    <Info_1>testInfo_11</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Info_0>22222222</Info_0>
+    <Info_1>testnavn2</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Info_0>44444444</Info_0>
+    <Info_1>testnavn4</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Info_0>55555555</Info_0>
+    <Info_1>testInfo_15</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Info_0>66666666</Info_0>
+    <Info_1>testnavn6</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Info_0>10010010</Info_0>
+    <Info_1>bob</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Info_0>11111112</Info_0>
+    <Info_1>testInfo_11</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Info_0>1</Info_0>
+    <Info_1>1</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerIdCheck>
+  <CustomerInformation>
+    <Info_0>1111 1111</Info_0>
+    <Info_1>Test Info_11</Info_1>
+    <Info_2></Info_2>
+    <Info_3></Info_3>
+    <Info_4></Info_4>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Info_0>2222 2222</Info_0>
+    <Info_1>Test Navn2</Info_1>
+    <Info_2></Info_2>
+    <Info_3>Test Info_3 10</Info_3>
+    <Info_4>2000</Info_4>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Info_0>4444 4444</Info_0>
+    <Info_1>Test Navn4</Info_1>
+    <Info_2></Info_2>
+    <Info_3>Test Info_3 10</Info_3>
+    <Info_4>4000</Info_4>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Info_0>5555 5555</Info_0>
+    <Info_1>Test Info_15</Info_1>
+    <Info_2></Info_2>
+    <Info_3>Test Info_3 10</Info_3>
+    <Info_4>5000</Info_4>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Info_0>6666 6666</Info_0>
+    <Info_1>Test Navn6</Info_1>
+    <Info_2></Info_2>
+    <Info_3>Test Info_3 10</Info_3>
+    <Info_4>6000</Info_4>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Info_0>100 100 10</Info_0>
+    <Info_1>bob1</Info_1>
+    <Info_3>123</Info_3>
+    <Info_2></Info_2>
+    <Info_4>1111</Info_4>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Info_0>1111 1112</Info_0>
+    <Info_1>Test Info_11</Info_1>
+    <Info_2></Info_2>
+    <Info_3>Test Info_3 10</Info_3>
+    <Info_4>1000</Info_4>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Info_0>1</Info_0>
+    <Info_1>1</Info_1>
+    <Info_2></Info_2>
+    <Info_3>1</Info_3>
+    <Info_4>2650</Info_4>
+  </CustomerInformation>
+</KundeInfo>

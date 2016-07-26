@@ -1,0 +1,2 @@
+Et program til at oprette fragtbreve og faktura, så eleverne kan lære, 
+hvordan et fragtbrev og faktura virker.

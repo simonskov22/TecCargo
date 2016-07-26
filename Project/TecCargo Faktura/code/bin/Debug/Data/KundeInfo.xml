@@ -1,0 +1,44 @@
+<KundeInfo>
+  <_x0032_.1.2>
+    <Info_0>8080 8080</Info_0>
+    <Info_1>Bobo</Info_1>
+    <Info_2 />
+    <Info_3>adresse 2</Info_3>
+    <Info_4>8000</Info_4>
+  </_x0032_.1.2>
+  <_x0032_.4.0>
+    <Info_0>10101010</Info_0>
+    <Info_1>ss</Info_1>
+    <Info_2 />
+    <Info_3>12</Info_3>
+    <Info_4>1111</Info_4>
+  </_x0032_.4.0>
+  <_x0032_.4.0>
+    <Info_0>9090 9090</Info_0>
+    <Info_1>Bob</Info_1>
+    <Info_2 />
+    <Info_3>adresse 1</Info_3>
+    <Info_4>2770</Info_4>
+  </_x0032_.4.0>
+  <_x0032_.4.0>
+    <Info_0>10 20 30 40</Info_0>
+    <Info_1>Afsender Firma</Info_1>
+    <Info_2>Afsender Person</Info_2>
+    <Info_3>Afsender Adresse</Info_3>
+    <Info_4>1000</Info_4>
+  </_x0032_.4.0>
+  <_x0032_.4.0>
+    <Info_0>90 10 20 30</Info_0>
+    <Info_1>Modtager Firma</Info_1>
+    <Info_2>Modtager Person</Info_2>
+    <Info_3>Modtager Adresse</Info_3>
+    <Info_4>2000</Info_4>
+  </_x0032_.4.0>
+  <_x0032_.4.0>
+    <Info_0>50 80 77 20</Info_0>
+    <Info_1>Anden Firma</Info_1>
+    <Info_2>Anden Person</Info_2>
+    <Info_3>Anden Adresse</Info_3>
+    <Info_4>3000</Info_4>
+  </_x0032_.4.0>
+</KundeInfo>

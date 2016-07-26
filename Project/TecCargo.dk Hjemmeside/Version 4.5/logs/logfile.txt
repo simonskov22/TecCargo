@@ -1,0 +1,171 @@
+Dato: 20/11/2014 - 09:43:09
+Kommentar: Brugerne er nu slettet.
+Admin: test
+SQL: DELETE FROM members WHERE id=36 OR id=26 OR id=28
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 09:44:59
+Kommentar: Brugerne er nu slettet.
+Admin: test
+SQL: DELETE FROM members WHERE id=35
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 09:46:42
+Kommentar: Brugerne er nu slettet.
+Admin: test
+SQL: DELETE FROM members WHERE id=35
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 09:55:43
+Kommentar: Brugerne er nu slettet.
+Admin: simon
+SQL: DELETE FROM members WHERE id=35
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 09:56:23
+Kommentar: Brugerne er nu slettet.
+Admin: simon
+SQL: DELETE FROM members WHERE id=35
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:03:36
+Kommentar: Brugerne er nu slettet.
+Admin: simon
+SQL: DELETE FROM  WHERE id=34
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:03:59
+Kommentar: Brugerne er nu slettet.
+Admin: simon
+SQL: DELETE FROM members WHERE id=34
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:04:20
+Kommentar: Brugerne er nu slettet.
+Admin: simon
+SQL: DELETE FROM members WHERE id=34 OR id=35
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:04:51
+Kommentar: Brugerne er nu slettet.
+Admin: simon
+SQL: DELETE FROM members WHERE id=34
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:04:59
+Kommentar: Brugerne er nu slettet.
+Admin: simon
+SQL: DELETE FROM members WHERE id=32 OR id=35
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPdeleteuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:06:02
+Kommentar: Brugern henrik er nu oprettet.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPcreateuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:06:50
+Kommentar: Brugern testbruger er nu oprettet.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPcreateuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:08:43
+Kommentar: Brugern Jann er nu oprettet.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPcreateuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:09:46
+Kommentar: Brugern Alex er nu oprettet.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPcreateuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:10:31
+Kommentar: Brugern danjal er nu oprettet.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPcreateuser.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:12:44
+Kommentar: Brugeren testbruger er nu opdaterer.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:16:04
+Kommentar: Brugeren Simon er nu opdaterer.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:39:54
+Kommentar: Brugeren Simon er nu opdaterer.
+Admin: henrik
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:40:26
+Kommentar: Brugeren Simon er nu opdaterer.
+Admin: henrik
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:43:13
+Kommentar: Brugeren Simon er nu opdaterer.
+Admin: henrik
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:46:33
+Kommentar: Brugeren Simon er nu opdaterer.
+Admin: henrik
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:47:36
+Kommentar: Brugeren testbruger er nu opdaterer.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################
+Dato: 20/11/2014 - 10:55:58
+Kommentar: Brugeren Simon er nu opdaterer.
+Admin: simon
+IP: 109.202.138.138
+Fil: /testside/php/admin/php/PHPedituserSubmit.php
+############################################################
+############################################################

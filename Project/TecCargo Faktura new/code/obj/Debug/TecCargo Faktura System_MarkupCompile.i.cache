@@ -1,0 +1,20 @@
+﻿TecCargo Faktura System
+
+
+winexe
+C#
+.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\
+TecCargo_Faktura
+none
+false
+DEBUG;TRACE
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\App.xaml
+251724712817
+
+411983794803
+291312386506
+Controls\Address.xaml;Controls\CheckBoxButton.xaml;Controls\DateTimePicker.xaml;Controls\Gebyr.xaml;Controls\MyDocumentViewer.xaml;Controls\PakkeControl.xaml;Controls\PrisList.xaml;Controls\Selector.xaml;Controls\MyTextBlock.xaml;Controls\MyTextbox.xaml;FileName.xaml;MainFaktura.xaml;MainFragtBrev.xaml;MainWindow.xaml;Resources\MyDocumentViewer.xaml;Resources\MyListView.xaml;Resources\MySlider.xaml;WindowsView\AdminKode.xaml;WindowsView\Adminlogin.xaml;WindowsView\AdminPanel.xaml;WindowsView\CloseWindowText.xaml;WindowsView\FakturaGebyr.xaml;WindowsView\PrisListe.xaml;WindowsView\UserPanel.xaml;WindowsView\UserSetup.xaml;
+
+True
+

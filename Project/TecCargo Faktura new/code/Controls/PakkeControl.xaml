@@ -1,0 +1,221 @@
+﻿<UserControl x:Class="TecCargo_Faktura.Controls.PakkeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:System="clr-namespace:System;assembly=mscorlib" 
+             xmlns:local="clr-namespace:TecCargo_Faktura.Controls"
+             xmlns:TecCargo="clr-namespace:TecCargo_Faktura.Controls"
+             xmlns:Models="clr-namespace:TecCargo_Faktura.Models"
+             mc:Ignorable="d" 
+             d:DesignHeight="900" d:DesignWidth="900" Name="_PakkeControl" Loaded="_PakkeControl_Loaded" IsVisibleChanged="_PakkeControl_IsVisibleChanged">
+    <UserControl.Resources>
+
+        <Models:BoolToVisibilityConverter x:Key="BoolToVisibility_HideText" TrueValue="Hidden" FalseValue="Visible" />
+
+        <SolidColorBrush x:Key="PrimaryBrush" Color="#FF4169AA" />
+        <SolidColorBrush x:Key="PrimaryFont" Color="White" />
+        <SolidColorBrush x:Key="Row_1" Color="#FFFFFFFF" />
+        <SolidColorBrush x:Key="Row_2" Color="#FFDEDEDE" />
+        <SolidColorBrush x:Key="Row_1_Disable" Color="#FFE6E6E6" />
+        <SolidColorBrush x:Key="Row_2_Disable" Color="#FFD1D1D1" />
+
+        <Style x:Key="Button_PakkeInGrid" TargetType="Button">
+            <Setter Property="Background" Value="white"/>
+        </Style>
+
+        <Style x:Key="Grid_Header_Text" TargetType="Label">
+            <Setter Property="Foreground" Value="{StaticResource PrimaryFont}" />
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        </Style>
+        <Style x:Key="Grid_Header_Border" TargetType="Border">
+            <Setter Property="Background" Value="{StaticResource PrimaryBrush}"/>
+            <Setter Property="Padding" Value="10"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid >
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" x:Name="Grid_editItem1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Name="_hiddenId" Text="-1" Visibility="Collapsed"/>
+
+            <TecCargo:MyTextbox Grid.Row="0" x:Name="_mrkNumb" Placeholder="Mrk./NR." LostFocus="Textbox_LostFocus" Margin="10,5,10,0" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_PakkeControl}"/>
+            <TecCargo:MyTextbox Grid.Row="1" x:Name="_indhold" Placeholder="Indhold" LostFocus="Textbox_LostFocus" Margin="10,5,10,0" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_PakkeControl}"/>
+            <TecCargo:MyTextbox Grid.Row="2" x:Name="_antal" Placeholder="Antal" Width="130" HorizontalAlignment="Left" LostFocus="Textbox_LostFocus" Margin="10,5,10,0" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_PakkeControl}"/>
+            <TecCargo:MyTextbox Grid.Row="2" x:Name="_weight" Placeholder="Vægt" Width="130" HorizontalAlignment="Right" LostFocus="Textbox_LostFocus" Margin="10,5,10,0" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_PakkeControl}"/>
+            <TecCargo:MyTextbox Grid.Row="3" x:Name="_volume"  Placeholder="Rumfang (LxBxH)" LostFocus="Textbox_LostFocus" Margin="10,5,10,0" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_PakkeControl}" TextChanged="_volume_TextChanged"/>
+            <TecCargo:Selector Grid.Row="4" x:Name="_artType" Header="Art" MaxRow="2" LostFocus="Textbox_LostFocus" MinHeight="100">
+                <TecCargo:Selector.Items>
+                    <System:String>Ingen</System:String>
+                    <System:String>TDR</System:String>
+                    <System:String>PLL</System:String>
+                    <System:String>CLL</System:String>
+                    <System:String>PKK</System:String>
+                    <System:String>IBC</System:String>
+                </TecCargo:Selector.Items>
+            </TecCargo:Selector>
+
+            <TecCargo:Selector Grid.Row="5" x:Name="_transportType" Header="Transport Type" MaxRow="3" LostFocus="Textbox_LostFocus" Visibility="Collapsed" MinHeight="150" />
+
+
+            <Button Grid.Row="6" Background="Transparent" BorderBrush="Transparent"
+                Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                HorizontalContentAlignment="Left" Name="_AddButton" Margin="10,10,0,0"
+                    Click="_AddButton_click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="35"
+                       Source="/TecCargo Faktura System;component/Images/Icons/plus.png"/>
+                    <Label Name="_AddButtonText" Content="Tilføj" FontSize="20"/>
+                </StackPanel>
+            </Button>
+
+            <Button Grid.Row="6" Background="Transparent" BorderBrush="Transparent"
+                Height="auto" VerticalAlignment="Top" HorizontalAlignment="Right" 
+                HorizontalContentAlignment="Left" Name="_CancelButton" Margin="0,10,10,0"
+                    Click="_CancelButton_click" Visibility="Hidden">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="35"
+                       Source="/TecCargo Faktura System;component/Images/Icons/cancel.png"/>
+                    <Label Content="Annuller" FontSize="20"/>
+                </StackPanel>
+            </Button>
+
+        </Grid>
+
+        <Border Margin="0,5,0,0" Grid.Column="1" MinWidth="320" MinHeight="350" VerticalAlignment="Top" Background="white" BorderThickness="1" BorderBrush="#FFA09F9F">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" BorderThickness="0,0,0,1" BorderBrush="#FFA09F9F" Style="{StaticResource Grid_Header_Border}">
+                    <Grid>
+                        <Label Content="Pakker" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Style="{StaticResource Grid_Header_Text}"/>
+                        <Label Name="_packCount" Content="" FontSize="20" FontWeight="Bold" HorizontalAlignment="Right" Style="{StaticResource Grid_Header_Text}"/>
+                    </Grid>
+                </Border>
+
+                <ScrollViewer Grid.Row="1" MaxHeight="300" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Name="_ScrollViewer_Packet">
+                    <Grid Name="_ItemsContains" SnapsToDevicePixels="True">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                </ScrollViewer>
+
+                <Grid Grid.Row="2" Background="#FFC7C7C7">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Button Grid.Column="0" Background="Transparent" BorderBrush="Transparent"
+                    Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"  BorderThickness="0"
+                    Margin="5" Click="Button_ChangeEditArrow_Click" Name="_Button_Arrow_Back" 
+                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" RenderTransformOrigin="0.5,0.5" >
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="180"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                        <Image Height="35" Source="/TecCargo Faktura System;component/Images/Icons/arrow.png"/>
+                    </Button>
+
+                    <Button Grid.Column="1" Background="Transparent" BorderBrush="Transparent"
+                    Height="auto" VerticalAlignment="Top" HorizontalAlignment="Right" BorderThickness="0"
+                    Margin="5" Click="Button_ChangeEditArrow_Click" Name="_Button_Arrow_Next"
+                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" >
+                        <Image Height="35" Source="/TecCargo Faktura System;component/Images/Icons/arrow.png"/>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Column="2" x:Name="grid_faktura">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition  Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <local:Selector x:Name="Selector_Faktura_Takst" Grid.Column="0" Grid.Row="0" Header="Takst" MaxRow="5" SelectionChanged="Selector_CheckFakturaStatus_SelectionChanged">
+                <local:Selector.Items>
+                    <System:String>1</System:String>
+                    <System:String>2</System:String>
+                    <System:String>3</System:String>
+                    <System:String>4</System:String>
+                    <System:String>5</System:String>
+                    <System:String>6</System:String>
+                    <System:String>7</System:String>
+                    <System:String>8</System:String>
+                    <System:String>9</System:String>
+                    <System:String>10</System:String>
+                </local:Selector.Items>
+            </local:Selector>
+            <local:Selector x:Name="Selector_Faktura_Beregn" Grid.Column="1" Grid.Row="0" Header="Beregningstype" SelectionChanged="Selector_CheckFakturaStatus_SelectionChanged">
+                <local:Selector.Items>
+                    <System:String>Ladmeter</System:String>
+                    <System:String>Palleplads</System:String>
+                    <System:String>Volume</System:String>
+                </local:Selector.Items>
+            </local:Selector>
+
+            <StackPanel Name="StackPanel_PacketPrice" Orientation="Horizontal" Grid.Row="1" Margin="10,5,0,0"
+                        Visibility="{Binding Path=Text.IsEmpty, ElementName=TextBlock_PacketPrice, Converter={StaticResource BoolToVisibility_HideText}}">
+                <TextBlock Text="Pris: " FontWeight="Bold" FontSize="15" />
+                <TextBlock Name="TextBlock_PacketPrice" Text="" FontSize="15" />
+            </StackPanel>
+            <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Background="Transparent" BorderBrush="Transparent"
+                Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                HorizontalContentAlignment="Left" Name="_NextButton" Margin="10,10,0,0"
+                    Click="_NextButton_click" Visibility="Collapsed"
+                    >
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="35"
+                       Source="/TecCargo Faktura System;component/Images/Icons/plus.png"/>
+                    <Label Name="_NextButtonText" FontSize="20"/>
+                </StackPanel>
+            </Button>
+            <Button  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Background="Transparent" BorderBrush="Transparent"
+                Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                HorizontalContentAlignment="Left" Margin="10,10,10,0"
+                    Click="_CancelButton_click" Visibility="Visible">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="35"
+                       Source="/TecCargo Faktura System;component/Images/Icons/cancel.png"/>
+                    <Label Content="Annuller" FontSize="20"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

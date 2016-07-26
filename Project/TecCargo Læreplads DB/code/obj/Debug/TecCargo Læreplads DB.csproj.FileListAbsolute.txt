@@ -1,0 +1,24 @@
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\bin\Debug\TecCargo Læreplads DB.exe.config
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\bin\Debug\TecCargo Læreplads DB.exe
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\bin\Debug\TecCargo Læreplads DB.pdb
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\TecCargo Læreplads DB.csprojResolveAssemblyReference.cache
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\MainWindow.baml
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\MainWindow.g.cs
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\App.g.cs
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\TecCargo Læreplads DB_MarkupCompile.cache
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\TecCargo Læreplads DB.g.resources
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\TecCargo_Læreplads_DB.Properties.Resources.resources
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\TecCargo Læreplads DB.csproj.GenerateResource.Cache
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\TecCargo Læreplads DB.exe
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\TecCargo Læreplads DB.pdb
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\selectType.baml
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\selectType.g.cs
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\OpenList.baml
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\OpenList.g.cs
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\addFile.baml
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\addFile.g.cs
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\bin\Debug\itextsharp.dll
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\bin\Debug\itextsharp.xml
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\PrinterOptions.baml
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\obj\Debug\View\PrinterOptions.g.cs
+F:\Visual Studio Projects\TecCargo Læreplads DB\TecCargo Læreplads DB\bin\Debug\RawPrint.dll

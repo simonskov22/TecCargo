@@ -1,0 +1,31 @@
+﻿<Window x:Class="TecCargo_Faktura.WindowsView.AdminKode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Indtast Kode" Height="auto" Width="400" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Icon="/TecCargo Faktura System;component/Images/Icons/logo.ico">
+    <Grid Height="auto" VerticalAlignment="Top" Margin="0" HorizontalAlignment="Stretch" Width="auto">
+        <Grid.RowDefinitions>
+        <RowDefinition Height="50" />
+        <RowDefinition Height="auto" />
+        <RowDefinition Height="30"/>
+    </Grid.RowDefinitions>
+
+    <Grid Grid.Row="0" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Label x:Name="contentText" Content="Indtast Kode" HorizontalAlignment="Center" Margin="115,10,104,0" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI Black" FontSize="18" Foreground="#FF254078" Height="auto" Width="auto"/>
+        <Image HorizontalAlignment="Right" Height="45" Margin="0,5,10,0" VerticalAlignment="Center" Width="45" Source="/TecCargo Faktura System;component/Images/Pdf/logo.png"/>
+    </Grid>
+        <Grid Grid.Row="1" HorizontalAlignment="Stretch" Width="Auto" Margin="0,0,0,0">
+            <Grid Width="auto" Height="auto" Margin="0,15,0,0" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" x:Name="labelInfoText" Content="dfdsfsdfsdfds" Margin="0,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF535353" />
+                <PasswordBox Grid.Row="1" x:Name="password_AdminKode" x:FieldModifier="public" Margin="0,0,0,0" Height="24" Width="220" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+                <Button Grid.Row="1" x:Name="SaveFinishTextButton" Content="Gem" IsDefault="True" HorizontalAlignment="Right" Margin="0,30,0,10" VerticalAlignment="Top" Width="75" Click="SaveFinishTextButton_Click"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+    </Grid>
+
+    </Grid>
+</Window>

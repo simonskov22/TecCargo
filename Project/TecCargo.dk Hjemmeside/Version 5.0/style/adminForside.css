@@ -1,0 +1,54 @@
+.adminforside{
+                
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.adminforside td, .adminforside th{
+    border: 1px solid #000;
+}
+.adminforside td{
+    padding-bottom: 10px;
+}
+.adminforside .header
+{
+    background: #254078;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+}
+.overfloat{
+
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+
+    left: 0;
+    bottom: 80px;
+    font-size: 24px;
+}
+.adminforside .adminbuton{
+
+    background-color: #254078;
+    border-color: #254078;
+    color: #fff;
+}
+.adminforside .adminbuton:hover{
+
+    background-color: #132750;
+    border-color: #132750;
+}
+
+.adminforside .adminbutonIn{
+
+    background-color: #717171;
+    border-color: #717171;
+    color: #fff;
+}
+.adminforside .adminbutonIn:hover{
+
+    background-color: #484747;
+    border-color: #484747;
+}

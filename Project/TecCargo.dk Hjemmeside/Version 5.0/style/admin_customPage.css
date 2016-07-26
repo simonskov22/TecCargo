@@ -1,0 +1,148 @@
+input[type="text"].inputTitle{
+    margin: 10px;
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px inset #717171;
+    font-size: 20px;
+    text-indent: 5px;
+
+}
+.adminNbox h2{
+
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+
+}
+.tecDropdownBox{
+    position: relative;
+    height: 30px;
+    width: 210px;
+    z-index: 10;
+
+    display: inline-block;
+    float: left;
+    margin-right: 100px;
+}
+ul.removeUlStyle{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style: none;
+}
+ul.tecDropdown ul{
+
+    max-height: 350px;
+    overflow-y: scroll;
+
+
+}
+ul.tecDropdown{
+    text-align: left;
+    cursor: pointer;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-block;
+
+    overflow: hidden;
+    background-color: #fff;
+    color: #000;
+}
+.tecDropdown .selected{
+    height: 25px;
+    text-indent: 5px;
+    font-size: 18px;
+    position: relative;
+    border-bottom: 1px solid;
+    overflow: hidden;
+}
+.tecDropdown .selected .text{
+    max-width: 150px;
+    display: inline-block;
+}
+
+.tecDropdown .selected .arrow{
+    width: 30px;
+    background: blue;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    text-indent: 0;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 4px;
+}
+.tecDropdown .selected .arrow{
+    width: 30px;
+    background-color: #1C79D2;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    text-indent: 0;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.tecDropdown .selected:hover .arrow{
+    background-color: #0D5BA7;
+}
+.tecDropdown .selected:hover,.tecDropdown .option li:hover{
+    background-color: #E6E6E6;
+}
+
+.tecDropdown .option{
+    display: none;
+}
+.tecDropdown .option li{
+    text-indent: 10px;
+    border-top: 1px solid;
+    padding: 4px 0;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.tecDropdownBox button{
+
+    position: absolute;
+    margin-left: 10px;  
+    background-color: #1C79D2;
+    border-color: #1C79D2;
+}
+
+.tecDropdownBox button:hover{
+    background-color: #0D5BA7;
+    border-color: #0D5BA7;
+}
+.tecCustomPageLink{
+        
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    text-align: left;
+    right: 5px;
+
+    text-decoration: none;
+    color: #41C5D2;
+}
+.buttonCreateNew{
+    background: #4680CA;
+    border-color: #4680CA;
+    color: #000;
+}
+
+.buttonCreateNew:hover{
+    background: #3667A5;
+    border-color: #3667A5;
+}
+.pageDeleteTable td{
+    padding-left: 20px;
+}
+.pageDeleteTable th{
+    padding-left: 10px;
+}

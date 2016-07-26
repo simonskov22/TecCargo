@@ -1,0 +1,58 @@
+﻿<Window x:Class="TecCargo_Læreplads_DB.View.OpenList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fil finder" Height="auto" Width="auto" Icon="/TecCargo Læreplads DB;component/Images/logo.png" 
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        WindowStyle="none" BorderBrush="#FF2C72B8" BorderThickness="2,2,2,2" ShowInTaskbar="False" SizeToContent="WidthAndHeight">
+        <Grid Width="auto" Height="auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="35"/>
+            </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Label Content="Fil Finder" FontWeight="Bold" FontSize="18" Margin="10,8,0,0" Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF003468"/>
+            <Image HorizontalAlignment="Right" Height="45" Margin="0,5,10,0" VerticalAlignment="Center" Width="45" Source="/TecCargo Læreplads DB;component/Images/logo.ico" />
+        </Grid>
+            
+        <Grid Grid.Row="1" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Top" Height="auto" Width="Auto" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                 <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,10">
+                    <Label Content="Virsomhed:" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Name="TextBox_Search" Text="" Margin="70,0,0,0" Width="240" Height="24" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" TextChanged="TextBox_TextChanged" />
+            </Grid>
+
+            <ListView Grid.Row="1" Name="ListViewOpenFileNames" HorizontalAlignment="Stretch" Height="168" Width="auto" Margin="0,0,0,10" VerticalAlignment="Top" SelectionChanged="ListViewOpenFileNames_SelectionChanged" MouseDoubleClick="ListViewOpenFileNames_MouseDoubleClick">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="240" Header="Virsomhed" DisplayMemberBinding="{Binding name}" />
+                        <GridViewColumn Width="40">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Slet" Click="ListViewButton_Delete_Click" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Grid Grid.Row="2" Margin="0,0,0,0">
+                <Label Content="Filnavn:" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="TextBoxFileName_name" x:FieldModifier="public" Content="" HorizontalAlignment="Right" Height="26" Margin="0,0,0,0" VerticalAlignment="Top" Width="312" Background="White" BorderBrush="#FF858585" BorderThickness="1" Padding="5,3,5,5"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+
+            <Button x:Name="ButtonFileName_save" FontSize="12" IsEnabled="False" IsDefault="True" Content="Åben" HorizontalAlignment="Right" Margin="5" Padding="10,3" VerticalAlignment="Top" Width="auto"  Height="auto" Click="ButtonFileName_save_Click"/>
+            <Button x:Name="ButtonFileName_canel" FontSize="12" IsCancel="True" Content="Annuller" HorizontalAlignment="Left" Margin="5" Padding="5,3" VerticalAlignment="Top" Width="auto" Height="auto" Click="ButtonFileName_cancel_Click"/>
+        </Grid>
+
+        </Grid>
+</Window>

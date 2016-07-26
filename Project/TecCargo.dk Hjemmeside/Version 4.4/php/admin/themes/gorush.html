@@ -1,0 +1,121 @@
+<div class="AdminDiv">
+    <div class="goRushDiv">
+        <!-- status -->
+        <div id="statusDiv" %STATUSDISPLAY% class="status">
+            <h2>Status</h2>
+            <button style="float: right; margin-right: 20px;">OK</button>
+            <p style="margin-bottom: 15px;">%STATUS%</p>
+        </div>
+        <style>
+            .goRushMenu
+            {
+                width: 600px;
+                margin: 0 auto;
+            }
+            .kurerPriceEdit
+            {
+                width: 550px;
+                margin: 0 auto;
+            }
+            .kurerPriceEdit table
+            {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            .kurerPriceEdit td
+            {
+                border: 2px solid black;
+            }
+            .kurerPriceEdit input[type='submit']
+            {
+                float: right;
+            }
+            .goRushMenu img
+            {
+                max-width: 200px;
+                max-height: 200px;
+            }
+        </style>
+        <table class="goRushMenu">
+            <tr>
+                <td><img src="../../../images/%GRP1%"></td>
+                <td><img src="../../../images/%GRP2%"></td>
+                <td><img src="../../../images/%GRP3%"></td>
+                <td><img src="../../../images/%GRP4%"></td>
+            </tr>
+            <tr>
+                <td>Kurertransport Grp. 1</td>
+                <td>Kurertransport Grp. 2</td>
+                <td>Kurertransport Grp. 3</td>
+                <td>Kurertransport Grp. 4</td>
+            </tr>
+            <tr>
+                <td><button class="kurerButton" id="kurer_1">Rediger pris</button></td>
+                <td><button class="kurerButton" id="kurer_2">Rediger pris</button></td>
+                <td><button class="kurerButton" id="kurer_3">Rediger pris</button></td>
+                <td><button class="kurerButton" id="kurer_4">Rediger pris</button></td>
+            </tr>
+        </table>
+
+        <script>
+            $('.kurerButton').click(function ()
+            {
+                //
+                $('.kurerPriceEdit').each(function ()
+                {
+                    $(this).hide();
+                });
+
+                //siden der skal vise
+                var side = $(this).attr('id');
+
+                $('.' + side).show();
+            });
+        </script>
+
+        <!-- Grp 1 -->
+        <div class="kurerPriceEdit kurer_1">
+            <h2>Kurertransport gruppe 1 %TYPE%</h2>
+            <form method="post" action="%TECCARGO%php/admin/php/price/kurer-save.php">
+                <input type="hidden" value="%G1ID%" name="id">
+                <table>%GRUPPE1%</table>
+                <input type="reset" value="Reset" class="create-reset">
+                <input type="submit" value="Gem" class="create-submit">
+            </form>
+        </div>
+
+        <!-- Grp 2 -->
+        <div class="kurerPriceEdit kurer_2 hiddeli">
+            <h2>Kurertransport gruppe 2 %TYPE%</h2>
+            <form method="post" action="%TECCARGO%php/admin/php/price/kurer-save.php">
+                <input type="hidden" value="%G2ID%" name="id">
+                <table>%GRUPPE2%</table>
+                <input type="reset" value="Reset" class="create-reset">
+                <input type="submit" value="Gem" class="create-submit">
+            </form>
+        </div>
+
+        <!-- Grp 3 -->
+        <div class="kurerPriceEdit kurer_3 hiddeli">
+            <h2>Kurertransport gruppe 3 %TYPE%</h2>
+            <form method="post" action="%TECCARGO%php/admin/php/price/kurer-save.php">
+                <input type="hidden" value="%G3ID%" name="id">
+                <table>%GRUPPE3%</table>
+                <input type="reset" value="Reset" class="create-reset">
+                <input type="submit" value="Gem" class="create-submit">
+            </form>
+        </div>
+
+        <!-- Grp 4 -->
+        <div class="kurerPriceEdit kurer_4 hiddeli">
+            <h2>Kurertransport gruppe 4 %TYPE%</h2>
+            <form method="post" action="%TECCARGO%php/admin/php/price/kurer-save.php">
+                <input type="hidden" value="%G4ID%" name="id">
+                <table>%GRUPPE4%</table>
+                <input type="reset" value="Reset" class="create-reset">
+                <input type="submit" value="Gem" class="create-submit">
+            </form>
+        </div>
+    </div>
+</div>

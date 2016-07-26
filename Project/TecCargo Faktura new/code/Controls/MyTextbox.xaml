@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="TecCargo_Faktura.Controls.MyTextbox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:System="clr-namespace:System;assembly=mscorlib" 
+             xmlns:models="clr-namespace:TecCargo_Faktura.Models"
+             x:Name="_Textbox" Loaded="_Textbox_Loaded" 
+             Width="{Binding Width,FallbackValue='300'}" 
+             MouseEnter="_Textbox_MouseEnter"
+             MouseLeave="_Textbox_MouseEnter"
+             Panel.ZIndex="1000"
+             IsVisibleChanged="_Textbox_IsVisibleChanged">
+    <UserControl.Resources>
+        <models:BoolToVisibilityConverter x:Key="ConverterPlaceholder" TrueValue="Visible" FalseValue="Collapsed" />
+        <models:BoolToBrushConverter x:Key="ConverterBorderBrush" TrueValue="Red" FalseValue="LightGray"/>
+    </UserControl.Resources>
+    
+    <Grid Background="White" Margin="0" HorizontalAlignment="Left"
+          IsEnabled="{Binding IsUnLock, ElementName=_Textbox}"
+          IsEnabledChanged="_Grid_IsEnabledChanged">
+
+        <Label x:Name="_hovertext" IsEnabled="True"
+            Visibility="Collapsed"
+            Content="{Binding Placeholder, ElementName=_Textbox}" 
+            Foreground="#FF5489BD" Background="#FFE2E0E0"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Width="{Binding Width, ElementName=_Textbox}" 
+            Height="{Binding Height, ElementName=_Textbox}" 
+            Padding="10,5" 
+            FontSize="{Binding TextSize, ElementName=_Textbox}"
+            FontWeight="Bold" 
+            BorderThickness="1,1,1,0" BorderBrush="#FF5489BD"
+            MouseEnter="_Textbox_MouseEnter"/>
+
+        <TextBlock x:Name="placeholder"
+            HorizontalAlignment="Left"
+            Text="{Binding Placeholder, ElementName=_Textbox}"
+            Foreground="#FF5489BD" Background="#FFE2E0E0"
+            Width="{Binding Width, ElementName=_Textbox}" 
+            Height="{Binding Height, ElementName=_Textbox}" 
+            Padding="10,5" 
+            FontSize="{Binding TextSize, ElementName=_Textbox}"  
+            Visibility="{Binding ElementName=Input, Path=Text.IsEmpty, 
+                Converter={StaticResource ConverterPlaceholder}}" 
+            IsVisibleChanged="placeholder_IsVisibleChanged"/>
+
+        
+        <TextBox
+            BorderBrush="{Binding RequireEnableRedBorder, ElementName=_Textbox, Converter={StaticResource ConverterBorderBrush}}"
+            BorderThickness="1"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Text="{Binding Text, ElementName=_Textbox}" 
+            x:Name="Input" Background="Transparent" 
+            Width="{Binding Width, ElementName=_Textbox}" 
+            Height="{Binding Height, ElementName=_Textbox}"
+            Padding="10,5" 
+            FontSize="{Binding TextSize, ElementName=_Textbox}" 
+            VerticalContentAlignment="Center" KeyDown="Input_KeyDown" 
+            TextChanged="Input_TextChanged"
+            LostFocus="Input_LostFocus"
+            />
+    </Grid>
+</UserControl>

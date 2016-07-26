@@ -1,0 +1,155 @@
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\TecCargo Faktura System.exe.config
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\TecCargo Faktura System.exe
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\TecCargo Faktura System.pdb
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\itextsharp.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\itextsharp.xml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\FileName.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFaktura.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainWindow.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\FileName.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFaktura.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFragtBrev.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainWindow.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\App.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System_MarkupCompile.cache
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System_MarkupCompile.lref
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFragtBrev.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System.g.resources
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo_Faktura.Properties.Resources.resources
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura.csproj.GenerateResource.Cache
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System.exe
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System.pdb
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminPanel.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminPanel.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\Adminlogin.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\Adminlogin.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.DataGrid.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.Toolkit.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\FakturaGebyr.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\FakturaGebyr.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\CloseWindowText.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\CloseWindowText.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\PrisListe.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\PrisListe.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserSetup.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserSetup.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\WPFToolkit.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\WPFToolkit.pdb
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Microsoft.Expression.Drawing.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\PieControls.dll
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminKode.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminKode.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserPanel.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserPanel.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Textbox.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Textbox.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\CheckBoxButton.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\CheckBoxButton.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura.csprojResolveAssemblyReference.cache
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Address.g.cs
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Address.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\DateTimePicker.baml
+F:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\DateTimePicker.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\TecCargo Faktura System.exe.config
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System.exe
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System.pdb
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\TecCargo Faktura System.exe
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\TecCargo Faktura System.pdb
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\itextsharp.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\PieControls.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.DataGrid.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Xceed.Wpf.Toolkit.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\itextsharp.xml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\DateTimePicker.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\FileName.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFaktura.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainWindow.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminKode.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\Adminlogin.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminPanel.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\CloseWindowText.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\FakturaGebyr.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\PrisListe.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserSetup.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Address.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\CheckBoxButton.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\DateTimePicker.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\FileName.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFaktura.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFragtBrev.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainWindow.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminKode.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\Adminlogin.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\AdminPanel.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\CloseWindowText.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\FakturaGebyr.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\PrisListe.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserPanel.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserSetup.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\App.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System_MarkupCompile.cache
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System_MarkupCompile.lref
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Address.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\CheckBoxButton.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\MainFragtBrev.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\WindowsView\UserPanel.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura System.g.resources
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo_Faktura.Properties.Resources.resources
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura.csproj.GenerateResource.Cache
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Selector.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Selector.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\PakkeControl.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\PakkeControl.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\MyTextBlock.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\MyTextBlock.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\MyTextbox.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\MyTextbox.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\PrisList.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\PrisList.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Gebyr.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\Gebyr.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\App.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Resources\MyListView.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Resources\MySlider.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Spire.License.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Spire.Pdf.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Microsoft.mshtml.dll
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Spire.License.xml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\bin\Debug\Spire.Pdf.xml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Resources\MyDocumentViewer.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\MyDocumentViewer.g.cs
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\Controls\MyDocumentViewer.baml
+G:\Visual Studio Projects\TecCargo Faktura\TecCargo Faktura\obj\Debug\TecCargo Faktura.csprojResolveAssemblyReference.cache

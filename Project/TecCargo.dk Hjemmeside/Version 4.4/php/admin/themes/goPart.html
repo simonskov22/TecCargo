@@ -1,0 +1,16 @@
+<div class="AdminDiv">
+    <div style="margin: 0 280px;">
+        <!-- status -->
+        <div id="statusDiv" %STATUSDISPLAY% class="status">
+            <h2>Status</h2>
+            <button style="float: right; margin-right: 20px;">OK</button>
+            <p style="margin-bottom: 15px;">%STATUS%</p>
+        </div>
+
+        <form method="post" action="%TECCARGO%php/admin/php/price/gopart-save.php">
+            %GOPARTL%
+            <input type="reset" class="create-reset gopartB" value="Reset">
+            <input type="submit" class="create-submit gopartB" value="Gem">
+        </form>
+    </div>
+</div>

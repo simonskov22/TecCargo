@@ -1,0 +1,106 @@
+<Kunde_x0020_Information>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>BETA 1.4.2</ver>
+  </Version>
+  <Version>
+    <ver>1.0.2</ver>
+  </Version>
+  <Version>
+    <ver>1.0.10</ver>
+  </Version>
+  <Version>
+    <ver>1.1.2</ver>
+  </Version>
+  <CustomerIdCheck>
+    <Kontakt>11111111</Kontakt>
+    <Firma>testfirma1</Firma>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Kontakt>22222222</Kontakt>
+    <Firma>testnavn2</Firma>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Kontakt>44444444</Kontakt>
+    <Firma>testnavn4</Firma>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Kontakt>55555555</Kontakt>
+    <Firma>testfirma5</Firma>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Kontakt>66666666</Kontakt>
+    <Firma>testnavn6</Firma>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Kontakt>10010010</Kontakt>
+    <Firma>bob</Firma>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Kontakt>11111112</Kontakt>
+    <Firma>testfirma1</Firma>
+  </CustomerIdCheck>
+  <CustomerIdCheck>
+    <Kontakt>1</Kontakt>
+    <Firma>1</Firma>
+  </CustomerIdCheck>
+  <CustomerInformation>
+    <Kontakt>1111 1111</Kontakt>
+    <Firma>Test Firma1</Firma>
+    <Adresse>Test Adresse 10</Adresse>
+    <Post>1000</Post>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Kontakt>2222 2222</Kontakt>
+    <Firma>Test Navn2</Firma>
+    <Adresse>Test Adresse 10</Adresse>
+    <Post>2000</Post>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Kontakt>4444 4444</Kontakt>
+    <Firma>Test Navn4</Firma>
+    <Adresse>Test Adresse 10</Adresse>
+    <Post>4000</Post>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Kontakt>5555 5555</Kontakt>
+    <Firma>Test Firma5</Firma>
+    <Adresse>Test Adresse 10</Adresse>
+    <Post>5000</Post>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Kontakt>6666 6666</Kontakt>
+    <Firma>Test Navn6</Firma>
+    <Adresse>Test Adresse 10</Adresse>
+    <Post>6000</Post>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Kontakt>100 100 10</Kontakt>
+    <Firma>bob</Firma>
+    <Adresse>123</Adresse>
+    <Post>1111</Post>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Kontakt>1111 1112</Kontakt>
+    <Firma>Test Firma1</Firma>
+    <Adresse>Test Adresse 10</Adresse>
+    <Post>1000</Post>
+  </CustomerInformation>
+  <CustomerInformation>
+    <Kontakt>1</Kontakt>
+    <Firma>1</Firma>
+    <Adresse>1</Adresse>
+    <Post>2650</Post>
+  </CustomerInformation>
+</Kunde_x0020_Information>

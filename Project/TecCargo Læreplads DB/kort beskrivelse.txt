@@ -1,0 +1,2 @@
+Et program, der skal holde oplysninger om en læreplads for lager og logistik. 
+Det er muligt at udskrive oplysninger, som kan gives til en personen, der skal søge pladsen.

@@ -1,0 +1,56 @@
+﻿<Window x:Class="TecCargo_Faktura.WindowsView.FakturaGebyr"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ekstra Tillæg" Height="506.109" Width="452.754" Icon="/TecCargo Faktura System;component/Images/Icons/logo.ico" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Label Content="Ekstra Tillæg" HorizontalAlignment="Center" Margin="115,10,104,0" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI Black" FontSize="18" Foreground="#FF254078" Height="auto" Width="auto"/>
+            <Image HorizontalAlignment="Right" Height="45" Margin="0,5,10,0" VerticalAlignment="Center" Width="45" Source="/TecCargo Faktura System;component/Images/Pdf/logo.png"/>
+        </Grid>
+        <Grid Grid.Row="1" HorizontalAlignment="Center" Height="auto" Width="Auto" Margin="0,0,0,20" >
+
+            <Button x:Name="CheckBoxGebyr_Button_0" Content="Chaufførmedhjælper" HorizontalAlignment="Left" Margin="0,9,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+            <Button x:Name="CheckBoxGebyr_Button_1" Content="Flytte tillæg" HorizontalAlignment="Left" Margin="0,36,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+            <Button x:Name="CheckBoxGebyr_Button_2" Content="ADR-tillæg" HorizontalAlignment="Left" Margin="0,63,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+            <Button x:Name="CheckBoxGebyr_Button_3" Content="Aften- og nattillæg" HorizontalAlignment="Left" Margin="0,90,0,0" VerticalAlignment="top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+            <Button x:Name="CheckBoxGebyr_Button_4" Content="Weekendtillæg" HorizontalAlignment="Left" Margin="0,117,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+            <Button x:Name="CheckBoxGebyr_Button_5" Content="Yderzonetillæg" HorizontalAlignment="Left" Margin="0,144,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+            <Button x:Name="CheckBoxGebyr_Button_6" Content="Byttepalletillæg" HorizontalAlignment="Left" Margin="0,171,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False" />
+            <Button x:Name="CheckBoxGebyr_Button_7" Content="SMS servicetillæg" HorizontalAlignment="Left" Margin="0,198,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+            <Button x:Name="CheckBoxGebyr_Button_8" Content="Adresse korrektion" HorizontalAlignment="Left" Margin="0,225,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+            <Button x:Name="CheckBoxGebyr_Button_9" Content="Bro afgift" HorizontalAlignment="Left" Margin="0,252,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+            <Button x:Name="CheckBoxGebyr_Button_10" Content="Vej afgift" HorizontalAlignment="Left" Margin="0,279,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+            <Button x:Name="CheckBoxGebyr_Button_11" Content="Færge afgift" HorizontalAlignment="Left" Margin="0,306,0,0" VerticalAlignment="Top" Width="130" Padding="5,2,5,2" Background="Red" Foreground="White" FontWeight="Bold" HorizontalContentAlignment="Left" Click="CheckBoxGebyr_Button_Click" Focusable="False"/>
+
+            <TextBox x:Name="CheckBoxGebyr_TextBox_0" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,9,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.883,1.15"/>
+            <TextBox x:Name="CheckBoxGebyr_TextBox_1" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+            <TextBox x:Name="CheckBoxGebyr_TextBox_6" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+            <TextBox x:Name="CheckBoxGebyr_TextBox_7" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+            <TextBox x:Name="CheckBoxGebyr_TextBox_9" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,254,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+            <TextBox x:Name="CheckBoxGebyr_TextBox_10" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,281,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+            <TextBox x:Name="CheckBoxGebyr_TextBox_11" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Height="20" Margin="135,308,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+            
+
+            <Label Content="Antal personer" HorizontalAlignment="Left" Margin="201,7,0,0" VerticalAlignment="Top"/>
+            <Label Content="Antal personer/enheder" HorizontalAlignment="Left" Margin="201,34,0,0" VerticalAlignment="Top"/>
+            <Label Content="Antal paller" HorizontalAlignment="Left" Margin="201,168,0,0" VerticalAlignment="Top"/>
+            <Label Content="Antal advisering" HorizontalAlignment="Left" Margin="201,194,0,0" VerticalAlignment="Top"/>
+            <Label Content=".Kr" HorizontalAlignment="Left" Margin="201,250,0,0" VerticalAlignment="Top"/>
+            <Label Content=".Kr" HorizontalAlignment="Left" Margin="201,277,0,0" VerticalAlignment="Top"/>
+            <Label Content=".kr" HorizontalAlignment="Left" Margin="201,304,0,0" VerticalAlignment="Top"/>
+
+            <Button Content="Gem" IsDefault="True" Click="Button_Click_Save" HorizontalAlignment="Left" Margin="252,342,0,0" VerticalAlignment="Top" Width="75"/>
+           
+        </Grid>
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+        </Grid>
+
+        
+    </Grid>
+</Window>

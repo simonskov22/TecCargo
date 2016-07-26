@@ -1,0 +1,55 @@
+<div class="AdminDiv">
+    <div id="statusDiv" %STATUSDISPLAY% class="status">
+        <h2>Status</h2>
+        <button style="float: right; margin-right: 20px;">OK</button>
+        <p style="margin-bottom: 15px;">%STATUS%</p>
+    </div>
+    <!-- Brugere man kan ændre -->
+    <div class="edit-user-list">
+        <div class="edit-user-list-head create-msg-head">
+            <h2>Bruger Liste</h2>
+        </div>
+        <div style="border: 1px solid black; width: 298px;">
+            <div class="edit-user-list-body-head">
+                <p style="margin-left: 20px;"><b># <span style="margin-left: 40px; margin-right: 95px;">navn</span>Brugernavn</b></p>
+            </div>
+            <div id="user-list" class="edit-user-list-body">
+                <table id='user-table-box' class='user-table'>
+                    %TableUserList%
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <img style="width:170px; float: right" src="//teccargo.dk/testside/images/logo.png">
+
+    <!-- form til at ændre brugen -->
+    <div class="admin-form-edit">
+
+        <div class="admin-form-head">
+            <center><h2>Rediger Bruger</h2></center>
+        </div>
+        <div class="admin-form-body">
+            <form id="user-form-edit" class="user-form" action="//teccargo.dk/testside/php/admin/php/users/editUserSave.php" method="post">
+                <div id="editFieldset">
+                    <fieldset>
+                        <legend>Person oplysninger</legend>
+                        <input type="text" placeholder="Fornavn" name="edit-user-name" value="%EDITN%"><br>
+                        <input type="text" placeholder="Efternavn" name="edit-user-lastname" value="%EDITE%"><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Login oplysninger</legend>
+                        <input type="text" placeholder="Brugernavn" name="edit-user-username" value="%EDITB%"><br>
+                        <input type="password" placeholder="Kodeord" name="edit-user-password" value="%EDITK%"><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Bruger type</legend>
+                        <input type="radio" value="Bruger" name="edit-user-type">Bruger
+                        <input type="radio" value="Admin" name="edit-user-type">Admin<br>
+                    </fieldset>
+                </div>
+                <input style="width: 180px;"  type="submit" value="Gem"class="create-submit">
+            </form>
+        </div>
+    </div>
+</div>

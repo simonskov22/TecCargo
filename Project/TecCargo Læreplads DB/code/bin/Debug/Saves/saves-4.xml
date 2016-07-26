@@ -1,0 +1,137 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="general">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="version" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="kontaktPerson">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="navn" type="xs:string" minOccurs="0" />
+                <xs:element name="mobil" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="stilling" type="xs:string" minOccurs="0" />
+                <xs:element name="print" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="kandidater">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="navn" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="uddannelsesaftale1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="checkbox" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="uddannelsesaftale2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="checkbox" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="sproglige">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="files">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="path" type="xs:string" minOccurs="0" />
+                <xs:element name="link" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="andet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="virsomhed" type="xs:string" minOccurs="0" />
+                <xs:element name="CVR" type="xs:string" minOccurs="0" />
+                <xs:element name="adresse" type="xs:string" minOccurs="0" />
+                <xs:element name="andetTjenestested" type="xs:string" minOccurs="0" />
+                <xs:element name="virsomhedProfil" type="xs:string" minOccurs="0" />
+                <xs:element name="uddannelses_lager" type="xs:string" minOccurs="0" />
+                <xs:element name="uddannelses_chauffor" type="xs:string" minOccurs="0" />
+                <xs:element name="uddannelses_lufthavn" type="xs:string" minOccurs="0" />
+                <xs:element name="motiveretAnsoegning" type="xs:string" minOccurs="0" />
+                <xs:element name="cv" type="xs:string" minOccurs="0" />
+                <xs:element name="perOpkald" type="xs:string" minOccurs="0" />
+                <xs:element name="perMoede" type="xs:string" minOccurs="0" />
+                <xs:element name="other" type="xs:string" minOccurs="0" />
+                <xs:element name="antalAftaler" type="xs:string" minOccurs="0" />
+                <xs:element name="datoFrist" type="xs:string" minOccurs="0" />
+                <xs:element name="antalKandidater" type="xs:string" minOccurs="0" />
+                <xs:element name="startDato" type="xs:string" minOccurs="0" />
+                <xs:element name="jobBeskrivelse" type="xs:string" minOccurs="0" />
+                <xs:element name="alder" type="xs:string" minOccurs="0" />
+                <xs:element name="straffet" type="xs:string" minOccurs="0" />
+                <xs:element name="koerekort" type="xs:string" minOccurs="0" />
+                <xs:element name="fysiske" type="xs:string" minOccurs="0" />
+                <xs:element name="matematiske" type="xs:string" minOccurs="0" />
+                <xs:element name="bemaerkninger" type="xs:string" minOccurs="0" />
+                <xs:element name="VUF" type="xs:string" minOccurs="0" />
+                <xs:element name="aftaleHvem" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <general>
+    <version>1.5</version>
+  </general>
+  <uddannelsesaftale1>
+    <checkbox>lagerLogistik</checkbox>
+  </uddannelsesaftale1>
+  <uddannelsesaftale1>
+    <checkbox>logerTransport</checkbox>
+  </uddannelsesaftale1>
+  <uddannelsesaftale2>
+    <checkbox>checkbox_rest</checkbox>
+  </uddannelsesaftale2>
+  <andet>
+    <virsomhed>Test Jensen</virsomhed>
+    <CVR />
+    <adresse />
+    <andetTjenestested />
+    <virsomhedProfil />
+    <uddannelses_lager />
+    <uddannelses_chauffor />
+    <uddannelses_lufthavn />
+    <motiveretAnsoegning>False</motiveretAnsoegning>
+    <cv>False</cv>
+    <perOpkald>False</perOpkald>
+    <perMoede>False</perMoede>
+    <other />
+    <antalAftaler />
+    <datoFrist>01-01-0001</datoFrist>
+    <antalKandidater />
+    <startDato>01-01-0001</startDato>
+    <jobBeskrivelse />
+    <alder />
+    <straffet />
+    <koerekort />
+    <fysiske />
+    <matematiske />
+    <bemaerkninger />
+    <VUF />
+    <aftaleHvem />
+  </andet>
+</NewDataSet>

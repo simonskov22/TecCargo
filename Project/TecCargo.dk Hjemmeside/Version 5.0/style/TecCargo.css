@@ -1,0 +1,196 @@
+.tecCargo p, .tecCargo h1, .tecCargo h2, .tecCargo h3, .tecCargo h4, .tecCargo h5, .tecCargo h6, .tecCargo ul,.tecCargo ol,.tecCargo li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-indent: 0;
+}
+
+.tecCargo{
+    background: #e4e4e4;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font: normal 16px Helvetica, Arial, sans-serif;
+}
+.tecCargo .outerBox{
+    width: 100%;
+}
+.tecCargo .innerBox{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tecCargo .top{
+    position: relative;
+    background: #fff;
+    height: 170px;
+}
+.tecCargo .top .innerBox{
+    position: relative;
+    height: 100%;
+}
+.tecCargo .top .innerBox .contentBottom{
+    position: absolute;
+    bottom: 20px;
+}
+.tecCargo .top .logo{
+
+    height: 100px;
+    width: 105px;
+}
+.tecCargo .navigation{
+    min-height: 35px;
+    background: #254078;
+}
+.tecCargo .content{
+
+    background: #fff;
+    margin-top: 20px;   
+}
+.tecCargo .content .contentInner{
+    padding: 15px 10px;
+}
+.tecCargo .bottom{
+    text-align: center;
+}
+.tecCargo .bottom .innerBox{
+    border-top: 2px solid #000;
+}
+.tecCargo .bottom .tableFooter td{
+    width: 33.33%;
+}
+
+/* log ind box */
+.memberBox{
+    border: 1px solid #000;
+    display: inline-block;
+    max-height: 140px;
+    float: right;
+    margin-top: 15px;
+    min-width: 250px;
+    max-width: 300px;
+}
+.memberBox .formHeader{
+    background: #254078;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.memberBox .formContent input[type='text'],
+.memberBox .formContent input[type='password']{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 200px;
+
+    padding: 5px 10px;
+    border: 2px solid #BBB;
+}
+.memberBox .formContent input[type='checkbox']{
+    margin-left: 10px;
+}
+.memberBox .formContent input[type='submit']{
+
+    display: inline-block;
+    background: #18B118;
+    border-color: #18B118;
+    margin-left: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 2px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    padding: 5px 5px;
+}
+
+.memberBox .formContent input[type='submit']:hover{
+
+    background: #109610;
+    border: 2px outset #109610;
+}
+.tecCargo .uppercase{
+    text-transform: capitalize;
+}
+.colorBlue{
+    color: #254078;;
+}
+.colorRed{
+    color: #f73700;
+}
+.colorGreen{
+    color: #5AC440;
+}
+.defaultButton{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-width: 2px;
+    border-style: outset;
+    font-size: 14px;
+    cursor: pointer;
+}
+.buttonsColorBlue{
+    
+    background-color: #254078;
+    border-color: #254078;
+    color: #fff;
+}
+.buttonsColorBlue:hover{
+    background-color: #132750;
+    border-color: #132750;
+}
+
+.buttonsColorGreen{
+    
+    background-color: #5AC440;
+    border-color: #5AC440;
+    color: #fff;
+}
+.buttonsColorGreen:hover{
+    background-color: #41A528;
+    border-color: #41A528;
+}
+.buttonsColorLightBlue{
+    
+    background-color: #4680CA;
+    border-color: #4680CA;
+}
+.buttonsColorLightBlue:hover{
+    
+    background-color: #3667A5;
+    border-color: #3667A5;
+}
+
+.formContent a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px 15px;
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+.formContent a.red{
+    background-color: #f00;
+    border: 2px outset #f00;
+}
+.formContent a.blue{
+    background-color: #4680CA;
+    border: 2px outset #4680CA;
+}
+
+.formContent a.red:hover{
+    background-color: #D20606;
+    border: 2px outset #D20606;
+}
+.formContent a.blue:hover{
+    background-color: #3667A5;
+    border: 2px outset #3667A5;
+}

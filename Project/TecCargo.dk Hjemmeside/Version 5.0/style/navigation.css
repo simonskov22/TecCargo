@@ -1,0 +1,174 @@
+.TecNavigationBox{
+    position: relative;
+    cursor: default;
+    
+    z-index: 200;
+}
+.TecNavigation li{
+    display: inline-block;
+    font-size: 13px;
+}
+.TecNavigation .navbar .navbarLink{
+    position: relative;
+}
+.TecNavigation .navbar:hover div{
+    z-index: 100;
+}
+.TecNavigation .navbarLink:hover .dropDownArrow:after{
+    border-top-color: #AF2700;
+} 
+.TecNavigation .navbar .navbarLink:hover{
+    color: #f73700;
+}
+.TecNavigation li.header:hover,
+.TecNavigation .dropdownSmall li.option a:hover{
+    color: #a32403;
+}
+
+.TecNavigation .dropdownLong li.option a:hover,
+.TecNavigation .dropdownSmall li.option a:hover{
+    background: #C9C9C9;
+}
+.TecNavigation .navbar .img{
+    text-align: center;
+    display: table-cell;
+    vertical-align: bottom;
+    height: 150px;
+}
+.TecNavigation .navbar a{
+    text-decoration: inherit;
+    color: inherit;
+    padding: 10px 15px;
+    display: block;
+}
+.TecNavigation .navbar{
+    font-weight: bold;
+    color: #fff;   
+}
+
+.TecNavigation .navbar div{
+    position: absolute;
+    background: #fff;
+    color: #000;
+    border: 1px groove #000;
+    border-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    top: 0;
+}
+
+.TecNavigation .navbar div ul{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.TecNavigation .navbar div li{
+    padding: 0;
+    display: block;
+}
+.TecNavigation .navbar .dropdownLong{
+    left: 0;
+}
+
+.TecNavigation .navbar .dropdownLong img{
+    max-height: 150px;
+    max-width: 150px;
+}
+.TecNavigation li.header{
+    padding: 5px 5px 5px 15px !important;
+    margin-bottom: 5px;
+    background: #254078;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    min-width: 160px;
+}
+
+.TecNavigation .dropdownLong li.option a{
+    padding: 4px 5px 4px 20px !important;
+    font-weight: bolder;
+    color: #254078;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.TecNavigation .navbar .dropdownSmall{
+    min-width: 160px;
+}
+
+.TecNavigation .navbar .dropdownSmall a{
+    padding: 0;
+    min-width: 170px;
+    padding: 5px;
+}
+.TecNavigation .dropdownSmall li.option a{
+
+    font-weight: normal;
+}
+
+.TecNavigation span.arrow{
+    margin-right: 10px;
+}
+
+
+.TecNavigation .navbar .showOnHover{
+    display: none;
+}
+.TecNavigation .dropDownArrow:after{    
+    content: '';
+    border-top: 5px solid;
+    border-top-color: #000;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.TecNavigation .dropdownLong li.option .red{
+    color: #f73700;
+}
+.TecNavigation .dropdownLong li.option .green{
+    color: #5AC440;
+}
+.TecNavigation .dropdownLong li.option .black{
+    color: #000;
+}
+
+
+/* button */
+.tecNavButtons{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.tecNavButtons a{
+    margin-top: 4px;
+    margin-left: 10px;
+    padding: 5px 15px;
+    font-size: 12px;
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+.tecNavButtons a.red{
+    background-color: #f00;
+    border: 2px outset #f00;
+}
+.tecNavButtons a.blue{
+    background-color: #4680CA;
+    border: 2px outset #4680CA;
+}
+
+.tecNavButtons a.red:hover{
+    background-color: #D20606;
+    border: 2px outset #D20606;
+}
+.tecNavButtons a.blue:hover{
+    background-color: #3667A5;
+    border: 2px outset #3667A5;
+}

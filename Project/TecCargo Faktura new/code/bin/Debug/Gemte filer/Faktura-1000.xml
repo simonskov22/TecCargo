@@ -1,0 +1,44 @@
+<Filnavn_x0020_Faktura-1000>
+  <Version>
+    <ver>2.1.1</ver>
+  </Version>
+  <FakturaInfo>
+    <Price>115</Price>
+    <IsClosed>True</IsClosed>
+    <ClosedText />
+  </FakturaInfo>
+  <FragtBrevInfo>
+    <Fragtnumber>1000</Fragtnumber>
+    <FragtbrevNavn>Fragtbrev-1000</FragtbrevNavn>
+    <TrasportId>2</TrasportId>
+  </FragtBrevInfo>
+  <Gebyr>
+    <Chauffør>False</Chauffør>
+    <Chauffør_x0020_antal>0</Chauffør_x0020_antal>
+    <Flytte>False</Flytte>
+    <Flytte_x0020_antal>0</Flytte_x0020_antal>
+    <ADR>False</ADR>
+    <Aften_x0020_og_x0020_nat>False</Aften_x0020_og_x0020_nat>
+    <Weekend>False</Weekend>
+    <Yderzone>False</Yderzone>
+    <Byttepalle>False</Byttepalle>
+    <Byttepalle_x0020_antal>0</Byttepalle_x0020_antal>
+    <SMS>False</SMS>
+    <SMS_x0020_antal>0</SMS_x0020_antal>
+    <Adresse_x0020_korrektion>False</Adresse_x0020_korrektion>
+    <Bro_x0020_afgift>False</Bro_x0020_afgift>
+    <Bro_x0020_beløb>0</Bro_x0020_beløb>
+    <Vej_x0020_afgift>False</Vej_x0020_afgift>
+    <Vej_x0020_beløb>0</Vej_x0020_beløb>
+    <Færge_x0020_afgift>False</Færge_x0020_afgift>
+    <Færge_x0020_beløb>0</Færge_x0020_beløb>
+  </Gebyr>
+  <ekstraComment>
+    <Aktiver>False</Aktiver>
+    <Bemærkninger xml:space="preserve">
+</Bemærkninger>
+  </ekstraComment>
+  <Initialer>
+    <Id>SS</Id>
+  </Initialer>
+</Filnavn_x0020_Faktura-1000>

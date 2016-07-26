@@ -1,0 +1,110 @@
+.adminUser{
+        
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 2px 2px;
+    border-left: 1px solid #000;
+}
+.adminUser .formheader{
+
+    background: #254078;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.adminUser .formcontent{
+    width: 100%; 
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.adminUser .formbottom{
+
+    background: #254078;
+    padding: 20px 0;
+}
+.adminUser input[type='text'],.adminUser input[type='password']{
+
+    height: 24px;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ADADAD;
+    padding-right: 25px;
+}
+.adminUser input[type='reset']{
+    background-color: #1187CE;
+    border-color: #1187CE;
+    color: #fff;
+}
+.adminUser input[type='submit']{
+
+    background-color: #21CC0D;
+    border-color: #21CC0D;
+    color: #fff;
+}
+.adminUser input[type='reset']:hover{
+
+    background-color: #086298;
+    border-color: #086298;
+}
+.adminUser input[type='submit']:hover{
+
+    background-color: #149005;
+    border-color: #149005;
+    color: #fff;
+}
+input[type='reset'].buttonInactive,
+input[type='submit'].buttonInactive{
+    background-color: #9E9E9E;
+    border-color: #9E9E9E;
+
+}
+.adminUser .tablespace{
+    height: 15px;
+}
+
+.adminDropDown{
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+.adminDropDown .dropdownHeader{
+    font-weight: bold;
+
+    padding: 10px;
+    font-size: 20px;
+    background-color: #254078;
+    color: #fff;
+    cursor: pointer;
+}
+.adminDropDown .dropdownHeader .arrow:after{
+    content: '';
+    border-top: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    float: right;
+    margin-top: 5px;
+}
+.adminDropDown .dropdownContent{
+
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px groove #000;
+    position: absolute;
+    width: 100%;
+}
+.adminDropDown .dropdownOption ul{
+
+    max-height: 250px;
+    overflow-y: scroll;
+}
+.adminDropDown .dropdownOption ul li{
+    display: none;
+    border-top: 1px solid #000;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #fff;
+}
+.adminDropDown .dropdownOption ul li:hover{
+    background: #D2D2D2;
+}

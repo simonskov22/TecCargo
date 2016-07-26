@@ -1,0 +1,29 @@
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\bin\Debug\TecCargo Dagbog.exe.config
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog.csprojResolveAssemblyReference.cache
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\MainWindow.baml
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\OpenList.baml
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\SelectType.baml
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\MainWindow.g.cs
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\OpenList.g.cs
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\SelectType.g.cs
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\App.g.cs
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog_MarkupCompile.cache
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog.g.resources
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo_Dagbog.Properties.Resources.resources
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog.csproj.GenerateResource.Cache
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\bin\Debug\TecCargo Dagbog.exe
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\bin\Debug\TecCargo Dagbog.pdb
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog.exe
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog.pdb
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\ShowFile.baml
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\ShowFile.g.cs
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\bin\Debug\itextsharp.dll
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\bin\Debug\itextsharp.xml
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\bin\Debug\RawPrint.dll
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\PrinterOptions.baml
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\PrinterOptions.g.cs
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\AddFile.baml
+F:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\View\AddFile.g.cs
+G:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\bin\Debug\TecCargo Dagbog.exe.config
+G:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog.exe
+G:\Visual Studio Projects\TecCargo Dagbog\TecCargo Dagbog\obj\Debug\TecCargo Dagbog.pdb

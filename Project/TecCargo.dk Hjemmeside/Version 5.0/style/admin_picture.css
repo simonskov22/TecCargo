@@ -1,0 +1,27 @@
+table.adminPictureTable{
+    border-collapse: collapse;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.adminPictureTable img{
+    max-height: 100px; 
+    max-width: 100px;
+}
+.adminPictureTable td{
+    height: 110px;
+    border-bottom: 1px solid #000;
+}
+.tecPictureForm h2{
+    margin: 0;
+}
+
+.pageButton{
+    color: #fff;
+    background: #006EDB;
+    border: 2px outset #006EDB;
+}
+.pageButton:hover{
+    background: #0655A2;
+    border: 2px outset #0655A2;
+
+}

@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="TecCargo_Faktura.Controls.MyTextBlock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TecCargo_Faktura.Controls"
+             xmlns:model="clr-namespace:TecCargo_Faktura.Models"
+             x:Name="_Textblock" 
+             Loaded="_Textblock_Loaded"
+             MouseEnter="_Textblock_MouseEnter"
+             MouseLeave="_Textblock_MouseEnter"
+             Panel.ZIndex="1000"  Margin="0"
+             Height="{Binding Height, FallbackValue=200}" >
+    <UserControl.Resources>
+        <model:BoolToVisibilityConverter x:Key="PlaceholderConverter" TrueValue="Visible" FalseValue="Collapsed"/>
+        <model:BoolToBrushConverter x:Key="ConverterBorderBrush" TrueValue="Red" FalseValue="LightGray"/>
+    </UserControl.Resources>
+
+    <Grid Background="White" HorizontalAlignment="Left" IsEnabled="{Binding IsUnLock, ElementName=_Textblock}" IsEnabledChanged="_Grid_IsEnabledChanged">
+        <Label x:Name="_hovertext" Visibility="Hidden" IsEnabled="True" Margin="0"
+            Content="{Binding Placeholder, ElementName=_Textblock}" 
+            Foreground="#FF5489BD" Background="#FFE2E0E0"
+            Height="auto"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Width="{Binding Width, ElementName=_Textblock}" 
+            Padding="10,5" 
+            FontSize="{Binding PlaceTextSize, ElementName=_Textblock}"
+            FontWeight="Bold" 
+            BorderThickness="1,1,1,0" BorderBrush="#FF5489BD"
+            Panel.ZIndex="100"
+            MouseEnter="_Textblock_MouseEnter"/>
+
+
+        <TextBlock x:Name="placeholder"  Margin="0"
+            Text="{Binding Placeholder, ElementName=_Textblock}" 
+            Foreground="#FF5489BD" 
+            Width="{Binding Width, ElementName=_Textblock}" 
+            Height="{Binding Height, ElementName=_Textblock}" 
+            Padding="10,5" FontSize="{Binding PlaceTextSize, ElementName=_Textblock}"  
+            Visibility="{Binding ElementName=Input, Path=Text.IsEmpty, 
+                Converter={StaticResource PlaceholderConverter}}" 
+            Background="#FFE2E0E0" 
+            IsVisibleChanged="placeholder_IsVisibleChanged"/>
+
+        <ScrollViewer x:Name="textboxScroll" Height="{Binding Height, ElementName=_Textblock}" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto"  Margin="0">
+            <TextBox TextWrapping="Wrap"
+                     
+            BorderBrush="{Binding RequireEnableRedBorder, ElementName=_Textblock, Converter={StaticResource ConverterBorderBrush}}"
+            BorderThickness="1"
+            Margin="0"
+            Text="{Binding Text, ElementName=_Textblock}" 
+            Name="Input" Background="Transparent" AcceptsReturn="True"
+            Width="{Binding Width, ElementName=_Textblock}" 
+            Height="auto" MinHeight="{Binding Height, ElementName=_Textblock}"
+            Padding="10,5" 
+            FontSize="{Binding TextSize, ElementName=_Textblock}" 
+            VerticalContentAlignment="Top"  
+            SizeChanged="Input_SizeChanged"
+            TextChanged="Input_TextChanged"
+            LostFocus="Input_LostFocus"
+            />
+    </ScrollViewer>
+    </Grid>
+</UserControl>

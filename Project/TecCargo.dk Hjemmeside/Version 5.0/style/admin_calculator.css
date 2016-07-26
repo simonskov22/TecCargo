@@ -1,0 +1,97 @@
+.calculaterBox{
+    width: 380px;
+    margin: 0 auto;
+    box-shadow: 2px 2px;
+    border-left: 1px solid #000;
+}
+.calculaterBox .calculaterHeader{
+    color: #fff;
+    background: #254078;
+    text-align: center;
+
+    padding: 25px 0px;
+}
+.calculaterBox .input{
+
+    padding: 10px;
+    background-color: #D8D8D8;
+    border: 2px groove #9A9A9A;
+    margin: 0 20px;
+}
+.calculaterBox .helpText{
+
+    padding: 8px 0;
+    padding-left: 20px;
+}
+.calculaterBox .buttons{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.calculaterBox .buttons button{
+
+    width: 80px;
+    height: 40px;
+    background-color: #254078;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #254078;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+.calculaterBox .buttons button:hover{
+
+    background-color: #152D5F;
+    border-color: #152D5F;
+}
+
+.calculaterBox .buttons button:active{
+
+    border-style: inset;
+    color: #B9B9B9;
+}
+.calculaterBox .buttons .clear{
+
+    background-color: #f00;
+    border-color: #f00;
+    width: 38px;
+}
+.calculaterBox .buttons .plus{
+
+    background-color: #0CBF2F;
+    border-color: #0CBF2F;
+}
+.calculaterBox .buttons .enter{
+
+    background-color: #4680CA;
+    border-color: #4680CA;
+}
+
+.calculaterBox .buttons .clear:hover{
+
+    background-color: #D60202;
+    border-color: #D60202;
+}
+.calculaterBox .buttons .plus:hover{
+
+    background-color: #089C25;
+    border-color: #089C25;
+}
+.calculaterBox .buttons .enter:hover{
+
+    background-color: #295EA0;
+    border-color: #295EA0;
+}
+.calculaterBox .calculaterStatusSeleted{
+    background: #807C7C;
+    border: 2px groove #1354D4;
+    padding: 2px;
+}
+.calculaterBox .inputResult{
+
+    text-align: right;
+    width: 100%;
+    display: block;
+}

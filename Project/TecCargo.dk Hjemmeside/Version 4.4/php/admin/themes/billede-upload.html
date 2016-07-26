@@ -1,0 +1,54 @@
+<div class="AdminDiv">
+    <div class="billede-upload">
+        <div id="statusDiv" %STATUSDISPLAY% class="status">
+            <h2>Status</h2>
+            <button style="float: right; margin-right: 20px;">OK</button>
+            <p style="margin-bottom: 15px;">%STATUS%</p>
+        </div>
+        <form method="post" action="%TECCARGO%php/admin/php/billeder/upload.php" enctype="multipart/form-data" class="formUpload">
+            <div style="margin-bottom: 15px;">
+                <div class="fileUpload filebutton">
+                    <span style="font-size: 12px;">Vælg fil</span>
+                    <input id="uploaded-file" name="upload_file" type="file" class="upload" accept="image/*"/>
+                </div>
+                <label id="uploadName" style="margin-left: 10px;">Ingen fil valgt</label>
+            </div>
+            <input style="float: right;" type="submit" value="Upload">
+        </form>
+
+        <form method="post" action="%TECCARGO%php/admin/php/billeder/delete.php">
+            <table class="billeder">
+                <tr>
+                    <th>Billede</th>
+                    <th>Navn</th>
+                    <th><input id="delete" type="submit" value="Slet"></th>
+                </tr>
+                %TABLEP%
+            </table>
+
+        </form>
+        <form name="viewpic" method="get" style="
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 220px;
+        background: #bbb;
+        padding: 10px;">
+
+            <input id="aSite" type="hidden" value="%SIDER%">
+            <table>
+                <tr>
+                    <td style="text-align: right;"><input style="width: 30px; text-align: right;" type="text" name="site" value="%SIDE%"></td>
+                    <td>/ %SIDER%</td>
+                    <td><input type="submit" value="Gå til"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><input id="back" type="button" value= "Forrige side"></td>
+                    <td></td>
+                    <td><input id="next" type="button" value="Næste side"></td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+</div>

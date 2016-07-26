@@ -1,0 +1,79 @@
+﻿<Window x:Class="TecCargo_Faktura.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TecCargo.dk - Faktura System" Height="535.8" Width="521" Icon="Images/Icons/logo.ico" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" MinHeight="309.8" SizeToContent="Height">
+    <Grid Margin="0,0,-6,-1" Height="auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*" MinHeight="313"/>
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0"  Background="#FF2C72B8" HorizontalAlignment="Stretch" Width="auto">
+            <Label Content="TecCargo.dk - Faktura System" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI Black" FontSize="24" Foreground="#FF254078"/>
+            <Image HorizontalAlignment="Right" Height="60" Margin="0,0,10,0" VerticalAlignment="Center" Width="55" Source="Images/Pdf/logo.png"/>
+            <Button x:Name="ToolsbarButton_Admin" Content="Admin" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Padding="8,0" Height="20" Margin="5,5,0,0" VerticalAlignment="Top" Grid.IsSharedSizeScope="True" Click="ToolsbarButton_Admin_Click" Background="#FF2A8AEA" BorderBrush="#FF1F62A4"/>
+        </Grid>
+        <Grid Grid.Row="1" Width="450" HorizontalAlignment="Center" Margin="0,10,0,10">
+            <Button HorizontalAlignment="Left" Height="69" Margin="0,10,0,0" VerticalAlignment="Top" Width="208" Click="newFagt_click">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1416249682_698913-icon-81-document-add-128.png"/>
+                    <Label Content="Nyt Fragtbrev" Height="34" Margin="0,12,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+
+            <Button HorizontalAlignment="Left" Height="69" Margin="233,10,0,0" VerticalAlignment="Top" Width="208" IsEnabled="true" Click="newFaktura_click">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1416249682_698913-icon-81-document-add-128.png"/>
+                    <Label Content="Faktura" Height="34" Margin="0,12,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" Height="69" Margin="0,84,0,0" VerticalAlignment="Top" Width="208" Click="editFragt_click">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1416249686_698873-icon-136-document-edit-128.png"/>
+                    <Label Content="Rediger Fragtbrev" Height="34" Margin="0,12,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" Height="69" Margin="233,84,0,0" VerticalAlignment="Top" Width="208" IsEnabled="True" Click="EditFaktura_click">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1416249686_698873-icon-136-document-edit-128.png"/>
+                    <Label Content="Rediger Faktura" Height="34" Margin="0,12,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" Height="69" Margin="0,158,0,0" VerticalAlignment="Top" Width="208" Click="Button_click_openFragtmappe">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1417115816_698928-icon-95-folder-128.png"/>
+                    <Label Content="Åben Fragtbrev&#xD;&#xA;PDF mappe" Height="46" VerticalAlignment="Top" Width="135" Margin="0,0" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" Height="69" Margin="233,158,0,0" VerticalAlignment="Top" Width="208" IsEnabled="true" Click="Button_click_openFakturamappe">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1417115816_698928-icon-95-folder-128.png"/>
+                    <Label Content="Åben Faktura&#xD;&#xA;mappe" Height="46" Margin="0,0,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+            <Button IsEnabled="True" HorizontalAlignment="Left" Height="69" Margin="0,306,0,0" VerticalAlignment="Top" Width="208" Click="Button_Click_FragtbrevPrint">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1417103306_699434-icon-70-document-file-pdf-128.png"/>
+                    <Label Content="Åben Fragtbrev&#xD;&#xA;PDF Skabelon" Height="46" VerticalAlignment="Top" Width="135" Margin="0,0" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+            <Button HorizontalAlignment="Left" Visibility="Visible" Height="69" Margin="233,232,0,0" VerticalAlignment="Top" Width="208" IsEnabled="False">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/1417103306_699434-icon-70-document-file-pdf-128.png"/>
+                    <Label Content="Åben Faktura&#xD;&#xA;PDF Skabelon" Height="46" Margin="0,0,0,0" VerticalAlignment="Top" Width="135" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+            <Button IsEnabled="True" HorizontalAlignment="Left" Height="69" Margin="0,232,0,0" VerticalAlignment="Top" Width="208" Click="Button_Click_CloseFragtbrev">
+                <StackPanel Height="54" Width="192" Orientation="Horizontal">
+                    <Image Height="53" Margin="0" VerticalAlignment="Top" Width="49" HorizontalAlignment="Left" Source="Images/Icons/FragtbrevDone.png"/>
+                    <Label Content="Afslut Fragtbrev" Height="auto" VerticalAlignment="Center" Width="135" Margin="0,0" FontWeight="Bold" FontSize="14"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="2"  Background="#FF2C72B8" HorizontalAlignment="Stretch" Width="auto">
+            <Label x:Name="labelVersion_version" Content="Version: " HorizontalAlignment="Left" Margin="41,0,0,0" VerticalAlignment="Top"/>
+            <Label Content="Kodet af: Simon Skov" HorizontalAlignment="Left" Margin="41,24,0,0" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Window>

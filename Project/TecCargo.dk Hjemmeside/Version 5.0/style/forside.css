@@ -1,0 +1,144 @@
+/* Member */
+.circleCenter{
+        
+    width: 980px;
+    margin: 0 auto;
+}
+.circleBox{
+    position: relative;
+}
+
+.circleBox ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.circleBox ul li{
+    padding: 60px 0px;
+
+}
+
+.circleBox ul li a{
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    color: #254078;
+    padding: 5px;
+
+    z-index: 50;
+}
+.circleBox ul li .redText{
+    color: #f73700;
+}
+.circleBox ul li .greenText{
+    color: #5AC440;
+}
+.circleBox ul li .blackText{
+    color: #000;
+}
+.circleBox ul li a.redBorder{
+    border: 2px solid #f73700;
+}
+.circleBox ul li a.greenBorder{
+
+    border: 2px solid #5AC440;
+}
+.circleBox .imgBox{
+
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 60px;
+
+    z-index: 50;
+}
+.circleBox .showRedBorder{
+
+    border: 2px solid #f73700;
+}
+.circleBox .showGreenBorder{
+
+    border: 2px solid #5AC440;
+}
+.circleBox a.hideBorder{
+    border: 0 !important;
+}
+
+
+.hoverLines{
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.hoverLines .logoLink{
+    display: none;
+    stroke-width: 2;
+}
+.hoverLines .lineRed{
+    stroke: #f73700;
+}
+.hoverLines .lineGreen{
+    stroke: #5AC440;
+}
+/* Guest */
+.tecTrackBox{
+
+    background-color: #fff;
+    display: inline-block;
+    width: 400px;
+    min-height: 400px;
+    box-shadow: 2px 2px 2px;
+    vertical-align: top;
+    border-left: 1px solid #000;
+}
+.tecTrackBox .header{
+
+    background: #254078;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+}
+.tecTrackBox .searchInput{
+    text-align: center;
+}
+.tecTrackBox .searchInput input[type='text']{
+    height: 30px;
+    width: 250px;
+    font-size: 18px;
+    border: 2px solid #BBB;
+    margin: 0;
+    outline: none;
+    padding: 5px 50px 5px 5px;
+}
+.tecTrackBox .searchInput input[type='submit']{
+    background-color: #254078;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    margin-left: -54px;
+    border: 0;
+    width: 50px;
+    vertical-align: top;
+    outline: none;
+}
+.tecTrackBox .text{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.parktikcenterBox{
+
+    display: inline-block;
+    width: 700px;
+    margin-left: 20px;
+    text-align: initial;
+}

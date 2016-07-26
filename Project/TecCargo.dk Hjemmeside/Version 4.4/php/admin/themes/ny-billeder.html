@@ -1,0 +1,52 @@
+<div>
+    <div id="statusDiv" %STATUSDISPLAY% class="status">
+        <h2>Status</h2>
+        <button style="float: right; margin-right: 20px;">OK</button>
+        <p>Billederne er nu gemt</p>
+        <p style="margin-bottom: 15px;">%STATUS%</p>
+    </div>
+    <form method="post" action="%TECCARGO%php/admin/php/billeder/menuBilleder.php">
+        <h3>Menu</h3>
+        <table>
+            <tr>
+                <th>Kurertransport</th>
+                <th>Pakketransport</th>
+                <th>Godstransport</th>
+                <th>Logistics</th>
+                <th>Montage</th>
+            </tr>
+            <tr>
+                <td><input type="text" value="%MENU1%" name="menu1"></td>
+                <td><input type="text" value="%MENU2%" name="menu2"></td>
+                <td><input type="text" value="%MENU3%" name="menu3"></td>
+                <td><input type="text" value="%MENU4%" name="menu4"></td>
+                <td><input type="text" value="%MENU5%" name="menu5"></td>
+            </tr>
+        </table>
+        
+        <h3>GoGreen og GoPlus</h3>
+        <table>
+            <tr>
+                <th>XS Pakke</th>
+                <th>S Pakke</th>
+                <th>M Pakke</th>
+                <th>L Pakke</th>
+                <th>XL Pakke</th>
+                <th>2XL Pakke</th>
+                <th>3XL Pakke</th>
+                <th>Info</th>
+            </tr>
+            <tr>
+                <td><input type="text" value="%PAKKE1%" name="pakke1"></td>
+                <td><input type="text" value="%PAKKE2%" name="pakke2"></td>
+                <td><input type="text" value="%PAKKE3%" name="pakke3"></td>
+                <td><input type="text" value="%PAKKE4%" name="pakke4"></td>
+                <td><input type="text" value="%PAKKE5%" name="pakke5"></td>
+                <td><input type="text" value="%PAKKE6%" name="pakke6"></td>
+                <td><input type="text" value="%PAKKE7%" name="pakke7"></td>
+                <td><input type="text" value="%PAKKE8%" name="pakke8"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Gem" class="create-submit" style="height: 40px; margin-top: 20px;">
+    </form>
+</div>

@@ -1,0 +1,453 @@
+﻿<Window x:Class="TecCargo_Læreplads_DB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TECcargo Læreplads" Height="2000" Width="auto" Icon="Images/logo.ico" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded" Closing="Window_Closing">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Button Visibility="Visible" HorizontalAlignment="Left" Height="30" Margin="10,5,0,0" VerticalAlignment="Top" Width="30" TabIndex="2000000" Click="Button_ToolMenu_Click">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left"  ToolTip="Start Menu" Source="Images/target.png"/>
+            </Button>
+
+            <Button Visibility="Visible" HorizontalAlignment="Left" Height="30" Margin="45,5,0,0" VerticalAlignment="Top" Width="30" TabIndex="2000000" Click="Button_ToolSave_Click">
+                <Image Name="imageSave" Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left"  ToolTip="Gem" Source="Images/save_check.png"/>
+            </Button>
+
+            <Button Visibility="Visible" HorizontalAlignment="Left" Height="30" Margin="80,5,0,0" VerticalAlignment="Top" Width="30" TabIndex="2000000" Click="Button_ToolPrint_Click">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left"  ToolTip="Print" Source="Images/printer.png"/>
+            </Button>
+            <Image HorizontalAlignment="Right" Height="60" Margin="0,0,0,0" VerticalAlignment="Center" Width="55" Source="/TecCargo Læreplads DB;component/Images/logo.png" />
+        </Grid>
+        <ScrollViewer Grid.Row="1" Margin="0,0,0,0">
+            <Grid  Width="auto" Height="auto" HorizontalAlignment="Center" VerticalAlignment="Top" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="0,0,0,20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content="Virksomhedens Navn:" FontSize="14" FontWeight="Bold" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="virkNavn" Margin="0,30,0,0" Grid.Row="0" Grid.Column="0" Text="" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalContentAlignment="Center"  />
+                    <Label Content="CVR nr." FontSize="14" FontWeight="Bold" Margin="0,0,0,0" Grid.Row="1" Grid.Column="0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="virkCVR" Margin="0,30,0,0" Grid.Row="1" Grid.Column="0" Text="" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+                    <Label Content="Virksomhedens Adresse" FontSize="14" FontWeight="Bold" Margin="10,0,0,0" Grid.Row="0" Grid.Column="1" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left" />
+                    <TextBox Name="virkAddr" Margin="10,30,0,0" Grid.Row="0" Grid.Column="1" Text="" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalContentAlignment="Center"  />
+                    <Label Content="Evt. Andet Tjenestested" FontSize="14" FontWeight="Bold" Margin="10,0,0,0" Grid.Row="1" Grid.Column="1" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="virkAndet" Margin="10,30,0,0" Grid.Row="1" Grid.Column="1" Text="" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+                    <Label FontSize="14" FontWeight="Bold" Margin="30,0,0,0"  Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left">Virksomhedsprofil</Label>
+                    <RichTextBox Name="virkProfil" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" HorizontalAlignment="Left" Height="100" Margin="30,30,0,0" VerticalAlignment="Top" Width="300">
+
+                        <RichTextBox.Resources>
+                            <Style TargetType="{x:Type Paragraph}">
+                                <Setter Property="Margin" Value="0"/>
+                            </Style>
+                        </RichTextBox.Resources>
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+
+                </Grid>
+
+
+
+                <Label  FontSize="14" FontWeight="Bold" Margin="0,0,0,0"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left">Kontaktoplysninger</Label>
+                <Button Name="Button_contact" Content="Tilføj Ny" Margin="150,0,0,0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left" Height="auto" Width="auto" Padding="10,5,10,5" Click="button_AddRow_Click"/>
+
+                <DataGrid Name="kontaktPer" Margin="0,30,0,20" MaxHeight="250" ItemsSource="{Binding personInfo}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" CanUserAddRows="False" AutoGenerateColumns="False" CanUserDeleteRows="True" Width="800" VerticalAlignment="Top" HorizontalAlignment="Left">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Navn" Width="250" Binding="{Binding Path=name}"/>
+                        <DataGridTextColumn Header="Mobil" Width="100" Binding="{Binding Path=mobil}"/>
+                        <DataGridTextColumn Header="Email" Width="250" Binding="{Binding Path=mail}"/>
+                        <DataGridTextColumn Header="Stilling" Width="*" Binding="{Binding Path=postion}"/>
+                        <DataGridCheckBoxColumn Header="Print" Width="50" Binding="{Binding Path=print}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+
+                <Label Content="Uddannelsesaftale ønskes i forhold til en:" Margin="0,0,0,0" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"  Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold"/>
+                <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,30,0,20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Margin="0,0,0,10">
+                        <TextBlock TextDecorations="underline">Lager</TextBlock>
+                    </Label>
+                    <CheckBox Name="lagerHelp" Grid.Row="1" Grid.Column="0" Content="Lagermedhjælper" Margin="0,0,0,20"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="Lageroperatør med specialet:" Margin="0,0,0,10"/>
+                    <CheckBox Name="lagerLogistik" Grid.Row="3" Grid.Column="0" Content="Lager og logistik"/>
+                    <CheckBox Name="logerTransport" Grid.Row="4" Grid.Column="0" Content="Lager og transport"/>
+
+                    <Label Content="Godkendte elever" Margin="50,10,0,0" Grid.Row="12" Grid.Column="0" Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="textbox_elever_lager" Text="" Height="24" Width="50" Margin="0,10,0,0" Grid.Row="12" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                    <Label Grid.Row="0" Grid.Column="1" Margin="0,0,0,10">
+                        <TextBlock TextDecorations="underline">Chauffør</TextBlock>
+                    </Label>
+
+                    <CheckBox Name="lastbil" Grid.Row="1" Grid.Column="1" Content="Lastbilchauffør" Margin="0,0,0,20"/>
+                    <Label Grid.Row="2" Grid.Column="1" Content="Lastbilchauffør med specialet:"  Margin="0,0,0,10"/>
+                    <CheckBox Name="lastbilGods" Grid.Row="3" Grid.Column="1" Content="Godschauffør"/>
+                    <CheckBox Name="lastbilFlytte" Grid.Row="4" Grid.Column="1" Content="Flyttechauffør"/>
+                    <CheckBox Name="lastbilRenovation" Grid.Row="5" Grid.Column="1" Content="Renovationschauffør"/>
+                    <CheckBox Name="lastbilKran" Grid.Row="6" Grid.Column="1" Content="Kranfører"/>
+
+                    <Label Content="Godkendte elever" Margin="50,10,0,0" Grid.Row="12" Grid.Column="1" Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="textbox_elever_lastbil" Text="" Height="24" Width="50" Margin="0,10,0,0" Grid.Row="12" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+
+                    <Label Grid.Row="0" Grid.Column="2" Margin="0,0,0,10">
+                        <TextBlock TextDecorations="underline">Lufthavn</TextBlock>
+                    </Label>
+                    <CheckBox Name="lufthavn" Grid.Row="1" Grid.Column="2" Content="Transportarbejder i lufthavn" Margin="0,0,0,20"/>
+                    <Label Grid.Row="2" Grid.Column="2" Content="Lufthavnsoperatør med specialet:" Margin="0,0,0,10"/>
+                    <CheckBox Name="lufthavnBagage" Grid.Row="3" Grid.Column="2" Content="Bagage"/>
+                    <CheckBox Name="lufthavnCargo" Grid.Row="4" Grid.Column="2" Content="Cargo"/>
+                    <CheckBox Name="lufthavnAircraft" Grid.Row="5" Grid.Column="2" Content="Aircraft servicing"/>
+                    <CheckBox Name="lufthavnAirport" Grid.Row="6" Grid.Column="2" Content="Airport servicing"/>
+                    <CheckBox Name="lufthavnBrand" Grid.Row="7" Grid.Column="2" Content="Brand og redning"/>
+                    <CheckBox Name="lufthavnFuel" Grid.Row="8" Grid.Column="2" Content="Fuel"/>
+                    <CheckBox Name="lufthavnClean" Grid.Row="9" Grid.Column="2" Content="Cleaning"/>
+                    <CheckBox Name="lufthavnGround" Grid.Row="10" Grid.Column="2" Content="Groundhandling"/>
+                    <CheckBox Name="lufthavnRampe" Grid.Row="11" Grid.Column="2" Content="Rampeservice"/>
+
+                    <Label Content="Godkendte elever" Margin="50,10,0,0" Grid.Row="12" Grid.Column="2" Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="textbox_elever_lufthavn" Text="" Height="24" Width="50" Margin="0,10,0,0" Grid.Row="12" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                </Grid>
+
+                <Label Content="Uddannelsesaftale ønskes i forhold til en:" Margin="0,0,0,0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"  Height="auto" Width="auto" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="14" FontWeight="Bold"/>
+                <Grid Margin="0,30,0,20" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="198*"/>
+                        <ColumnDefinition Width="248*"/>
+                        <ColumnDefinition Width="247*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <CheckBox Name="checkbox_aml" Content="Almindelig aftale" Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
+                    <CheckBox Name="checkbox_kombi" Content="Kombinationsaftale" Grid.Row="1" Grid.Column="0" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
+
+                    <CheckBox Name="checkbox_rest" Content="Restaftale" Grid.Row="0" Grid.Column="2" Margin="0,0,0,0"/>
+                    <CheckBox Name="checkbox_mester" Content="Ny mesterlære" Grid.Row="1" Grid.Column="2" Margin="0,0,0,0"/>
+
+                    <CheckBox Name="checkbox_kort" Content="Kort aftale" Grid.Row="0" Grid.Column="3" Margin="0,0,0,0"/>
+                    <CheckBox Name="checkbox_del" Content="Delaftale" Grid.Row="1" Grid.Column="3" Margin="0,0,0,0"/>
+                </Grid>
+
+                <Grid Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,0,20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Virksomheden ønsker at modtage" Grid.Row="0" Grid.Column="0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <CheckBox Name="checkbox_motiveret" Grid.Row="1" Grid.Column="0" Content="Motiveret ansøgning" Margin="0,5,0,0"/>
+                    <CheckBox Name="checkbox_cv" Grid.Row="2" Grid.Column="0" Content="Curriculum vitae (CV)" Margin="0,5,0,0"/>
+                    <CheckBox Name="checkbox_perTele" Grid.Row="3" Grid.Column="0" Content="Personligt telefonopkald" Margin="0,5,0,0"/>
+                    <CheckBox Name="checkbox_perMeet" Grid.Row="4" Grid.Column="0" Content="Personligt fremmøde" Margin="0,5,0,0"/>
+                    <CheckBox Name="checkbox_andet" Grid.Row="5" Grid.Column="0" Content="Andet:" Margin="0,5,0,0"/>
+                    <TextBox Name="textbox_andet" Text="" Margin="65,0,0,0"  Width="200" Height="24" Grid.Row="5" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
+
+                    <Label FontSize="14" FontWeight="Bold" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Content="Antal uddannelsesaftaler der ønskes besat:" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="textbox_antalAftaler" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Text="" Margin="0,30,0,0" Width="200" Height="24" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
+
+                    <Label FontSize="14" FontWeight="Bold" Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" Content="Ansøgningsfrist:" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                    <DatePicker Name="datepicker_Frist"  Grid.Row="2" Grid.Column="1" Grid.RowSpan="2"  Margin="0,30,0,0" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                    <Label FontSize="14" FontWeight="Bold" Grid.Row="4" Grid.Column="1" Grid.RowSpan="2" Content="Antal kandidater ønskes i udvælgelse processen:" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <TextBox Name="textbox_anatalKandidater" Grid.Row="4" Grid.Column="1" Grid.RowSpan="2" Text="" Margin="0,30,0,0" Width="200" Height="24" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
+
+                    <Label FontSize="14" FontWeight="Bold" Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Content="Start dato for uddannelsesaftale:" Width="auto" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                    <DatePicker Name="datepicker_startDato"  Grid.Row="6" Grid.Column="1" Grid.RowSpan="2"  Margin="0,30,0,0" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                </Grid>
+
+                <Label FontSize="14" FontWeight="Bold" Content="Jobbeskrivelse:" Margin="0,0,0,0" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <RichTextBox Name="jobDes" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="100" Margin="0,30,0,20" VerticalAlignment="Top" Width="700">
+
+                    <RichTextBox.Resources>
+                        <Style TargetType="{x:Type Paragraph}">
+                            <Setter Property="Margin" Value="0"/>
+                        </Style>
+                    </RichTextBox.Resources>
+
+                    <FlowDocument>
+                        <Paragraph>
+                            <Run Text=""/>
+                        </Paragraph>
+                    </FlowDocument>
+                </RichTextBox>
+
+                <Grid Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="4" Margin="0,0,0,20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Alder:" Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                    <ComboBox Name="combobox_alder" Grid.Row="0" Grid.Column="0" Margin="0,30,0,0" SelectedIndex="0" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <ComboBoxItem Content="Intet foretrukket"/>
+                        <ComboBoxItem Content="Under 25 år"/>
+                        <ComboBoxItem Content="Over 25 år"/>
+                    </ComboBox>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Straffeattest:" Grid.Row="1" Grid.Column="0" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <ComboBox Name="combobox_straffeAttest" Grid.Row="1" Grid.Column="0" Margin="0,30,0,0" SelectedIndex="0" Width="150" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <ComboBoxItem Content="Intet foretrukket"/>
+                        <ComboBoxItem Content="Ren"/>
+                        <ComboBoxItem Content="Skal ses"/>
+                    </ComboBox>
+                    <Button Content="Tilføj" Margin="155,30,0,0" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="24" Width="45" Click="ListView_straffeAttest_Add_Click"/>
+
+                    <ListView Grid.Row="1" Grid.Column="0" Name="ListView_straffeAttest" HorizontalAlignment="Left" Height="auto" MaxHeight="200" Width="200" MaxWidth="200" Margin="0,60,0,0" VerticalAlignment="Top">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Width="130" Header="" DisplayMemberBinding="{Binding name}" />
+
+                                <GridViewColumn Width="50">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Fjern" Click="ListView_straffeAttest_Delete_Click" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Sproglige kundskaber og &#10;færdigheder:" Grid.Row="2" Grid.Column="0" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+
+                    <ComboBox Name="combobox_sporg" Grid.Row="2" Grid.Column="0" Margin="0,50,0,0" SelectedIndex="0" Width="150" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <ComboBoxItem Content="Intet foretrukket"/>
+                        <ComboBoxItem Content="Dansk Folkeskoleniveau"/>
+                        <ComboBoxItem Content="Dansk Højere Niveau"/>
+                        <ComboBoxItem Content="Tysk Folkeskoleniveau"/>
+                        <ComboBoxItem Content="Tysk Højere Niveau"/>
+                        <ComboBoxItem Content="Engelsk Folkeskoleniveau"/>
+                        <ComboBoxItem Content="Engelsk Højere Niveau"/>
+                    </ComboBox>
+                    <Button Content="Tilføj" Margin="155,50,0,0" Grid.Row="2" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="24" Width="45" Click="ListView_sporg_Add_Click"/>
+                    <ListView Grid.Row="2" Grid.Column="0" Name="ListView_sporg" HorizontalAlignment="Left" Height="auto" MaxHeight="200" Width="200" MaxWidth="200" Margin="0,80,0,0" VerticalAlignment="Top">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Width="130" Header="" DisplayMemberBinding="{Binding name}" />
+
+                                <GridViewColumn Width="50">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Fjern" Click="ListView_sporg_Delete_Click" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Kørekort:" Grid.Row="0" Grid.Column="1" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <ComboBox Name="combobox_driver" Grid.Row="0" Grid.Column="1" Margin="0,30,0,0" SelectedIndex="0" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <ComboBoxItem Content="Intet foretrukket"/>
+                        <ComboBoxItem Content="Kat. B"/>
+                        <ComboBoxItem Content="Kat. C"/>
+                    </ComboBox>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Fysiske forudsætninger:" Grid.Row="1" Grid.Column="1" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <ComboBox Name="combobox_fysiske" Grid.Row="1" Grid.Column="1" Margin="0,30,0,0" SelectedIndex="0" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <ComboBoxItem Content="Intet foretrukket"/>
+                        <ComboBoxItem Content="Alm. forudsætninger"/>
+                        <!--Aml-->
+                        <ComboBoxItem Content="Tunge løft kan forekomme"/>
+                        <!--lan-->
+                    </ComboBox>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Matematiske kundskaber og &#10;færdigheder:" Grid.Row="2" Grid.Column="1" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <ComboBox Name="combobox_matematik" Grid.Row="2" Grid.Column="1" Margin="0,50,0,0" SelectedIndex="0" Width="200" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <ComboBoxItem Content="Intet foretrukket"/>
+                        <ComboBoxItem Content="Folkeskoleniveau"/>
+                        <ComboBoxItem Content="Højere niveau"/>
+                    </ComboBox>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="Evt. bemærkninger:" Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <RichTextBox Name="textbox_etvAndet" Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" HorizontalAlignment="Left" Height="150" Margin="0,30,0,0" VerticalAlignment="Top" Width="250">
+
+                        <RichTextBox.Resources>
+                            <Style TargetType="{x:Type Paragraph}">
+                                <Setter Property="Margin" Value="0"/>
+                            </Style>
+                        </RichTextBox.Resources>
+
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </Grid>
+
+                <Grid Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label  FontSize="14" FontWeight="Bold"  Content="Henviste kandidater:" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <Button Name="Button_candidates" Content="Tilføj Ny" Margin="150,0,0,0" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="auto" Width="auto" Padding="10,5,10,5" Click="button_AddRow_Click"/>
+
+                    <DataGrid Name="kandidater" ItemsSource="{Binding candidatesInfo}" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Width="220" MaxHeight="250" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,30,0,0" CanUserAddRows="False" AutoGenerateColumns="False" IsReadOnly="False" CanUserDeleteRows="True" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Navn" Width="*" Binding="{Binding Path=name}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <Label FontSize="14" FontWeight="Bold" Content="(VUF) Virksomhedsforlagt undervisning:" Grid.Row="0" Grid.Column="1" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <RichTextBox Name="VUF" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="0,30,0,0" VerticalAlignment="Top" Width="250">
+
+                        <RichTextBox.Resources>
+                            <Style TargetType="{x:Type Paragraph}">
+                                <Setter Property="Margin" Value="0"/>
+                            </Style>
+                        </RichTextBox.Resources>
+
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <Label FontSize="14" FontWeight="Bold" Content="Uddannelsesaftale indgået med:" Grid.Row="1" Grid.Column="1" Margin="0,0,0,0" Width="auto" Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                    <RichTextBox Name="signedBy" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="0,30,0,20" VerticalAlignment="Top" Width="250">
+
+                        <RichTextBox.Resources>
+                            <Style TargetType="{x:Type Paragraph}">
+                                <Setter Property="Margin" Value="0"/>
+                            </Style>
+                        </RichTextBox.Resources>
+
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+
+                    <Button Content="Tilføj fil/link" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Width="auto" Height="auto" Margin="10,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="10,5,10,5" Click="Button_AddFiles_Click"/>
+
+
+                    <ListView Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" x:Name="ListViewFileNames" HorizontalAlignment="Left" Height="200" MaxHeight="200" Width="200" MaxWidth="200" Margin="10,40,0,10" VerticalAlignment="Top">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Width="100" Header="Fil navn" DisplayMemberBinding="{Binding name}" />
+                                <GridViewColumn>
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Name="BtnYourButton" Content="Åben" Click="ListViewFileNames_OpenButton_Click" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+
+                                <GridViewColumn>
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Name="BtnYourButton" Content="Fjern" Click="ListViewFileNames_DeleteButton_Click" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
+
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" Width="Auto" Background="#FF2C72B8" >
+            <Label Name="LabelVersion_version" Content="Version: " HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label Name="LabelVersion_author" Content="Kodet af: " HorizontalAlignment="Left" Margin="0,24,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Indstillinger>
+    <Invoice>1046</Invoice>
+    <Initialer />
+  </Indstillinger>
+  <Afsender>
+    <Telefon />
+    <Firma />
+    <KontaktPerson />
+    <Vej />
+    <ZipCode />
+    <IsPayer>False</IsPayer>
+  </Afsender>
+  <Modtager>
+    <Telefon />
+    <Firma />
+    <KontaktPerson />
+    <Vej />
+    <ZipCode />
+    <IsPayer>False</IsPayer>
+  </Modtager>
+  <Modtager2>
+    <IsActive>False</IsActive>
+    <Telefon />
+    <Firma />
+    <KontaktPerson />
+    <Vej />
+    <ZipCode />
+    <IsPayer>False</IsPayer>
+  </Modtager2>
+  <Generelt>
+    <Reference />
+    <Fragtmand />
+    <Forsikringstype>-1</Forsikringstype>
+    <DatoRute1>10-03-2016 14:28:17</DatoRute1>
+    <IsSetDatoRute1>False</IsSetDatoRute1>
+    <ZipRute1 />
+    <DatoRute2>10-03-2016 14:28:17</DatoRute2>
+    <IsSetDatoRute2>False</IsSetDatoRute2>
+    <ZipRute2 />
+  </Generelt>
+  <Byttepaller>
+    <UseByttepalle>False</UseByttepalle>
+    <Palle1_1 />
+    <Palle1_2 />
+    <Palle1_4 />
+  </Byttepaller>
+  <Efterkrav>
+    <UseEfterkrav>False</UseEfterkrav>
+    <EfterkravGebyr />
+    <Forsikringssum />
+    <Premium />
+    <Total />
+  </Efterkrav>
+  <TransportType>
+    <Val1>-1</Val1>
+    <Val2>-1</Val2>
+    <Val3>-1</Val3>
+  </TransportType>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1000</MrkNumb>
+    <Contains>Bob</Contains>
+    <CountI>5</CountI>
+    <CountS>2</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume />
+    <ArtId>1</ArtId>
+    <ArtName>Ingen</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>3000</MrkNumb>
+    <Contains>Simon</Contains>
+    <CountI>11</CountI>
+    <CountS>2</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume />
+    <ArtId>5</ArtId>
+    <ArtName>Ingen</ArtName>
+    <TransportTypeId>5</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>7000</MrkNumb>
+    <Contains>Skov</Contains>
+    <CountI>3</CountI>
+    <CountS>2</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume />
+    <ArtId>3</ArtId>
+    <ArtName>Ingen</ArtName>
+    <TransportTypeId>3</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <LukFragtbrev>
+    <Leveringsdato>10-03-2016 14:28:17</Leveringsdato>
+    <IsSetLeveringsdato>False</IsSetLeveringsdato>
+    <Rabat>10</Rabat>
+    <Kilometer>10</Kilometer>
+    <Tidsforbrug1>10</Tidsforbrug1>
+    <Tidsforbrug2>10</Tidsforbrug2>
+    <Tidsforbrug3>10</Tidsforbrug3>
+    <Tidsforbrug4>10</Tidsforbrug4>
+    <Kommentar />
+  </LukFragtbrev>
+  <EkstraGebyrButtons>
+    <Button_0>False</Button_0>
+    <Button_1>False</Button_1>
+    <Button_2>False</Button_2>
+    <Button_3>False</Button_3>
+    <Button_4>False</Button_4>
+    <Button_5>False</Button_5>
+    <Button_6>False</Button_6>
+    <Button_7>False</Button_7>
+    <Button_8>False</Button_8>
+    <Button_9>False</Button_9>
+    <Button_10>False</Button_10>
+    <Button_11>False</Button_11>
+  </EkstraGebyrButtons>
+  <EkstraGebyrTextboxs>
+    <Text_0 />
+    <Text_1 />
+    <Text_2 />
+    <Text_3 />
+    <Text_4 />
+    <Text_5 />
+    <Text_6 />
+  </EkstraGebyrTextboxs>
+  <andet>
+    <FragtbrevNotifications />
+    <FakturaNotifications />
+    <FakturaKommentar />
+  </andet>
+</NewDataSet>

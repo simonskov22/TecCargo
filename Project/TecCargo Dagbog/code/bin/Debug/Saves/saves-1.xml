@@ -1,0 +1,126 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="general">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="version" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="indhold">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="navn" type="xs:string" minOccurs="0" />
+                <xs:element name="cvr" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="log">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="date" type="xs:string" minOccurs="0" />
+                <xs:element name="text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="files">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="index" type="xs:string" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="path" type="xs:string" minOccurs="0" />
+                <xs:element name="isLink" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <general>
+    <version>1.7</version>
+  </general>
+  <indhold>
+    <navn>Test</navn>
+    <cvr>123456788æ</cvr>
+  </indhold>
+  <log>
+    <date>11-02-2015 00:00:00</date>
+    <text>7 Link 2æ
+</text>
+  </log>
+  <log>
+    <date>26-05-2015 00:00:00</date>
+    <text>3
+</text>
+  </log>
+  <log>
+    <date>01-09-2015 00:00:00</date>
+    <text>8 Link 1
+</text>
+  </log>
+  <log>
+    <date>03-09-2015 00:00:00</date>
+    <text>4 Link 3
+</text>
+  </log>
+  <log>
+    <date>15-09-2015 00:00:00</date>
+    <text>1
+</text>
+  </log>
+  <log>
+    <date>10-10-2015 00:00:00</date>
+    <text>5
+</text>
+  </log>
+  <log>
+    <date>13-11-2015 00:00:00</date>
+    <text>2
+</text>
+  </log>
+  <log>
+    <date>31-12-2015 00:00:00</date>
+    <text>6
+</text>
+  </log>
+  <files>
+    <index>0</index>
+    <name>Link 1</name>
+    <path>lkækæ</path>
+    <isLink>True</isLink>
+  </files>
+  <files>
+    <index>0</index>
+    <name>PDF</name>
+    <path>File-2.pdf</path>
+    <isLink>False</isLink>
+  </files>
+  <files>
+    <index>2</index>
+    <name>Link 3</name>
+    <path>kljlj</path>
+    <isLink>True</isLink>
+  </files>
+  <files>
+    <index>3</index>
+    <name>Link 3</name>
+    <path>kljljl</path>
+    <isLink>True</isLink>
+  </files>
+  <files>
+    <index>3</index>
+    <name>Link 5</name>
+    <path>lkjlj</path>
+    <isLink>True</isLink>
+  </files>
+  <files>
+    <index>3</index>
+    <name>Link 6</name>
+    <path>lkjlj</path>
+    <isLink>True</isLink>
+  </files>
+</NewDataSet>

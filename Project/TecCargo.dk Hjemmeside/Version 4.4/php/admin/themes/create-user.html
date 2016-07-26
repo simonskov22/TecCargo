@@ -1,0 +1,73 @@
+<div class="AdminDiv">
+    <!-- status -->
+    <div id="statusDiv" %STATUSDISPLAY% class="status">
+        <h2>Status</h2>
+        <button style="float: right; margin-right: 20px;">OK</button>
+        <p style="margin-bottom: 15px;">%STATUS%</p>
+    </div>
+
+    <div class="create-msg">
+        <div class="create-msg-head">
+            <h2>Krav</h2>
+        </div>
+        <div class="create-msg-body">
+            <table style="border-collapse: collapse; margin-left: 15px;">
+                <tr>
+                    <td><img src="%TECCARGO%images/icons/001_05.ico" id="check-name"></td>
+                    <td>Navn udfyldt</td>
+                </tr>
+                <tr>
+                    <td><img src="%TECCARGO%images/icons/001_05.ico" id="check-lastname"></td>
+                    <td>Efternavn  udfyldt</td>
+                </tr>
+                <tr>
+                    <td><img src="%TECCARGO%images/icons/001_05.ico" id="check-username"></td>
+                    <td>Brugernavn  udfyldt</td>
+                </tr>
+                <tr>
+                    <td><img src="%TECCARGO%images/icons/001_05.ico" id="check-password"></td>
+                    <td>Kodeord  udfyldt</td>
+                </tr>
+                <tr>
+                    <td style="border:0;"><img src="%TECCARGO%images/icons/001_05.ico" id="check-uni-username"></td>
+                    <td style="border:0;">Unikt brugernavn</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <style>
+        .user-form input[type='reset'], .user-form input[type='submit']
+        {
+            margin: 5px;
+            height: 35px;
+            width: 170px;
+        }
+    </style>
+    <div class="admin-form">
+        <div class="admin-form-head">
+            <center><h2>Opret Bruger</h2></center>
+        </div>
+        <div class="admin-form-body">
+            <form class="user-form" autocomplete="off" method="post" action="%TECCARGO%php/admin/php/users/createUser.php">
+                <fieldset>
+                    <legend>Person oplysninger</legend>
+                    <input type="text" placeholder="Fornavn" name="name" value="%CREATEN%"><br>
+                    <input type="text" placeholder="Efternavn" name="lastname" value="%CREATEE%"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Login oplysninger</legend>
+                    <input type="text" placeholder="Brugernavn" name="username" value="%CREATEB%"><br>
+                    <input type="password" placeholder="Kodeord" name="password" value="%CREATEK%"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Bruger type</legend>
+                    <input type="radio" value="Bruger" name="type" checked="true">Bruger
+                    <input type="radio" value="Admin" name="type">Admin<br>
+                </fieldset>
+                <input type="reset" value="Reset" class="create-reset">
+                <input type="submit" value="Gem" class="create-submit">
+            </form>
+        </div>
+    </div>
+    <img src="%TECCARGO%images/logo.png" class="admin-site-img">
+</div>

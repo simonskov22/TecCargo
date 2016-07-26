@@ -1,0 +1,201 @@
+.tecFormRequired{
+
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 3px;
+}
+.tecFormRequiredRed{
+    font-size: 30px;
+    color: red;
+}
+
+.tecFormRequiredGreen{
+    
+    font-size: 18px;
+    color: limegreen;
+}
+.tecFormFloatBox{
+    z-index: 3000;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.68);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.tecFormPicturePickBox{
+
+    background: #fff;
+    width: 800px;
+    margin: 50px auto !important;
+    position: relative;
+}
+.tecFormPicturePickHeader,.tecFormPicturePickBottom{
+
+    background: #254078;
+}
+.tecFormPicturePickHeader h2{
+    padding: 20px 0;
+    text-indent: 30px;
+    margin: 0;
+    display: inline-block;
+    color: #fff;
+}
+.tecFormPicturePickHeader input{
+
+    float: right;
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.tecFormPicturePickBottom button, .tecFormPicturePickBottom input{
+        margin: 10px;
+        height: 30px;
+}
+.tecFormPicturePickContent{
+    height: 400px;
+    overflow: scroll;
+}
+.tecFormPicturePickContent img{
+    max-height: 100px;
+    max-width: 100px;
+}
+.tecFormPicturePickContent tr:hover{
+    background: #e0e0e0;
+    cursor: pointer;
+}
+.tecFormPicturePickContent td{    
+    height: 110px;
+    border-bottom: 2px solid #000;
+}
+.tecFormPicturePickButtonPage{
+    background-color: #9C9C9C;
+    border-color: #9C9C9C;
+    color: #000;
+}
+.tecFormPicturePickButtonPage:hover{
+    background-color: #6F6F6F;
+    border-color: #6F6F6F;
+}
+.tecFormPicturePickButtonPick{
+    background-color: #0AAF36;
+    border-color: #0AAF36;
+    color: #000;
+}
+.tecFormPicturePickButtonPick:hover{
+    background-color: #048827;
+    border-color: #048827;
+    color: #000;
+}
+.tecFormPicturePickSelect{
+    background: #AFC6FF;
+}
+.tecFormPicturePickBoxClose{
+
+    position: absolute;
+    margin-top: -26px;
+    cursor: pointer;
+    right: -24px;
+}
+.tecForm input[type='button'].tecFormPicturePickButtonOpen{
+    height: 28px;
+    margin-top: 7px;
+    cursor: pointer;
+    font-weight: bold;
+
+    width: 200px;
+    color: #fff;
+    background: #0D4AE7;
+    border: 2px outset #275CE6;
+}
+.tecForm ul{
+    list-style: none;
+    text-indent: 0;
+    padding: 0;
+    margin: 0;
+}
+.tecForm .tecformLiText1{
+    width: 70px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+.tecForm .tecformLiText2{
+    text-indent: 5px;
+    display: inline-block;
+}
+.tecformHederSpace th{
+    padding-top: 10px;
+}
+.tecFormPicker{
+    border-collapse: collapse;
+}
+.tecFormPicker td{
+    height: 50px;
+    cursor: pointer;
+}
+
+.tecFormPicker tr{
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+.userCrowSelect{
+    background-color: #2591CA;
+}
+.formCheckBoxOff{
+
+    background-color: #EC1F1F;
+    border-color: #EC1F1F;
+}
+
+.formCheckBoxOn{
+
+    background-color: #12C527;
+    border-color: #12C527;
+}
+.tecSelectBox{
+    position: relative;
+}
+.tecSelectBox .tecSelect{
+    position: absolute;
+    border: 1px groove #000;
+    display: inline-block;
+    cursor: pointer;
+    right: 0;
+    text-align: left;
+}
+.tecSelectBox .tecSelect .selected{
+    border-bottom: 1px solid #000;
+    padding: 5px;
+    position: relative;
+    background: #254078;
+    color: #fff;
+    min-width: 200px;
+}
+.tecSelectBox .tecSelect .selected .arrow:before{
+    content: '';
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+.tecSelectBox .tecSelect .option ul{
+    max-height: 150px;
+    overflow-y: scroll;
+    background: #fff;
+    display: none;
+}
+.tecSelectBox .tecSelect .option ul li{
+    padding: 5px 10px;
+    font-size: 12px;
+    border-top: 1px solid #000;
+
+}
+
+.tecSelectBox .tecSelect .option ul li:hover{
+    background: #ddd;
+}

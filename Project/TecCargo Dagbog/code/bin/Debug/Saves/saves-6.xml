@@ -1,0 +1,14 @@
+<NewDataSet>
+  <general>
+    <version>1.0</version>
+  </general>
+  <indhold>
+    <navn />
+    <cvr />
+  </indhold>
+  <log>
+    <date>29-09-2015 00:00:00</date>
+    <text>test
+</text>
+  </log>
+</NewDataSet>

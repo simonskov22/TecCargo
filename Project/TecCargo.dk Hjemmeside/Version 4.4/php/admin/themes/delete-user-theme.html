@@ -1,0 +1,54 @@
+<div class="AdminDiv">
+    <!-- status -->
+    <div id="statusDiv" %STATUSDISPLAY% class="status">
+        <h2>Status</h2>
+        <button style="float: right; margin-right: 20px;">OK</button>
+        <p style="margin-bottom: 15px;">%STATUS%</p>
+    </div>
+
+    <div class="deleteDiv">
+        <!-- Brugere man kan vægle -->
+        <div class="edit-user-list">
+            <div class="edit-user-list-head create-msg-head">
+                <h2>Bruger Liste</h2>
+            </div>
+            <div style="border: 1px solid black; width: 298px;">
+                <div class="edit-user-list-body-head">
+                    <p style="margin-left: 20px;"><b># <span style="margin-left: 40px; margin-right: 95px;">navn</span>Brugernavn</b></p>
+                </div>
+                <div id="delete-user-list-save" class="edit-user-list-body">
+                    <table id='user-table-box-save' class='user-table'>%BRUGERL%</table>
+                </div>
+            </div>
+        </div>
+
+        <!-- knapper -->
+        <div class="delete-button-box">
+            <button id="delete-button-toDelete" class='deleteNext'>>></button><br>
+            <button id="delete-button-reset" class='deleteRest'>Reset</button><br>
+            <button id="delete-button-toSave" class='deleteNext'><<</button><br>
+        </div>
+
+        <!-- Brugere der vil blive slettet -->
+        <div class="delete-user-list">
+            <div class="edit-user-list-head create-msg-head">
+                <h2>Bruger Liste</h2>
+            </div>
+            <div style="border: 1px solid black; width: 298px;">
+                <form method="post" action="%TECCARGO%php/admin/php/users/userdelete.php">
+                    <div class="edit-user-list-body-head">
+                        <p style="margin-left: 20px;"><b># <span style="margin-left: 40px; margin-right: 95px;">navn</span>Brugernavn</b></p>
+                    </div>
+                    <div id="delete-user-list-delete" class="edit-user-list-body" style="height: 280px;">
+                    <table id='user-table-box-delete' class='user-table'>
+
+                    </table>
+                    </div>
+                    <div class="delete-div-button">
+                        <input type="submit" value="Slet valgte brugere" class="submitDelete">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

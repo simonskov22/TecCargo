@@ -1,0 +1,617 @@
+﻿<Window x:Class="TecCargo_Faktura.WindowsView.UserPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfToolsKit="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" 
+        xmlns:Models="clr-namespace:TecCargo_Faktura.Models"
+        xmlns:Placeholder="clr-namespace:TecCargo_Faktura.Class"
+        xmlns:TecCargo="clr-namespace:TecCargo_Faktura.Controls"
+        
+
+        Title="Opret Fragtbrev" Height="500" Width="1500" WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        x:Name="_UserPanel">
+    <Window.Resources>
+
+        <Models:BoolToVisibilityConverter x:Key="ShowPricelistConverter" TrueValue="Visible" FalseValue="Collapsed"/>
+        <Models:BoolToVisibilityConverter x:Key="BoolToVisibilityConverterR" TrueValue="Visible" FalseValue="Collapsed"/>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+
+        <ScrollViewer x:Name="ScrollViewBox" Grid.Row="1"
+                      HorizontalScrollBarVisibility="Auto" 
+                      VerticalScrollBarVisibility="Auto"
+                      ScrollChanged="ScrollViewBox_ScrollChanged">
+            <Grid HorizontalAlignment="Center" MinWidth="1200" Grid.Row="1" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid Name="Grid_Viewbox"  Grid.Column="0" Width="1000" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Visibility="Collapsed" HorizontalAlignment="Left" Margin="0,20,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TecCargo:Address x:Name="Address_Afsender" Grid.Column="0" Header="Afsender:" TextCheck="Franko" PayClick="Address_Contact_PayClick" Margin="10,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        <TecCargo:Address x:Name="Address_Modtager" Grid.Column="1" Header="Modtager:" TextCheck="Ufranko" PayClick="Address_Contact_PayClick" Margin="10,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        <TecCargo:Address x:Name="Address_Modtager2" Grid.Column="2" Header="Anden Betaler:" TextCheck="Ufranko" PayClick="Address_Contact_PayClick" Margin="10,0" HeaderIsCheckButton="True" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+
+                    </Grid>
+                    <Grid Grid.Row="1" Visibility="Collapsed" Margin="0,20,0,0" HorizontalAlignment="Left">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Content="Generelt:" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold"/>
+
+                        <Grid Grid.Row="1" Margin="0,20,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+
+                                <TecCargo:MyTextbox RequireMinimumLength="1" x:Name="MyTextbox_Generelt_Reference" Text="" Placeholder="Reference" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}" Grid.Row="0" Margin="30,5,10,0" />
+                                <TecCargo:MyTextbox x:Name="MyTextbox_Generelt_Fragtmand" Placeholder="Fragtmand" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}" Grid.Row="1" Margin="30,5,10,0"/>
+
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TecCargo:DateTimePicker x:Name="DateTimePicker_Generelt_Rute_1" Grid.Row="0" Placeholder="Dato Rute 1" Grid.Column="0" HorizontalAlignment="Left" Width="210" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                                <TecCargo:MyTextbox x:Name="MyTextbox_Generelt_Rute_1" Grid.Row="0" Grid.Column="1" IsInt="True" Placeholder="Rute 1" Text="" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}" MaxLength="4" Width="90" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+
+                                <TecCargo:DateTimePicker x:Name="DateTimePicker_Generelt_Rute_2" Grid.Row="1" Placeholder="Dato Rute 2" Grid.Column="0" HorizontalAlignment="Left" Width="210" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                                <TecCargo:MyTextbox x:Name="MyTextbox_Generelt_Rute_2" Grid.Row="1" Grid.Column="1" IsInt="True" Placeholder="Rute 2" Text="" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}" MaxLength="4"  Width="90" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+
+                            </Grid>
+
+                            <TecCargo:Selector x:Name="Selector_Generelt_Forsikringstype" Grid.Column="2" MaxRow="2" Header="Forsikringstype">
+                                <TecCargo:Selector.Items>
+                                    <System:String>A</System:String>
+                                    <System:String>C</System:String>
+                                    <System:String>B</System:String>
+                                    <System:String>D</System:String>
+                                    <System:String>Ingen</System:String>
+                                </TecCargo:Selector.Items>
+                            </TecCargo:Selector>
+                        </Grid>
+
+                        <Grid Grid.Row="2" Margin="0,20,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TecCargo:CheckBoxButton x:Name="CheckBoxButton_Byttepaller" Grid.Column="0" Text="Brug byttepaller" Margin="0,5,35,0"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Byttepaller_1" Grid.Column="1"  Placeholder="1/1 Paller" IsInt="True" Width="130" Margin="5" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Byttepaller_2" Grid.Column="2"  Placeholder="1/2 Paller" IsInt="True" Width="130" Margin="5" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Byttepaller_3" Grid.Column="3"  Placeholder="1/4 Paller" IsInt="True" Width="130" Margin="5" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        </Grid>
+
+                        <Grid Grid.Row="3" Margin="0,20,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TecCargo:CheckBoxButton x:Name="CheckBoxButton_Efterkrav" Text="Efterkrav" Checked="false" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Efterkrav_1" Visibility="{Binding Checked, ElementName=CheckBoxButton_Efterkrav, Converter={StaticResource BoolToVisibilityConverterR} }" Placeholder="Efterkrav inkl. gebyr" IsDouble="True" Grid.Row="1"  Grid.Column="0" HorizontalAlignment="Left" Margin="40,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Efterkrav_2" Visibility="{Binding Checked, ElementName=CheckBoxButton_Efterkrav, Converter={StaticResource BoolToVisibilityConverterR} }" Placeholder="Forsikringssum kr." IsDouble="True" Grid.Row="2"  Grid.Column="0" HorizontalAlignment="Left" Margin="40,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Efterkrav_3" Visibility="{Binding Checked, ElementName=CheckBoxButton_Efterkrav, Converter={StaticResource BoolToVisibilityConverterR} }" Placeholder="Præmie kr." IsDouble="True" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Left" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Efterkrav_4" Visibility="{Binding Checked, ElementName=CheckBoxButton_Efterkrav, Converter={StaticResource BoolToVisibilityConverterR} }" Placeholder="I alt. kr. inkl. moms" IsDouble="True" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="2" Visibility="Collapsed" Margin="0,20,0,0" HorizontalAlignment="Left">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="320"/>
+                            <ColumnDefinition Width="320"/>
+                            <ColumnDefinition Width="320"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Transport:" Width="auto" Height="auto" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,20"/>
+
+                        <TecCargo:Selector x:Name="Selector_Transport1" Header="Trin: 1" Grid.Row="1" Grid.Column="0" MaxRow="3" SelectionChanged="Selector_Transport_SelectionChanged" HorizontalAlignment="Left">
+                            <TecCargo:Selector.Items>
+                                <System:String>Kurertransport</System:String>
+                                <System:String>Pakketransport</System:String>
+                                <System:String>Godstransport</System:String>
+                            </TecCargo:Selector.Items>
+                        </TecCargo:Selector>
+                        <TecCargo:Selector x:Name="Selector_Transport2" Header="Trin: 2" Grid.Row="1" Grid.Column="1" MaxRow="3" Visibility="Collapsed" SelectionChanged="Selector_Transport_SelectionChanged" HorizontalAlignment="Left"/>
+                        <TecCargo:Selector x:Name="Selector_Transport3" Header="Trin: 3" Grid.Row="1" Grid.Column="2" MaxRow="2" Visibility="Collapsed" SelectionChanged="Selector_Transport_SelectionChanged" HorizontalAlignment="Left"/>
+
+                        <TecCargo:PakkeControl x:Name="PakkeControl_Transport" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Visibility="Collapsed" Margin="0,20,0,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                    </Grid>
+                    <Grid Grid.Row="3" Margin="0,20,0,0" HorizontalAlignment="Left" Visibility="Collapsed">
+                        <StackPanel Orientation="Vertical">
+                            <Label Content="Ekstra:" Width="auto" Height="auto" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+
+                            <TecCargo:MyTextBlock x:Name="MyTextBlock_Notifications"  ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}" Margin="40,0,0,0" Placeholder="Evt. Bemærkninger" Width="600" Height="200" HorizontalAlignment="Left"/>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="4" Name="Grid_CheckStatusContainer" Visibility="Visible" HorizontalAlignment="Left" Margin="0,20,0,0" IsVisibleChanged="Grid_StatusCheck_IsVisibleChanged">
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                    <Grid Grid.Row="5" Visibility="Collapsed" IsVisibleChanged="Grid_PDFView_IsVisibleChanged">
+
+                        <TecCargo:MyDocumentViewer x:Name="MyDocumentViewer_PDFViewer" />
+                        <!--<DocumentViewer Name="docviewer" Width="820" Height="auto" Style="{DynamicResource DocumentViewerStyle1}"/>-->
+
+                    </Grid>
+                    <Grid Grid.Row="6" Visibility="Collapsed" HorizontalAlignment="Left" Margin="0,20,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Afslut Fragtbrev:" Width="auto" Height="auto" FontWeight="Bold" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+                        <Grid Grid.Row="1" Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Content="General" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="15"/>
+
+                            <TecCargo:DateTimePicker x:Name="DateTimePicker_Afslut_Leveringsdato"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Placeholder="Leveringsdato" Width="250" HorizontalAlignment="Left" Format="dd/MM/yyyy H:mm" TimeVisibility="Visible" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Afslut_Rabat" Text="10" Grid.Row="2" Grid.Column="0" Placeholder="Rabat" Width="125" HorizontalAlignment="Left" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Afslut_Kilometer" Text="10" Grid.Row="2"  Grid.Column="1" Placeholder="Kilometer" Width="125" HorizontalAlignment="Right" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Content="Tidsforbrug" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="15"/>
+
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Afslut_Tidsforbrug_1" Text="10" Placeholder="Læsse tid" Grid.Row="1" Grid.Column="0" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Afslut_Tidsforbrug_2" Text="10" Placeholder="Aflæssning tid" Grid.Row="1" Grid.Column="1" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Afslut_Tidsforbrug_3" Text="10" Placeholder="Vente tid" Grid.Row="2" Grid.Column="0" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox x:Name="MyTextbox_Afslut_Tidsforbrug_4" Text="10" Placeholder="Medhjælper tid" Grid.Row="3" Grid.Column="1" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        </Grid>
+
+                        <TecCargo:MyTextBlock x:Name="MyTextBlock_Afslut_Kommentar" Placeholder="Kommentar til fragtbrev" Margin="0,20,0,0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Width="500" Height="200" HorizontalAlignment="Left" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+
+
+                    </Grid>
+                    
+                    <Grid Grid.Row="7" Visibility="Collapsed" HorizontalAlignment="Left" Margin="0,20,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TecCargo:Address x:Name="Address_Faktura" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" IsUnLock="False" HorizontalAlignment="Left" Header="Faktura Adresse" CheckboxVisibility="Collapsed"  ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+
+                        <Grid Grid.Row="0" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Content="General" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="15"/>
+
+                            <TecCargo:DateTimePicker  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Placeholder="Leveringsdato" Width="250" HorizontalAlignment="Left" Format="dd/MM/yyyy H:mm" TimeVisibility="Visible" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox Grid.Row="2" Grid.Column="0" Placeholder="Rabat" Width="125" HorizontalAlignment="Left" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox Grid.Row="2"  Grid.Column="1" Placeholder="Kilometer" Width="125" HorizontalAlignment="Right" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        </Grid>
+                        <Grid Grid.Row="1" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Content="Tidsforbrug" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="15"/>
+
+                            <TecCargo:MyTextbox Text="10" Placeholder="Læsse tid" Grid.Row="1" Grid.Column="0" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox Text="10" Placeholder="Aflæssning tid" Grid.Row="1" Grid.Column="1" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+
+                            <TecCargo:MyTextbox Text="10" Placeholder="Vente tid" Grid.Row="2" Grid.Column="0" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                            <TecCargo:MyTextbox Text="10" Placeholder="Medhjælper tid" Grid.Row="3" Grid.Column="1" Width="200" IsInt="True" Margin="0,5,5,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="8" Visibility="Collapsed">
+                        <TecCargo:Gebyr x:Name="Gebyr_Ekstra" Margin="0,0,0,0" ShowAlwaysPlaceholderOnTop="{Binding ChangeHeaderInfoState, ElementName=_UserPanel}"/>
+                    </Grid>
+
+                    <Grid Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Name="Button_GridViewBack" Grid.Column="0" Width="200" Height="60" Margin="0,20,20,10" HorizontalAlignment="Center" Click="Button_ViewSelectorChangeView_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Width="50" Height="50" Source="/TecCargo Faktura System;component/Images/Icons/arrow.png" RenderTransformOrigin="0.5,0.5">
+                                    <Image.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform Angle="180"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Image.RenderTransform>
+                                </Image>
+                                <Label Content="Gå Tilbage" Padding="10,0" FontWeight="Bold" FontSize="20" VerticalContentAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button Name="Button_GridViewNext" Grid.Column="1" Width="200" Height="60" Margin="20,20,0,10" HorizontalAlignment="Center" Click="Button_ViewSelectorChangeView_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Gå Videre" Padding="10,0" FontWeight="Bold" FontSize="20" VerticalContentAlignment="Center"/>
+                                <Image Width="50" Height="50" Source="/TecCargo Faktura System;component/Images/Icons/arrow.png" HorizontalAlignment="Right"/>
+                            </StackPanel>
+                        </Button>
+                    </Grid>
+                </Grid>
+
+            <Grid Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Left" ScrollViewer.CanContentScroll="False">
+                    <TecCargo:PrisList x:Name="Prislist_faktura" 
+                        HorizontalAlignment="Right"  
+                        VerticalAlignment="Top"
+                        Visibility="{Binding ShowPricelist, ElementName=_UserPanel, 
+                            Converter={StaticResource ShowPricelistConverter}}"/>
+                </Grid>
+            </Grid>
+
+        </ScrollViewer>
+
+        <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" Height="50" Width="Auto" Background="#FF2C72B8" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal">
+                    <Label Content="Version:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="{x:Static Models:ImportantData.PVersion}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <Label Content="Kodet af:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="{x:Static Models:ImportantData.PAuthor}" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Horizontal" Grid.Column="0">
+                    <TextBlock Text="Fragtbrev:" VerticalAlignment="Center" FontWeight="Bold" FontSize="15"/>
+                    <Image Name="Image_ButtomStatusFragt" Height="30" Width="30" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="35,0,20,0">
+                    <TextBlock Text="Faktura:" VerticalAlignment="Center" FontWeight="Bold" FontSize="15"/>
+                    <Image Name="Image_ButtomStatusFaktura" Height="30" Width="30" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="0" HorizontalAlignment="Stretch" Grid.Column="0" Width="Auto" Background="#FF2C72B8" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid Margin="0,2,0,0" Grid.Column="0" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Content="Filer" Padding="5,2" Click="ToolsbarButton_Filer_Click" Margin="2,0,0,2"/>
+                    <Button Grid.Column="1" Content="Start Menu" Padding="5,2" Click="ButtonAdmin_Startmenu_Click" Margin="2,0,0,2"/>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Name="Button_Save" Grid.Column="0" Height="35" ToolTip="Gem" Click="toolbarButton_save_Click" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/save_checkv2.png"/>
+                    </Button>
+
+                    <Button Grid.Column="1" Height="35" ToolTip="Åben mappe" Click="toolbarButton_PDF_Click" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/folder.png"/>
+                    </Button>
+
+                    <Button Grid.Column="2" Height="35" ToolTip="Gem" Click="toolbarButton_new_Click" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/lock.png"/>
+                    </Button>
+                </Grid>
+
+                <Grid Grid.Row="2" Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <ToggleButton Grid.Column="0" Height="35" ToolTip="Brug fuld side" Click="ToolBarButton_Test" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/toolbar_FuldSide.png"/>
+                    </ToggleButton>
+
+                    <ToggleButton Grid.Column="1" Height="35" ToolTip="Vis placeholder i toppen" Click="ToolBarButton_Test" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/toolbar_Placeholder.png"/>
+                    </ToggleButton>
+
+                    <ToggleButton Grid.Column="2" Height="35" ToolTip="Vis prisliste" Click="ToolBarButton_Test" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/toolbar_PriceList.png"/>
+                    </ToggleButton>
+                </Grid>
+
+
+                <Grid Grid.Row="0" Grid.Column="2" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Slider x:Name="Slider_Zoom" Grid.Column="0" Value="100" Minimum="30" Maximum="200" Width="100" HorizontalAlignment="Left" Margin="2,0,0,0" IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" Style="{DynamicResource Horizontal_Slider}" />
+                    <TextBlock Grid.Column="1" Text="{Binding Value, ElementName=Slider_Zoom}" Margin="5,0,0,0"/>
+                    <TextBlock Grid.Column="2" Text="%"/>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <ToggleButton Grid.Column="0" Height="35" ToolTip="Brug fuld side" Click="ToolBarButton_ChangeOptions_Click" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/toolbar_FuldSide.png"/>
+                    </ToggleButton>
+
+                    <ToggleButton Grid.Column="1" Height="35" ToolTip="Vis placeholder i toppen" Click="ToolBarButton_ChangeOptions_Click" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/toolbar_Placeholder.png"/>
+                    </ToggleButton>
+
+                    <ToggleButton Grid.Column="2" Height="35" ToolTip="Vis prisliste" Click="ToolBarButton_ChangeOptions_Click" Margin="2,0,0,2">
+                        <Image Source="/TecCargo Faktura System;component/Images/Icons/toolbar_PriceList.png"/>
+                    </ToggleButton>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-2" >
+                    
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="69"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Line Name="Line_ViewSelector_FragtFirstH" Grid.Column="0" Stretch="Fill" Stroke="{Binding Background, ElementName=Border_ViewSelectorBox}" X1="1" Width="10" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,-15,0,0" StrokeThickness="2"/>
+                    <Canvas Grid.Column="0" Margin="0,-15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Rectangle  Width="2" Height="15"  Fill="{Binding Background, ElementName=Border_ViewSelectorBox}" />
+                    </Canvas>
+                    <Border Grid.Column="1" Margin="0,-24,0,0" Background="{Binding Background, ElementName=Border_ViewSelectorBox}" Height="20" CornerRadius="5" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <TextBlock Name="TextBlock_ViewSelector_Fragt" Text="Fragtbrev"  Foreground="White" Padding="5,0" VerticalAlignment="Top" HorizontalAlignment="Left"  />
+
+                    </Border>
+                    <Line Name="Line_ViewSelector_FragtLastH" Grid.Column="2" Stretch="Fill" Stroke="{Binding Background, ElementName=Border_ViewSelectorBox}" X1="1" Width="15" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,-15,0,0" StrokeThickness="2"/>
+                    <Canvas Grid.Column="2" Margin="0,-15,3,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                        <Rectangle  Width="2" Height="15"  Fill="{Binding Background, ElementName=Border_ViewSelectorBox}" />
+                    </Canvas>
+
+
+                    <Line Name="Line_ViewSelector_FakturaFirstH" Grid.Column="4" Stretch="Fill" Stroke="{Binding Background, ElementName=Border_ViewSelectorBox}" X1="1" Width="10" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,-15,0,0" StrokeThickness="2"/>
+                    <Canvas Grid.Column="4" Margin="0,-15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Rectangle  Width="2" Height="15"  Fill="{Binding Background, ElementName=Border_ViewSelectorBox}" />
+                    </Canvas>
+                    <Border Grid.Column="5" Margin="0,-24,0,0" Background="{Binding Background, ElementName=Border_ViewSelectorBox}" Height="20" CornerRadius="5" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <TextBlock Name="TextBlock_ViewSelector_Faktura" Text="Faktura"  Foreground="White" Padding="5,0" VerticalAlignment="Top" HorizontalAlignment="Left"  />
+
+                    </Border>
+                    <Line Name="Line_ViewSelector_FakturaLastH" Grid.Column="6" Stretch="Fill" Stroke="{Binding Background, ElementName=Border_ViewSelectorBox}" X1="1" Width="15" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,-15,0,0" StrokeThickness="2"/>
+                    <Canvas Grid.Column="6" Margin="0,-15,3,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                        <Rectangle  Width="2" Height="15"  Fill="{Binding Background, ElementName=Border_ViewSelectorBox}" />
+                    </Canvas>
+
+                </Grid>
+                <Border x:Name="Border_ViewSelectorBox" Grid.Row="1" Height="50" BorderThickness="2" BorderBrush="#FF0959A8" Background="#FF0959A8" CornerRadius="2">
+                    
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <Button Name="Button_ViewSelectorBack"
+                             Grid.Column="0"
+                                BorderThickness="0" 
+                                Height="46" 
+                                Width="46" 
+                                Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                                Click="Button_ViewSelectorChangeView_Click">
+                            <Image Source="/TecCargo Faktura System;component/Images/Icons/arrow.png" RenderTransformOrigin="0.5,0.5" >
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="180"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+                            </Image>
+                        </Button>
+
+                        <Border x:Name="Border_ViewSelector"  Grid.Column="1" Height="46" BorderThickness="2" BorderBrush="#FF0959A8" Background="#FF959595" CornerRadius="2">
+                            <Grid Name="Grid_ViewSelectorContainer">
+
+                            </Grid>
+                        </Border>
+
+                        <Button Name="Button_ViewSelectorNext"
+                                    Grid.Column="2" 
+                                    BorderThickness="0"  
+                                    Height="46" 
+                                    Width="46" 
+                                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                                    Click="Button_ViewSelectorChangeView_Click">
+
+                            <Image Source="/TecCargo Faktura System;component/Images/Icons/arrow.png" />
+                        </Button>
+
+
+                    </Grid>
+                </Border>
+            </Grid>
+            <Image Grid.Column="3" Margin="5" Source="/TecCargo Faktura System;component/Images/Pdf/logo.png" />
+
+
+
+
+
+            <ListBox x:Name="ToolsbarMenu_Filer" Visibility="Hidden" HorizontalAlignment="Left" Height="auto" Width="auto" MinWidth="100" Margin="10,23,0,-85" VerticalAlignment="Top"  Background="#FFDDDDDD" BorderThickness="1" BorderBrush="#FF707070" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+
+                <ListBoxItem Content="Nyt Faktura" />
+                <ListBoxItem Content="Nyt Fragtbrev" />
+
+                <ListBoxItem Content="Åben Faktura"  />
+                <ListBoxItem Content="Åben Fragtbrev"/>
+
+                <ListBoxItem x:Name="toolbarButtonListSave" Content="Gem Fragtbrev" />
+                <ListBoxItem x:Name="toolbarList_PDF" Content="Exporter Til PDF" />
+
+
+
+            </ListBox>
+            <Button Content="Send til faktura" x:Name="ButtonTool_CloseFragtbrev" Visibility="Hidden" IsEnabled="False" Width="100" HorizontalAlignment="Left" Margin="127,4,0,0" VerticalAlignment="Top" Focusable="False"/>
+            <Button HorizontalAlignment="Left" Height="20" Margin="227,4,0,0" x:Name="ButtonTool_CloseFragtbrevComment" Visibility="Hidden" IsEnabled="False" VerticalAlignment="Top"   TabIndex="2000000">
+                <Image Height="auto" VerticalAlignment="Top" Width="auto" HorizontalAlignment="Left"  ToolTip="Exporter til pdf"/>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

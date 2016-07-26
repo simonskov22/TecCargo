@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="TecCargo_Faktura.Controls.Address"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:TecCargo="clr-namespace:TecCargo_Faktura.Controls"
+             mc:Ignorable="d" Name="_Address"
+             Loaded="_Address_Loaded">
+    
+    <Grid x:Name="Grid_Contain">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <TecCargo:MyTextbox Grid.Row="1" x:Name="Textbox_ContactTlf" Placeholder="Kontakt Nr." IsInt="True" TextChanged="Textbox_GetList_TextChanged" Margin="0,3" PreviewKeyDown="Textbox_Contact_KeyDown" IsUnLock="{Binding IsUnLock, ElementName=_Address}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Address}"/>
+        <TecCargo:MyTextbox Grid.Row="2" x:Name="Textbox_FirmName" Placeholder="Firma/Navn" TextChanged="Textbox_GetList_TextChanged" Margin="0,3" PreviewKeyDown="Textbox_Contact_KeyDown" IsUnLock="{Binding IsUnLock, ElementName=_Address}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Address}"/>
+        <TecCargo:MyTextbox Grid.Row="3" x:Name="Textbox_ContactPer" Placeholder="Kontakt Person" Margin="0,3" IsUnLock="{Binding IsUnLock, ElementName=_Address}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Address}"/>
+        <TecCargo:MyTextbox Grid.Row="4" x:Name="Textbox_Address" Placeholder="Adresse" Margin="0,3" IsUnLock="{Binding IsUnLock, ElementName=_Address}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Address}"/>
+        <TecCargo:MyTextbox Grid.Row="5" x:Name="Textbox_ZipCode" Placeholder="Post Nr."   Margin="0,3" MaxLength="4" IsInt="True" Width="120" HorizontalAlignment="Left" KeyUp="Textbox_ZipCode_KeyUp" TextChanged="Textbox_ZipCode_TextChanged" IsUnLock="{Binding IsUnLock, ElementName=_Address}" ShowAlwaysPlaceholderOnTop="{Binding ShowAlwaysPlaceholderOnTop, ElementName=_Address}" />
+
+        <TextBlock x:Name="TextBlock_City" Grid.Row="5" HorizontalAlignment="Left" Text="" FontSize="20" VerticalAlignment="Center" Margin="130,0,0,0"/>
+
+        <TecCargo:CheckBoxButton Grid.Row="6" x:Name="CheckBox_Pay" Text="{Binding TextCheck, ElementName=_Address}" Width="300" Visibility="{Binding CheckboxVisibility, ElementName=_Address}" IsEnabled="{Binding IsUnLock, ElementName=_Address}"/>
+
+
+        <ListView x:Name="ListBox_Customer" MaxHeight="150" Margin="0,45,0,0" Grid.Row="1" Grid.RowSpan="6" Panel.ZIndex="1100"
+                 VerticalAlignment="Top" VerticalContentAlignment="Top"
+                 Padding="2,15" FontSize="18" MouseDoubleClick="ListBox_Customer_GetInfoData" 
+                  KeyDown="ListBox_Customer_GetInfoData" IsVisibleChanged="ListBox_Customer_IsVisibleChanged"
+                  Background="White" Visibility="Collapsed">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True" >
+                            <Setter Property="FontWeight" Value="Bold" />
+                            <Setter Property="Background" Value="#FF5DA8F3" />
+                            <Setter Property="Foreground" Value="Black" />
+                        </Trigger>
+                    </Style.Triggers>
+                    <Style.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="#FF5DA8F3"/>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FF5DA8F3"/>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="#FF5DA8F3"/>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="#FF5DA8F3"/>
+                    </Style.Resources>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+    </Grid>
+</UserControl>

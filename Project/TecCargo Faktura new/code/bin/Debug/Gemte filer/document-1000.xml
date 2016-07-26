@@ -1,0 +1,560 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Indstillinger>
+    <Invoice>1000</Invoice>
+    <Initialer />
+  </Indstillinger>
+  <Afsender>
+    <Telefon>10 20 30 40</Telefon>
+    <Firma>Afsender A/S</Firma>
+    <KontaktPerson>Afsender</KontaktPerson>
+    <Vej>Afsender 128</Vej>
+    <ZipCode>1000</ZipCode>
+    <IsPayer>True</IsPayer>
+  </Afsender>
+  <Modtager>
+    <Telefon>50 60 70 80 90</Telefon>
+    <Firma>Modtager A/S</Firma>
+    <KontaktPerson>Modtager</KontaktPerson>
+    <Vej>Modtager 128</Vej>
+    <ZipCode>2000</ZipCode>
+    <IsPayer>False</IsPayer>
+  </Modtager>
+  <Modtager2>
+    <IsActive>False</IsActive>
+    <Telefon>10 10 50 50</Telefon>
+    <Firma>Modtager2 A/S</Firma>
+    <KontaktPerson>Modtager2</KontaktPerson>
+    <Vej>Modtager2 128</Vej>
+    <ZipCode>3000</ZipCode>
+    <IsPayer>False</IsPayer>
+  </Modtager2>
+  <Generelt>
+    <Reference>Reference</Reference>
+    <Fragtmand>Fragtmand</Fragtmand>
+    <Forsikringstype>2</Forsikringstype>
+    <DatoRute1>16-03-2016 13:27:30</DatoRute1>
+    <IsSetDatoRute1>True</IsSetDatoRute1>
+    <ZipRute1>8000</ZipRute1>
+    <DatoRute2>16-03-2016 13:27:30</DatoRute2>
+    <IsSetDatoRute2>True</IsSetDatoRute2>
+    <ZipRute2>9000</ZipRute2>
+  </Generelt>
+  <Byttepaller>
+    <UseByttepalle>False</UseByttepalle>
+    <Palle1_1>3</Palle1_1>
+    <Palle1_2>2</Palle1_2>
+    <Palle1_4>5</Palle1_4>
+  </Byttepaller>
+  <Efterkrav>
+    <UseEfterkrav>True</UseEfterkrav>
+    <EfterkravGebyr>1000</EfterkravGebyr>
+    <Forsikringssum>2000</Forsikringssum>
+    <Premium>3000</Premium>
+    <Total>4000</Total>
+  </Efterkrav>
+  <TransportType>
+    <Val1>0</Val1>
+    <Val2>0</Val2>
+    <Val3>3</Val3>
+  </TransportType>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1000</MrkNumb>
+    <Contains>Dette er en test 0</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1001</MrkNumb>
+    <Contains>Dette er en test 1</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1002</MrkNumb>
+    <Contains>Dette er en test 2</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1003</MrkNumb>
+    <Contains>Dette er en test 3</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1004</MrkNumb>
+    <Contains>Dette er en test 4</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1005</MrkNumb>
+    <Contains>Dette er en test 5</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1006</MrkNumb>
+    <Contains>Dette er en test 6</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1007</MrkNumb>
+    <Contains>Dette er en test 7</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1008</MrkNumb>
+    <Contains>Dette er en test 8</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportData>
+    <IsDoneFragt>True</IsDoneFragt>
+    <MrkNumb>1009</MrkNumb>
+    <Contains>Dette er en test 9</Contains>
+    <CountI>4</CountI>
+    <CountS>4</CountS>
+    <WeightD>20</WeightD>
+    <WeightS>20</WeightS>
+    <Volume>10*10*10</Volume>
+    <ArtId>1</ArtId>
+    <ArtName>Test</ArtName>
+    <TransportTypeId>1</TransportTypeId>
+    <TransportTypeName />
+  </TransportData>
+  <TransportDataFaktura>
+    <Index>0</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>0</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>0</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>0</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>1</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>1</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>1</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>1</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>2</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>2</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>2</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>2</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>3</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>3</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>3</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>3</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>4</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>4</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>4</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>4</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>5</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>5</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>5</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>5</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>6</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>6</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>6</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>6</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>7</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>7</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>7</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>7</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>8</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>8</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>8</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>8</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>9</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>9</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>9</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <TransportDataFaktura>
+    <Index>9</Index>
+    <IsDoneFaktura>False</IsDoneFaktura>
+    <TakstId>-1</TakstId>
+    <TakstName />
+    <BeregningstypeId>-1</BeregningstypeId>
+    <BeregningstypeName />
+  </TransportDataFaktura>
+  <LukFragtbrev>
+    <Leveringsdato>16-03-2016 13:27:28</Leveringsdato>
+    <IsSetLeveringsdato>False</IsSetLeveringsdato>
+    <Rabat>10</Rabat>
+    <Kilometer>10</Kilometer>
+    <Tidsforbrug1>10</Tidsforbrug1>
+    <Tidsforbrug2>10</Tidsforbrug2>
+    <Tidsforbrug3>10</Tidsforbrug3>
+    <Tidsforbrug4>10</Tidsforbrug4>
+    <Kommentar />
+  </LukFragtbrev>
+  <EkstraGebyrButtons>
+    <Button_0>False</Button_0>
+    <Button_1>False</Button_1>
+    <Button_2>False</Button_2>
+    <Button_3>False</Button_3>
+    <Button_4>False</Button_4>
+    <Button_5>False</Button_5>
+    <Button_6>False</Button_6>
+    <Button_7>False</Button_7>
+    <Button_8>False</Button_8>
+    <Button_9>False</Button_9>
+    <Button_10>False</Button_10>
+    <Button_11>False</Button_11>
+  </EkstraGebyrButtons>
+  <EkstraGebyrTextboxs>
+    <Text_0 />
+    <Text_1 />
+    <Text_2 />
+    <Text_3 />
+    <Text_4 />
+    <Text_5 />
+    <Text_6 />
+  </EkstraGebyrTextboxs>
+  <andet>
+    <FragtbrevNotifications />
+    <FakturaNotifications />
+    <FakturaKommentar />
+  </andet>
+</NewDataSet>

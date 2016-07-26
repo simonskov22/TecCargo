@@ -1,0 +1,87 @@
+.tecKurerTable{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tecKurerTable td, .tecKurerTable th{
+
+    border: 2px solid #000;
+    padding: 10px 5px;
+}
+.tecKurerTable img.logo{
+    height: 170px;
+}
+.tecKurerTable img.car{
+    height: 100px;
+    width: 100px;
+}
+.tecKurerTable img.weight{    
+    height: 50px;
+    width: 100px;
+}
+.tecKurerTable .centerText{
+    text-align: center;
+}
+
+.tecGodsPrice{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.tecGodsPrice .header{
+
+    background: #254078;
+    color: #fff;
+}
+.tecGodsPrice .dark{
+
+    background: #B1B2B4;
+}
+.tecGodsPrice .light{
+
+    background: #fff;
+}
+.tecGodsPrice .dark,.tecGodsPrice .light{
+
+    color: #000;
+    cursor: pointer;
+}
+.tecGodsPrice tr.selecedPrice td{
+    background: #296AC1 !important;
+}
+.pricesDivGods{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.pricesDivGods td{
+    vertical-align: bottom;
+}
+
+.pricesDivGods img{
+    height: 200px;
+}
+.pricesDivGods .buttons{
+    display: inline-block;
+}
+.pricesDivGods .header{
+
+    color: #f73700;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px 65px;
+}
+.pricesDivGods .buttons a{
+
+    background: #254078;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px outset #254078;
+}
+.pricesDivGods .buttons a.seleced{
+
+    background: #f73700;
+    border: 2px outset #f73700;
+}

@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ooo_calc_export scriptVersion="2.2.0" scriptUpdate="2010-12-19"
+                 scriptURL="http://www.digitalimprint.com/misc/oooexport/"
+                 scriptAuthor="vjl">
+   <ooo_sheet num="1" name="Ark1">
+      <ooo_row><Postnr_>0555</Postnr_><Bynavn>Scanning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0800</Postnr_><Bynavn>Høje Taastrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0877</Postnr_><Bynavn>København C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0892</Postnr_><Bynavn>Sjælland USF P</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0893</Postnr_><Bynavn>Sjælland USF B</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0894</Postnr_><Bynavn>Udbetaling</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0897</Postnr_><Bynavn>eBrevsprækken</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0899</Postnr_><Bynavn>Kommuneservice</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0900</Postnr_><Bynavn>København C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0910</Postnr_><Bynavn>København C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0917</Postnr_><Bynavn>Københavns Pakkecenter</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0918</Postnr_><Bynavn>Københavns Pakke BRC</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0919</Postnr_><Bynavn>Returprint BRC</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0929</Postnr_><Bynavn>København C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0960</Postnr_><Bynavn>Internationalt Postcenter</Bynavn></ooo_row>
+      <ooo_row><Postnr_>0999</Postnr_><Bynavn>København C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1000</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1001</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1002</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1003</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1004</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1005</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1006</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1007</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1008</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1009</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1010</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1011</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1012</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1013</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1014</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1015</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1016</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1017</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1018</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1019</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1020</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1021</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1022</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1023</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1024</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1025</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1026</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1045</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1050</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1051</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1052</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1053</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1054</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1055</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1055</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1056</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1057</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1058</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1059</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1060</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1061</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1062</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1063</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1064</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1065</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1066</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1067</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1068</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1069</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1070</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1071</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1072</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1073</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1074</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1092</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1093</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1095</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1098</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1100</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1101</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1102</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1103</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1104</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1105</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1106</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1107</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1110</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1111</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1112</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1113</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1114</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1115</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1116</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1117</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1118</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1119</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1120</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1121</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1122</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1123</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1124</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1125</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1126</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1127</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1128</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1129</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1130</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1131</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1140</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1147</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1148</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1150</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1151</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1152</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1153</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1154</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1155</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1156</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1157</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1158</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1159</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1160</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1161</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1162</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1163</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1164</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1165</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1165</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1166</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1167</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1168</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1169</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1170</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1171</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1172</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1173</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1174</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1175</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1200</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1201</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1202</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1203</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1204</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1205</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1206</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1207</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1208</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1209</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1210</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1211</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1212</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1213</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1214</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1215</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1216</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1217</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1218</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1218</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1218</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1218</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1218</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1218</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1219</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1220</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1221</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1240</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1250</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1251</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1252</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1253</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1254</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1255</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1256</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1257</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1258</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1259</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1259</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1260</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1261</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1263</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1263</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1264</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1265</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1266</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1267</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1268</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1270</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1271</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1291</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1300</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1301</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1302</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1303</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1304</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1306</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1307</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1307</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1308</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1309</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1310</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1311</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1312</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1313</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1314</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1315</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1316</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1317</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1318</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1319</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1320</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1321</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1322</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1323</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1324</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1325</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1326</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1327</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1328</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1329</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1350</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1352</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1353</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1354</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1355</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1356</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1357</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1358</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1359</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1359</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1360</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1361</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1361</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1362</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1363</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1364</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1365</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1366</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1367</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1368</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1369</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1370</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1371</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1400</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1400</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1401</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1402</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1402</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1402</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1402</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1402</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1403</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1404</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1406</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1407</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1408</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1409</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1410</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1411</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1411</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1412</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1413</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1414</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1415</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1416</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1417</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1418</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1419</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1420</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1421</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1422</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1423</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1424</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1425</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1426</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1427</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1428</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1429</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1430</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1431</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1432</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1432</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1432</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1433</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1433</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1433</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1433</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1433</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1433</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1433</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1434</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1435</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1436</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1436</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1436</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1436</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1436</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1436</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1436</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1437</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1438</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1438</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1438</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1438</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1438</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1439</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1440</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1441</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1441</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1441</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1448</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1450</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1451</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1452</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1453</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1454</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1455</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1456</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1457</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1458</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1459</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1460</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1461</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1462</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1463</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1464</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1465</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1466</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1467</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1468</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1470</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1471</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1472</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1473</Postnr_><Bynavn>København K</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1500</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1501</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1502</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1503</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1504</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1505</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1506</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1507</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1508</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1509</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1510</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1512</Postnr_><Bynavn>Returpost</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1513</Postnr_><Bynavn>Centraltastning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1532</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1533</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1550</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1550</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1551</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1552</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1553</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1553</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1554</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1555</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1556</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1557</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1558</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1559</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1560</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1561</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1561</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1562</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1563</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1564</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1566</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1567</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1568</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1569</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1570</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1570</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1571</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1572</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1573</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1574</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1575</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1576</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1577</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1577</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1577</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1592</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1599</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1600</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1601</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1602</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1603</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1604</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1605</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1606</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1607</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1608</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1609</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1610</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1611</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1612</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1613</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1614</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1615</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1616</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1617</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1618</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1619</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1620</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1620</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1621</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1622</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1623</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1624</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1630</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1631</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1632</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1633</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1634</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1635</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1650</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1651</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1652</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1653</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1654</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1655</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1656</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1657</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1658</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1659</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1660</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1660</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1661</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1662</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1663</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1664</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1665</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1666</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1667</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1668</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1669</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1670</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1671</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1671</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1672</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1673</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1674</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1675</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1676</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1677</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1699</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1700</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1701</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1702</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1703</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1704</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1705</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1706</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1707</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1708</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1709</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1710</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1711</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1711</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1712</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1713</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1714</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1715</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1716</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1717</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1718</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1719</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1720</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1721</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1722</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1723</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1724</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1725</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1726</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1727</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1728</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1729</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1730</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1731</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1732</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1733</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1734</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1735</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1736</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1737</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1738</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1739</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1749</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1750</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1751</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1752</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1753</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1754</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1755</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1756</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1757</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1758</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1759</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1760</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1761</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1762</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1763</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1764</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1765</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1766</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1770</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1771</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1772</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1773</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1774</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1775</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1777</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1780</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1782</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1785</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1786</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1787</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1790</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1799</Postnr_><Bynavn>København V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1800</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1801</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1802</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1803</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1804</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1805</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1806</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1807</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1808</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1809</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1810</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1811</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1812</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1813</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1814</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1815</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1816</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1817</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1818</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1819</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1820</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1822</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1823</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1824</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1825</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1826</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1827</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1828</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1829</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1835</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1850</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1851</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1852</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1853</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1854</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1855</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1856</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1857</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1860</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1861</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1862</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1863</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1864</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1865</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1866</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1867</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1868</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1870</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1871</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1872</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1873</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1874</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1875</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1876</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1877</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1878</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1879</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1900</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1901</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1902</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1903</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1904</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1905</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1906</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1908</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1909</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1910</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1911</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1912</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1913</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1914</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1915</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1916</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1917</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1920</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1921</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1922</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1923</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1924</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1925</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1926</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1927</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1928</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1931</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1950</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1951</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1952</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1953</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1954</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1955</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1956</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1957</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1958</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1959</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1960</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1961</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1962</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1963</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1964</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1965</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1966</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1967</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1970</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1971</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1972</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1973</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>1974</Postnr_><Bynavn>Frederiksberg C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2000</Postnr_><Bynavn>Frederiksberg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2100</Postnr_><Bynavn>København Ø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2150</Postnr_><Bynavn>Nordhavn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2200</Postnr_><Bynavn>København N</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2300</Postnr_><Bynavn>København S</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2400</Postnr_><Bynavn>København NV</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2450</Postnr_><Bynavn>København SV</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2500</Postnr_><Bynavn>Valby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2600</Postnr_><Bynavn>Glostrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2605</Postnr_><Bynavn>Brøndby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2610</Postnr_><Bynavn>Rødovre</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2620</Postnr_><Bynavn>Albertslund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2625</Postnr_><Bynavn>Vallensbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2630</Postnr_><Bynavn>Taastrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2635</Postnr_><Bynavn>Ishøj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2640</Postnr_><Bynavn>Hedehusene</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2650</Postnr_><Bynavn>Hvidovre</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2660</Postnr_><Bynavn>Brøndby Strand</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2665</Postnr_><Bynavn>Vallensbæk Strand</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2670</Postnr_><Bynavn>Greve</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2680</Postnr_><Bynavn>Solrød Strand</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2690</Postnr_><Bynavn>Karlslunde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2700</Postnr_><Bynavn>Brønshøj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2720</Postnr_><Bynavn>Vanløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2730</Postnr_><Bynavn>Herlev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2740</Postnr_><Bynavn>Skovlunde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2750</Postnr_><Bynavn>Ballerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2760</Postnr_><Bynavn>Måløv</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2765</Postnr_><Bynavn>Smørum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2770</Postnr_><Bynavn>Kastrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2791</Postnr_><Bynavn>Dragør</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2800</Postnr_><Bynavn>Kongens Lyngby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2820</Postnr_><Bynavn>Gentofte</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2830</Postnr_><Bynavn>Virum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2840</Postnr_><Bynavn>Holte</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2850</Postnr_><Bynavn>Nærum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2860</Postnr_><Bynavn>Søborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2870</Postnr_><Bynavn>Dyssegård</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2880</Postnr_><Bynavn>Bagsværd</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2900</Postnr_><Bynavn>Hellerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2920</Postnr_><Bynavn>Charlottenlund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2930</Postnr_><Bynavn>Klampenborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2942</Postnr_><Bynavn>Skodsborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2950</Postnr_><Bynavn>Vedbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2960</Postnr_><Bynavn>Rungsted Kyst</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2970</Postnr_><Bynavn>Hørsholm</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2980</Postnr_><Bynavn>Kokkedal</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2990</Postnr_><Bynavn>Nivå</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3000</Postnr_><Bynavn>Helsingør</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3050</Postnr_><Bynavn>Humlebæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3060</Postnr_><Bynavn>Espergærde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3070</Postnr_><Bynavn>Snekkersten</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3080</Postnr_><Bynavn>Tikøb</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3100</Postnr_><Bynavn>Hornbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3120</Postnr_><Bynavn>Dronningmølle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3140</Postnr_><Bynavn>Ålsgårde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3150</Postnr_><Bynavn>Hellebæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3200</Postnr_><Bynavn>Helsinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3210</Postnr_><Bynavn>Vejby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3220</Postnr_><Bynavn>Tisvildeleje</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3230</Postnr_><Bynavn>Græsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3250</Postnr_><Bynavn>Gilleleje</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3300</Postnr_><Bynavn>Frederiksværk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3310</Postnr_><Bynavn>Ølsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3320</Postnr_><Bynavn>Skævinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3330</Postnr_><Bynavn>Gørløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3360</Postnr_><Bynavn>Liseleje</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3370</Postnr_><Bynavn>Melby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3390</Postnr_><Bynavn>Hundested</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3400</Postnr_><Bynavn>Hillerød</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3450</Postnr_><Bynavn>Allerød</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3460</Postnr_><Bynavn>Birkerød</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3480</Postnr_><Bynavn>Fredensborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3490</Postnr_><Bynavn>Kvistgård</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3500</Postnr_><Bynavn>Værløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3520</Postnr_><Bynavn>Farum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3540</Postnr_><Bynavn>Lynge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3550</Postnr_><Bynavn>Slangerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3600</Postnr_><Bynavn>Frederikssund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3630</Postnr_><Bynavn>Jægerspris</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3650</Postnr_><Bynavn>Ølstykke</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3660</Postnr_><Bynavn>Stenløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3670</Postnr_><Bynavn>Veksø Sjælland</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3700</Postnr_><Bynavn>Rønne</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3720</Postnr_><Bynavn>Aakirkeby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3730</Postnr_><Bynavn>Nexø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3740</Postnr_><Bynavn>Svaneke</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3751</Postnr_><Bynavn>Østermarie</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3760</Postnr_><Bynavn>Gudhjem</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3770</Postnr_><Bynavn>Allinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3782</Postnr_><Bynavn>Klemensker</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3790</Postnr_><Bynavn>Hasle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4000</Postnr_><Bynavn>Roskilde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4030</Postnr_><Bynavn>Tune</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4040</Postnr_><Bynavn>Jyllinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4050</Postnr_><Bynavn>Skibby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4060</Postnr_><Bynavn>Kirke Såby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4070</Postnr_><Bynavn>Kirke Hyllinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4100</Postnr_><Bynavn>Ringsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4129</Postnr_><Bynavn>Ringsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4130</Postnr_><Bynavn>Viby Sjælland</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4140</Postnr_><Bynavn>Borup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4160</Postnr_><Bynavn>Herlufmagle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4171</Postnr_><Bynavn>Glumsø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4173</Postnr_><Bynavn>Fjenneslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4174</Postnr_><Bynavn>Jystrup Midtsj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4180</Postnr_><Bynavn>Sorø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4190</Postnr_><Bynavn>Munke Bjergby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4200</Postnr_><Bynavn>Slagelse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4220</Postnr_><Bynavn>Korsør</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4230</Postnr_><Bynavn>Skælskør</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4241</Postnr_><Bynavn>Vemmelev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4242</Postnr_><Bynavn>Boeslunde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4243</Postnr_><Bynavn>Rude</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4250</Postnr_><Bynavn>Fuglebjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4261</Postnr_><Bynavn>Dalmose</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4262</Postnr_><Bynavn>Sandved</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4270</Postnr_><Bynavn>Høng</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4281</Postnr_><Bynavn>Gørlev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4291</Postnr_><Bynavn>Ruds Vedby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4293</Postnr_><Bynavn>Dianalund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4295</Postnr_><Bynavn>Stenlille</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4296</Postnr_><Bynavn>Nyrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4300</Postnr_><Bynavn>Holbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4320</Postnr_><Bynavn>Lejre</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4330</Postnr_><Bynavn>Hvalsø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4340</Postnr_><Bynavn>Tølløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4350</Postnr_><Bynavn>Ugerløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4360</Postnr_><Bynavn>Kirke Eskilstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4370</Postnr_><Bynavn>Store Merløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4390</Postnr_><Bynavn>Vipperød</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4400</Postnr_><Bynavn>Kalundborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4420</Postnr_><Bynavn>Regstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4440</Postnr_><Bynavn>Mørkøv</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4450</Postnr_><Bynavn>Jyderup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4460</Postnr_><Bynavn>Snertinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4470</Postnr_><Bynavn>Svebølle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4480</Postnr_><Bynavn>Store Fuglede</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4490</Postnr_><Bynavn>Jerslev Sjælland</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4500</Postnr_><Bynavn>Nykøbing Sj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4520</Postnr_><Bynavn>Svinninge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4532</Postnr_><Bynavn>Gislinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4534</Postnr_><Bynavn>Hørve</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4540</Postnr_><Bynavn>Fårevejle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4550</Postnr_><Bynavn>Asnæs</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4560</Postnr_><Bynavn>Vig</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4571</Postnr_><Bynavn>Grevinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4572</Postnr_><Bynavn>Nørre Asmindrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4573</Postnr_><Bynavn>Højby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4581</Postnr_><Bynavn>Rørvig</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4583</Postnr_><Bynavn>Sjællands Odde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4591</Postnr_><Bynavn>Føllenslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4592</Postnr_><Bynavn>Sejerø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4593</Postnr_><Bynavn>Eskebjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4600</Postnr_><Bynavn>Køge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4621</Postnr_><Bynavn>Gadstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4622</Postnr_><Bynavn>Havdrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4623</Postnr_><Bynavn>Lille Skensved</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4632</Postnr_><Bynavn>Bjæverskov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4640</Postnr_><Bynavn>Faxe</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4652</Postnr_><Bynavn>Hårlev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4653</Postnr_><Bynavn>Karise</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4654</Postnr_><Bynavn>Faxe Ladeplads</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4660</Postnr_><Bynavn>Store Heddinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4671</Postnr_><Bynavn>Strøby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4672</Postnr_><Bynavn>Klippinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4673</Postnr_><Bynavn>Rødvig Stevns</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4681</Postnr_><Bynavn>Herfølge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4682</Postnr_><Bynavn>Tureby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4683</Postnr_><Bynavn>Rønnede</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4684</Postnr_><Bynavn>Holmegaard</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4690</Postnr_><Bynavn>Haslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4700</Postnr_><Bynavn>Næstved</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4720</Postnr_><Bynavn>Præstø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4733</Postnr_><Bynavn>Tappernøje</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4735</Postnr_><Bynavn>Mern</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4736</Postnr_><Bynavn>Karrebæksminde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4750</Postnr_><Bynavn>Lundby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4760</Postnr_><Bynavn>Vordingborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4771</Postnr_><Bynavn>Kalvehave</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4772</Postnr_><Bynavn>Langebæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4773</Postnr_><Bynavn>Stensved</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4780</Postnr_><Bynavn>Stege</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4791</Postnr_><Bynavn>Borre</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4792</Postnr_><Bynavn>Askeby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4793</Postnr_><Bynavn>Bogø By</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4800</Postnr_><Bynavn>Nykøbing F</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4840</Postnr_><Bynavn>Nørre Alslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4850</Postnr_><Bynavn>Stubbekøbing</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4862</Postnr_><Bynavn>Guldborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4863</Postnr_><Bynavn>Eskilstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4871</Postnr_><Bynavn>Horbelev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4872</Postnr_><Bynavn>Idestrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4873</Postnr_><Bynavn>Væggerløse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4874</Postnr_><Bynavn>Gedser</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4880</Postnr_><Bynavn>Nysted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4891</Postnr_><Bynavn>Toreby L</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4892</Postnr_><Bynavn>Kettinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4894</Postnr_><Bynavn>Øster Ulslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4895</Postnr_><Bynavn>Errindlev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4900</Postnr_><Bynavn>Nakskov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4912</Postnr_><Bynavn>Harpelunde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4913</Postnr_><Bynavn>Horslunde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4920</Postnr_><Bynavn>Søllested</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4930</Postnr_><Bynavn>Maribo</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4941</Postnr_><Bynavn>Bandholm</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4943</Postnr_><Bynavn>Torrig L</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4944</Postnr_><Bynavn>Fejø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4951</Postnr_><Bynavn>Nørreballe</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4952</Postnr_><Bynavn>Stokkemarke</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4953</Postnr_><Bynavn>Vesterborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4960</Postnr_><Bynavn>Holeby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4970</Postnr_><Bynavn>Rødby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4983</Postnr_><Bynavn>Dannemare</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4990</Postnr_><Bynavn>Sakskøbing</Bynavn></ooo_row>
+      <ooo_row><Postnr_>4992</Postnr_><Bynavn>Midtsjælland USF P</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5000</Postnr_><Bynavn>Odense C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5029</Postnr_><Bynavn>Odense C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5100</Postnr_><Bynavn>Odense C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5200</Postnr_><Bynavn>Odense V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5210</Postnr_><Bynavn>Odense NV</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5220</Postnr_><Bynavn>Odense SØ</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5230</Postnr_><Bynavn>Odense M</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5240</Postnr_><Bynavn>Odense NØ</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5250</Postnr_><Bynavn>Odense SV</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5260</Postnr_><Bynavn>Odense S</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5270</Postnr_><Bynavn>Odense N</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5290</Postnr_><Bynavn>Marslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5300</Postnr_><Bynavn>Kerteminde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5320</Postnr_><Bynavn>Agedrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5330</Postnr_><Bynavn>Munkebo</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5350</Postnr_><Bynavn>Rynkeby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5370</Postnr_><Bynavn>Mesinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5380</Postnr_><Bynavn>Dalby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5390</Postnr_><Bynavn>Martofte</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5400</Postnr_><Bynavn>Bogense</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5450</Postnr_><Bynavn>Otterup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5462</Postnr_><Bynavn>Morud</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5463</Postnr_><Bynavn>Harndrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5464</Postnr_><Bynavn>Brenderup Fyn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5466</Postnr_><Bynavn>Asperup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5471</Postnr_><Bynavn>Søndersø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5474</Postnr_><Bynavn>Veflinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5485</Postnr_><Bynavn>Skamby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5491</Postnr_><Bynavn>Blommenslyst</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5492</Postnr_><Bynavn>Vissenbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5500</Postnr_><Bynavn>Middelfart</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5540</Postnr_><Bynavn>Ullerslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5550</Postnr_><Bynavn>Langeskov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5560</Postnr_><Bynavn>Aarup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5580</Postnr_><Bynavn>Nørre Aaby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5591</Postnr_><Bynavn>Gelsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5592</Postnr_><Bynavn>Ejby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5600</Postnr_><Bynavn>Faaborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5610</Postnr_><Bynavn>Assens</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5620</Postnr_><Bynavn>Glamsbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5631</Postnr_><Bynavn>Ebberup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5642</Postnr_><Bynavn>Millinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5672</Postnr_><Bynavn>Broby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5683</Postnr_><Bynavn>Haarby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5690</Postnr_><Bynavn>Tommerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5700</Postnr_><Bynavn>Svendborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5750</Postnr_><Bynavn>Ringe</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5762</Postnr_><Bynavn>Vester Skerninge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5771</Postnr_><Bynavn>Stenstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5772</Postnr_><Bynavn>Kværndrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5792</Postnr_><Bynavn>Årslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5800</Postnr_><Bynavn>Nyborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5853</Postnr_><Bynavn>Ørbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5854</Postnr_><Bynavn>Gislev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5856</Postnr_><Bynavn>Ryslinge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5863</Postnr_><Bynavn>Ferritslev Fyn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5871</Postnr_><Bynavn>Frørup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5874</Postnr_><Bynavn>Hesselager</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5881</Postnr_><Bynavn>Skårup Fyn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5882</Postnr_><Bynavn>Vejstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5883</Postnr_><Bynavn>Oure</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5884</Postnr_><Bynavn>Gudme</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5892</Postnr_><Bynavn>Gudbjerg Sydfyn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5900</Postnr_><Bynavn>Rudkøbing</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5932</Postnr_><Bynavn>Humble</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5935</Postnr_><Bynavn>Bagenkop</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5953</Postnr_><Bynavn>Tranekær</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5960</Postnr_><Bynavn>Marstal</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5970</Postnr_><Bynavn>Ærøskøbing</Bynavn></ooo_row>
+      <ooo_row><Postnr_>5985</Postnr_><Bynavn>Søby Ærø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6000</Postnr_><Bynavn>Kolding</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6040</Postnr_><Bynavn>Egtved</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6051</Postnr_><Bynavn>Almind</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6052</Postnr_><Bynavn>Viuf</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6064</Postnr_><Bynavn>Jordrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6070</Postnr_><Bynavn>Christiansfeld</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6091</Postnr_><Bynavn>Bjert</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6092</Postnr_><Bynavn>Sønder Stenderup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6093</Postnr_><Bynavn>Sjølund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6094</Postnr_><Bynavn>Hejls</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6100</Postnr_><Bynavn>Haderslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6200</Postnr_><Bynavn>Aabenraa</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6230</Postnr_><Bynavn>Rødekro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6240</Postnr_><Bynavn>Løgumkloster</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6261</Postnr_><Bynavn>Bredebro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6270</Postnr_><Bynavn>Tønder</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6280</Postnr_><Bynavn>Højer</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6300</Postnr_><Bynavn>Gråsten</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6310</Postnr_><Bynavn>Broager</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6320</Postnr_><Bynavn>Egernsund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6330</Postnr_><Bynavn>Padborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6340</Postnr_><Bynavn>Kruså</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6360</Postnr_><Bynavn>Tinglev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6372</Postnr_><Bynavn>Bylderup-Bov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6392</Postnr_><Bynavn>Bolderslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6400</Postnr_><Bynavn>Sønderborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6430</Postnr_><Bynavn>Nordborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6440</Postnr_><Bynavn>Augustenborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6470</Postnr_><Bynavn>Sydals</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6500</Postnr_><Bynavn>Vojens</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6510</Postnr_><Bynavn>Gram</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6520</Postnr_><Bynavn>Toftlund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6534</Postnr_><Bynavn>Agerskov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6535</Postnr_><Bynavn>Branderup J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6541</Postnr_><Bynavn>Bevtoft</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6560</Postnr_><Bynavn>Sommersted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6580</Postnr_><Bynavn>Vamdrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6600</Postnr_><Bynavn>Vejen</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6621</Postnr_><Bynavn>Gesten</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6622</Postnr_><Bynavn>Bække</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6623</Postnr_><Bynavn>Vorbasse</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6630</Postnr_><Bynavn>Rødding</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6640</Postnr_><Bynavn>Lunderskov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6650</Postnr_><Bynavn>Brørup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6660</Postnr_><Bynavn>Lintrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6670</Postnr_><Bynavn>Holsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6682</Postnr_><Bynavn>Hovborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6683</Postnr_><Bynavn>Føvling</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6690</Postnr_><Bynavn>Gørding</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6700</Postnr_><Bynavn>Esbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6701</Postnr_><Bynavn>Esbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6705</Postnr_><Bynavn>Esbjerg Ø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6710</Postnr_><Bynavn>Esbjerg V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6715</Postnr_><Bynavn>Esbjerg N</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6720</Postnr_><Bynavn>Fanø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6731</Postnr_><Bynavn>Tjæreborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6740</Postnr_><Bynavn>Bramming</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6752</Postnr_><Bynavn>Glejbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6753</Postnr_><Bynavn>Agerbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6760</Postnr_><Bynavn>Ribe</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6771</Postnr_><Bynavn>Gredstedbro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6780</Postnr_><Bynavn>Skærbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6792</Postnr_><Bynavn>Rømø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6800</Postnr_><Bynavn>Varde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6818</Postnr_><Bynavn>Årre</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6823</Postnr_><Bynavn>Ansager</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6830</Postnr_><Bynavn>Nørre Nebel</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6840</Postnr_><Bynavn>Oksbøl</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6851</Postnr_><Bynavn>Janderup Vestj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6852</Postnr_><Bynavn>Billum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6853</Postnr_><Bynavn>Vejers Strand</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6854</Postnr_><Bynavn>Henne</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6855</Postnr_><Bynavn>Outrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6857</Postnr_><Bynavn>Blåvand</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6862</Postnr_><Bynavn>Tistrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6870</Postnr_><Bynavn>Ølgod</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6880</Postnr_><Bynavn>Tarm</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6893</Postnr_><Bynavn>Hemmet</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6900</Postnr_><Bynavn>Skjern</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6920</Postnr_><Bynavn>Videbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6933</Postnr_><Bynavn>Kibæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6940</Postnr_><Bynavn>Lem St</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6950</Postnr_><Bynavn>Ringkøbing</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6960</Postnr_><Bynavn>Hvide Sande</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6971</Postnr_><Bynavn>Spjald</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6973</Postnr_><Bynavn>Ørnhøj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6980</Postnr_><Bynavn>Tim</Bynavn></ooo_row>
+      <ooo_row><Postnr_>6990</Postnr_><Bynavn>Ulfborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7000</Postnr_><Bynavn>Fredericia</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7007</Postnr_><Bynavn>Fredericia</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7017</Postnr_><Bynavn>Taulov Pakkecenter</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7018</Postnr_><Bynavn>Pakker TLP</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7029</Postnr_><Bynavn>Fredericia</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7080</Postnr_><Bynavn>Børkop</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7100</Postnr_><Bynavn>Vejle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7120</Postnr_><Bynavn>Vejle Øst</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7130</Postnr_><Bynavn>Juelsminde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7140</Postnr_><Bynavn>Stouby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7150</Postnr_><Bynavn>Barrit</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7160</Postnr_><Bynavn>Tørring</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7171</Postnr_><Bynavn>Uldum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7173</Postnr_><Bynavn>Vonge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7182</Postnr_><Bynavn>Bredsten</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7183</Postnr_><Bynavn>Randbøl</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7184</Postnr_><Bynavn>Vandel</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7190</Postnr_><Bynavn>Billund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7200</Postnr_><Bynavn>Grindsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7250</Postnr_><Bynavn>Hejnsvig</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7260</Postnr_><Bynavn>Sønder Omme</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7270</Postnr_><Bynavn>Stakroge</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7280</Postnr_><Bynavn>Sønder Felding</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7300</Postnr_><Bynavn>Jelling</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7321</Postnr_><Bynavn>Gadbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7323</Postnr_><Bynavn>Give</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7330</Postnr_><Bynavn>Brande</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7361</Postnr_><Bynavn>Ejstrupholm</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7362</Postnr_><Bynavn>Hampen</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7400</Postnr_><Bynavn>Herning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7429</Postnr_><Bynavn>Herning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7430</Postnr_><Bynavn>Ikast</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7441</Postnr_><Bynavn>Bording</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7442</Postnr_><Bynavn>Engesvang</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7451</Postnr_><Bynavn>Sunds</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7470</Postnr_><Bynavn>Karup J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7480</Postnr_><Bynavn>Vildbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7490</Postnr_><Bynavn>Aulum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7500</Postnr_><Bynavn>Holstebro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7540</Postnr_><Bynavn>Haderup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7550</Postnr_><Bynavn>Sørvad</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7560</Postnr_><Bynavn>Hjerm</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7570</Postnr_><Bynavn>Vemb</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7600</Postnr_><Bynavn>Struer</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7620</Postnr_><Bynavn>Lemvig</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7650</Postnr_><Bynavn>Bøvlingbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7660</Postnr_><Bynavn>Bækmarksbro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7673</Postnr_><Bynavn>Harboøre</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7680</Postnr_><Bynavn>Thyborøn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7700</Postnr_><Bynavn>Thisted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7730</Postnr_><Bynavn>Hanstholm</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7741</Postnr_><Bynavn>Frøstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7742</Postnr_><Bynavn>Vesløs</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7752</Postnr_><Bynavn>Snedsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7755</Postnr_><Bynavn>Bedsted Thy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7760</Postnr_><Bynavn>Hurup Thy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7770</Postnr_><Bynavn>Vestervig</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7790</Postnr_><Bynavn>Thyholm</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7800</Postnr_><Bynavn>Skive</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7830</Postnr_><Bynavn>Vinderup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7840</Postnr_><Bynavn>Højslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7850</Postnr_><Bynavn>Stoholm Jyll</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7860</Postnr_><Bynavn>Spøttrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7870</Postnr_><Bynavn>Roslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7884</Postnr_><Bynavn>Fur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7900</Postnr_><Bynavn>Nykøbing M</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7950</Postnr_><Bynavn>Erslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7960</Postnr_><Bynavn>Karby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7970</Postnr_><Bynavn>Redsted M</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7980</Postnr_><Bynavn>Vils</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7990</Postnr_><Bynavn>Øster Assels</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7992</Postnr_><Bynavn>Sydjylland/Fyn USF P</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7993</Postnr_><Bynavn>Sydjylland/Fyn USF B</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7996</Postnr_><Bynavn>Fakturaservice</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7997</Postnr_><Bynavn>Fakturascanning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7998</Postnr_><Bynavn>Statsservice</Bynavn></ooo_row>
+      <ooo_row><Postnr_>7999</Postnr_><Bynavn>Kommunepost</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8000</Postnr_><Bynavn>Aarhus C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8100</Postnr_><Bynavn>Aarhus C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8200</Postnr_><Bynavn>Aarhus N</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8210</Postnr_><Bynavn>Aarhus V</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8220</Postnr_><Bynavn>Brabrand</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8229</Postnr_><Bynavn>Risskov Ø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8230</Postnr_><Bynavn>Åbyhøj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8240</Postnr_><Bynavn>Risskov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8245</Postnr_><Bynavn>Risskov Ø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8250</Postnr_><Bynavn>Egå</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8260</Postnr_><Bynavn>Viby J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8270</Postnr_><Bynavn>Højbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8300</Postnr_><Bynavn>Odder</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8305</Postnr_><Bynavn>Samsø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8310</Postnr_><Bynavn>Tranbjerg J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8320</Postnr_><Bynavn>Mårslet</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8330</Postnr_><Bynavn>Beder</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8340</Postnr_><Bynavn>Malling</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8350</Postnr_><Bynavn>Hundslund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8355</Postnr_><Bynavn>Solbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8361</Postnr_><Bynavn>Hasselager</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8362</Postnr_><Bynavn>Hørning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8370</Postnr_><Bynavn>Hadsten</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8380</Postnr_><Bynavn>Trige</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8381</Postnr_><Bynavn>Tilst</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8382</Postnr_><Bynavn>Hinnerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8400</Postnr_><Bynavn>Ebeltoft</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8410</Postnr_><Bynavn>Rønde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8420</Postnr_><Bynavn>Knebel</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8444</Postnr_><Bynavn>Balle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8450</Postnr_><Bynavn>Hammel</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8462</Postnr_><Bynavn>Harlev J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8464</Postnr_><Bynavn>Galten</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8471</Postnr_><Bynavn>Sabro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8472</Postnr_><Bynavn>Sporup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8500</Postnr_><Bynavn>Grenaa</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8520</Postnr_><Bynavn>Lystrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8530</Postnr_><Bynavn>Hjortshøj</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8541</Postnr_><Bynavn>Skødstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8543</Postnr_><Bynavn>Hornslet</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8544</Postnr_><Bynavn>Mørke</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8550</Postnr_><Bynavn>Ryomgård</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8560</Postnr_><Bynavn>Kolind</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8570</Postnr_><Bynavn>Trustrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8581</Postnr_><Bynavn>Nimtofte</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8585</Postnr_><Bynavn>Glesborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8586</Postnr_><Bynavn>Ørum Djurs</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8592</Postnr_><Bynavn>Anholt</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8600</Postnr_><Bynavn>Silkeborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8620</Postnr_><Bynavn>Kjellerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8632</Postnr_><Bynavn>Lemming</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8641</Postnr_><Bynavn>Sorring</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8643</Postnr_><Bynavn>Ans By</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8653</Postnr_><Bynavn>Them</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8654</Postnr_><Bynavn>Bryrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8660</Postnr_><Bynavn>Skanderborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8670</Postnr_><Bynavn>Låsby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8680</Postnr_><Bynavn>Ry</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8700</Postnr_><Bynavn>Horsens</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8721</Postnr_><Bynavn>Daugård</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8722</Postnr_><Bynavn>Hedensted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8723</Postnr_><Bynavn>Løsning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8732</Postnr_><Bynavn>Hovedgård</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8740</Postnr_><Bynavn>Brædstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8751</Postnr_><Bynavn>Gedved</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8752</Postnr_><Bynavn>Østbirk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8762</Postnr_><Bynavn>Flemming</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8763</Postnr_><Bynavn>Rask Mølle</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8765</Postnr_><Bynavn>Klovborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8766</Postnr_><Bynavn>Nørre Snede</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8781</Postnr_><Bynavn>Stenderup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8783</Postnr_><Bynavn>Hornsyld</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8800</Postnr_><Bynavn>Viborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8830</Postnr_><Bynavn>Tjele</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8831</Postnr_><Bynavn>Løgstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8832</Postnr_><Bynavn>Skals</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8840</Postnr_><Bynavn>Rødkærsbro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8850</Postnr_><Bynavn>Bjerringbro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8860</Postnr_><Bynavn>Ulstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8870</Postnr_><Bynavn>Langå</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8881</Postnr_><Bynavn>Thorsø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8882</Postnr_><Bynavn>Fårvang</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8883</Postnr_><Bynavn>Gjern</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8900</Postnr_><Bynavn>Randers C</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8920</Postnr_><Bynavn>Randers NV</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8930</Postnr_><Bynavn>Randers NØ</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8940</Postnr_><Bynavn>Randers SV</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8950</Postnr_><Bynavn>Ørsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8960</Postnr_><Bynavn>Randers SØ</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8961</Postnr_><Bynavn>Allingåbro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8963</Postnr_><Bynavn>Auning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8970</Postnr_><Bynavn>Havndal</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8981</Postnr_><Bynavn>Spentrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8983</Postnr_><Bynavn>Gjerlev J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>8990</Postnr_><Bynavn>Fårup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9000</Postnr_><Bynavn>Aalborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9029</Postnr_><Bynavn>Aalborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9100</Postnr_><Bynavn>Aalborg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9200</Postnr_><Bynavn>Aalborg SV</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9210</Postnr_><Bynavn>Aalborg SØ</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9220</Postnr_><Bynavn>Aalborg Øst</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9230</Postnr_><Bynavn>Svenstrup J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9240</Postnr_><Bynavn>Nibe</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9260</Postnr_><Bynavn>Gistrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9270</Postnr_><Bynavn>Klarup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9280</Postnr_><Bynavn>Storvorde</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9293</Postnr_><Bynavn>Kongerslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9300</Postnr_><Bynavn>Sæby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9310</Postnr_><Bynavn>Vodskov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9320</Postnr_><Bynavn>Hjallerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9330</Postnr_><Bynavn>Dronninglund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9340</Postnr_><Bynavn>Asaa</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9352</Postnr_><Bynavn>Dybvad</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9362</Postnr_><Bynavn>Gandrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9370</Postnr_><Bynavn>Hals</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9380</Postnr_><Bynavn>Vestbjerg</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9381</Postnr_><Bynavn>Sulsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9382</Postnr_><Bynavn>Tylstrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9400</Postnr_><Bynavn>Nørresundby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9430</Postnr_><Bynavn>Vadum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9440</Postnr_><Bynavn>Aabybro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9460</Postnr_><Bynavn>Brovst</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9480</Postnr_><Bynavn>Løkken</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9490</Postnr_><Bynavn>Pandrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9492</Postnr_><Bynavn>Blokhus</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9493</Postnr_><Bynavn>Saltum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9500</Postnr_><Bynavn>Hobro</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9510</Postnr_><Bynavn>Arden</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9520</Postnr_><Bynavn>Skørping</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9530</Postnr_><Bynavn>Støvring</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9541</Postnr_><Bynavn>Suldrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9550</Postnr_><Bynavn>Mariager</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9560</Postnr_><Bynavn>Hadsund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9574</Postnr_><Bynavn>Bælum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9575</Postnr_><Bynavn>Terndrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9600</Postnr_><Bynavn>Aars</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9610</Postnr_><Bynavn>Nørager</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9620</Postnr_><Bynavn>Aalestrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9631</Postnr_><Bynavn>Gedsted</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9632</Postnr_><Bynavn>Møldrup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9640</Postnr_><Bynavn>Farsø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9670</Postnr_><Bynavn>Løgstør</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9681</Postnr_><Bynavn>Ranum</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9690</Postnr_><Bynavn>Fjerritslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9700</Postnr_><Bynavn>Brønderslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9740</Postnr_><Bynavn>Jerslev J</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9750</Postnr_><Bynavn>Østervrå</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9760</Postnr_><Bynavn>Vrå</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9800</Postnr_><Bynavn>Hjørring</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9830</Postnr_><Bynavn>Tårs</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9850</Postnr_><Bynavn>Hirtshals</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9870</Postnr_><Bynavn>Sindal</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9881</Postnr_><Bynavn>Bindslev</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9900</Postnr_><Bynavn>Frederikshavn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9940</Postnr_><Bynavn>Læsø</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9970</Postnr_><Bynavn>Strandby</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9981</Postnr_><Bynavn>Jerup</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9982</Postnr_><Bynavn>Ålbæk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9990</Postnr_><Bynavn>Skagen</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9992</Postnr_><Bynavn>Jylland USF P</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9993</Postnr_><Bynavn>Jylland USF B</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9996</Postnr_><Bynavn>Fakturaservice</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9997</Postnr_><Bynavn>Fakturascanning</Bynavn></ooo_row>
+      <ooo_row><Postnr_>9998</Postnr_><Bynavn>Borgerservice</Bynavn></ooo_row>
+      <ooo_row><Postnr_>2412</Postnr_><Bynavn>Santa Claus/Julemanden</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3900</Postnr_><Bynavn>Nuuk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3905</Postnr_><Bynavn>Nuussuaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3910</Postnr_><Bynavn>Kangerlussuaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3911</Postnr_><Bynavn>Sisimiut</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3912</Postnr_><Bynavn>Maniitsoq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3913</Postnr_><Bynavn>Tasiilaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3915</Postnr_><Bynavn>Kulusuk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3919</Postnr_><Bynavn>Alluitsup Paa</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3920</Postnr_><Bynavn>Qaqortoq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3921</Postnr_><Bynavn>Narsaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3922</Postnr_><Bynavn>Nanortalik</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3923</Postnr_><Bynavn>Narsarsuaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3924</Postnr_><Bynavn>Ikerasassuaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3930</Postnr_><Bynavn>Kangilinnguit</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3932</Postnr_><Bynavn>Arsuk</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3940</Postnr_><Bynavn>Paamiut</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3950</Postnr_><Bynavn>Aasiaat</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3951</Postnr_><Bynavn>Qasigiannguit</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3952</Postnr_><Bynavn>Ilulissat</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3953</Postnr_><Bynavn>Qeqertarsuaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3955</Postnr_><Bynavn>Kangaatsiaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3961</Postnr_><Bynavn>Uummannaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3962</Postnr_><Bynavn>Upernavik</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3964</Postnr_><Bynavn>Qaarsut</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3970</Postnr_><Bynavn>Pituffik</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3971</Postnr_><Bynavn>Qaanaaq</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3972</Postnr_><Bynavn>Station Nord</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3980</Postnr_><Bynavn>Ittoqqortoormiit</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3982</Postnr_><Bynavn>Mestersvig</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3984</Postnr_><Bynavn>Danmarkshavn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3985</Postnr_><Bynavn>Constable Pynt</Bynavn></ooo_row>
+      <ooo_row><Postnr_>3992</Postnr_><Bynavn>Slædepatrulje Sirius</Bynavn></ooo_row>
+      <ooo_row><Postnr_>100</Postnr_><Bynavn>Tórshavn</Bynavn></ooo_row>
+      <ooo_row><Postnr_>110</Postnr_><Bynavn>Tórshavn </Bynavn></ooo_row>
+      <ooo_row><Postnr_>160</Postnr_><Bynavn>Argir</Bynavn></ooo_row>
+      <ooo_row><Postnr_>165</Postnr_><Bynavn>Argir </Bynavn></ooo_row>
+      <ooo_row><Postnr_>175</Postnr_><Bynavn>Kirkjubøur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>176</Postnr_><Bynavn>Velbastadur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>177</Postnr_><Bynavn>Sydradalur, Streymoy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>178</Postnr_><Bynavn>Nordradalur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>180</Postnr_><Bynavn>Kaldbak</Bynavn></ooo_row>
+      <ooo_row><Postnr_>185</Postnr_><Bynavn>Kaldbaksbotnur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>186</Postnr_><Bynavn>Sund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>187</Postnr_><Bynavn>Hvitanes</Bynavn></ooo_row>
+      <ooo_row><Postnr_>188</Postnr_><Bynavn>Hoyvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>210</Postnr_><Bynavn>Sandur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>215</Postnr_><Bynavn>Sandur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>220</Postnr_><Bynavn>Skálavík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>230</Postnr_><Bynavn>Húsavík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>235</Postnr_><Bynavn>Dalur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>236</Postnr_><Bynavn>Skarvanes</Bynavn></ooo_row>
+      <ooo_row><Postnr_>240</Postnr_><Bynavn>Skopun</Bynavn></ooo_row>
+      <ooo_row><Postnr_>260</Postnr_><Bynavn>Skúvoy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>270</Postnr_><Bynavn>Nólsoy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>280</Postnr_><Bynavn>Hestur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>285</Postnr_><Bynavn>Koltur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>286</Postnr_><Bynavn>Stóra Dimun</Bynavn></ooo_row>
+      <ooo_row><Postnr_>330</Postnr_><Bynavn>Stykkid</Bynavn></ooo_row>
+      <ooo_row><Postnr_>335</Postnr_><Bynavn>Leynar</Bynavn></ooo_row>
+      <ooo_row><Postnr_>336</Postnr_><Bynavn>Skællingur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>340</Postnr_><Bynavn>Kvívík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>350</Postnr_><Bynavn>Vestmanna</Bynavn></ooo_row>
+      <ooo_row><Postnr_>355</Postnr_><Bynavn>Vestmanna</Bynavn></ooo_row>
+      <ooo_row><Postnr_>358</Postnr_><Bynavn>Válur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>360</Postnr_><Bynavn>Sandavágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>370</Postnr_><Bynavn>Midvágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>375</Postnr_><Bynavn>Midvágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>380</Postnr_><Bynavn>Sørvágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>385</Postnr_><Bynavn>Vatnsoyrar</Bynavn></ooo_row>
+      <ooo_row><Postnr_>386</Postnr_><Bynavn>Bøur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>387</Postnr_><Bynavn>Gásadalur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>388</Postnr_><Bynavn>Mykines</Bynavn></ooo_row>
+      <ooo_row><Postnr_>400</Postnr_><Bynavn>Oyrarbakki</Bynavn></ooo_row>
+      <ooo_row><Postnr_>405</Postnr_><Bynavn>Oyrarbakki</Bynavn></ooo_row>
+      <ooo_row><Postnr_>410</Postnr_><Bynavn>Kollafjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>415</Postnr_><Bynavn>Oyrareingir</Bynavn></ooo_row>
+      <ooo_row><Postnr_>416</Postnr_><Bynavn>Signabøur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>420</Postnr_><Bynavn>Hósvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>430</Postnr_><Bynavn>Hvalvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>435</Postnr_><Bynavn>Streymnes</Bynavn></ooo_row>
+      <ooo_row><Postnr_>436</Postnr_><Bynavn>Saksun</Bynavn></ooo_row>
+      <ooo_row><Postnr_>437</Postnr_><Bynavn>Nesvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>438</Postnr_><Bynavn>Langasandur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>440</Postnr_><Bynavn>Haldarsvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>445</Postnr_><Bynavn>Tjørnuvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>450</Postnr_><Bynavn>Oyri</Bynavn></ooo_row>
+      <ooo_row><Postnr_>460</Postnr_><Bynavn>Nordskáli</Bynavn></ooo_row>
+      <ooo_row><Postnr_>465</Postnr_><Bynavn>Svináir</Bynavn></ooo_row>
+      <ooo_row><Postnr_>466</Postnr_><Bynavn>Ljósá</Bynavn></ooo_row>
+      <ooo_row><Postnr_>470</Postnr_><Bynavn>Eidi</Bynavn></ooo_row>
+      <ooo_row><Postnr_>475</Postnr_><Bynavn>Funningur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>476</Postnr_><Bynavn>Gjógv</Bynavn></ooo_row>
+      <ooo_row><Postnr_>477</Postnr_><Bynavn>Funningsfjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>478</Postnr_><Bynavn>Elduvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>480</Postnr_><Bynavn>Skáli</Bynavn></ooo_row>
+      <ooo_row><Postnr_>485</Postnr_><Bynavn>Skálafjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>490</Postnr_><Bynavn>Strendur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>494</Postnr_><Bynavn>Innan Glyvur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>495</Postnr_><Bynavn>Kolbanargjógv</Bynavn></ooo_row>
+      <ooo_row><Postnr_>496</Postnr_><Bynavn>Morskranes</Bynavn></ooo_row>
+      <ooo_row><Postnr_>497</Postnr_><Bynavn>Selatrad</Bynavn></ooo_row>
+      <ooo_row><Postnr_>510</Postnr_><Bynavn>Gøta</Bynavn></ooo_row>
+      <ooo_row><Postnr_>511</Postnr_><Bynavn>Gøtugjógv</Bynavn></ooo_row>
+      <ooo_row><Postnr_>512</Postnr_><Bynavn>Nordragøta</Bynavn></ooo_row>
+      <ooo_row><Postnr_>513</Postnr_><Bynavn>Sydrugøta</Bynavn></ooo_row>
+      <ooo_row><Postnr_>515</Postnr_><Bynavn>Gøta</Bynavn></ooo_row>
+      <ooo_row><Postnr_>520</Postnr_><Bynavn>Leirvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>530</Postnr_><Bynavn>Fuglafjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>535</Postnr_><Bynavn>Fuglafjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>600</Postnr_><Bynavn>Saltangará</Bynavn></ooo_row>
+      <ooo_row><Postnr_>610</Postnr_><Bynavn>Saltangará</Bynavn></ooo_row>
+      <ooo_row><Postnr_>620</Postnr_><Bynavn>Runavík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>625</Postnr_><Bynavn>Glyvrar</Bynavn></ooo_row>
+      <ooo_row><Postnr_>626</Postnr_><Bynavn>Lambareidi</Bynavn></ooo_row>
+      <ooo_row><Postnr_>627</Postnr_><Bynavn>Lambi</Bynavn></ooo_row>
+      <ooo_row><Postnr_>640</Postnr_><Bynavn>Rituvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>645</Postnr_><Bynavn>Æduvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>650</Postnr_><Bynavn>Toftir</Bynavn></ooo_row>
+      <ooo_row><Postnr_>655</Postnr_><Bynavn>Nes, Eysturoy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>656</Postnr_><Bynavn>Saltnes</Bynavn></ooo_row>
+      <ooo_row><Postnr_>660</Postnr_><Bynavn>Søldarfjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>665</Postnr_><Bynavn>Skipanes</Bynavn></ooo_row>
+      <ooo_row><Postnr_>666</Postnr_><Bynavn>Gøtueidi</Bynavn></ooo_row>
+      <ooo_row><Postnr_>690</Postnr_><Bynavn>Oyndarfjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>695</Postnr_><Bynavn>Hellur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>700</Postnr_><Bynavn>Klaksvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>710</Postnr_><Bynavn>Klaksvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>725</Postnr_><Bynavn>Nordoyri</Bynavn></ooo_row>
+      <ooo_row><Postnr_>726</Postnr_><Bynavn>Ánir</Bynavn></ooo_row>
+      <ooo_row><Postnr_>727</Postnr_><Bynavn>Árnafjørdur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>730</Postnr_><Bynavn>Norddepil</Bynavn></ooo_row>
+      <ooo_row><Postnr_>735</Postnr_><Bynavn>Depil</Bynavn></ooo_row>
+      <ooo_row><Postnr_>736</Postnr_><Bynavn>Nordtoftir</Bynavn></ooo_row>
+      <ooo_row><Postnr_>737</Postnr_><Bynavn>Múli</Bynavn></ooo_row>
+      <ooo_row><Postnr_>740</Postnr_><Bynavn>Hvannasund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>750</Postnr_><Bynavn>Vidareidi</Bynavn></ooo_row>
+      <ooo_row><Postnr_>765</Postnr_><Bynavn>Svinoy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>766</Postnr_><Bynavn>Kirkja</Bynavn></ooo_row>
+      <ooo_row><Postnr_>767</Postnr_><Bynavn>Hattarvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>780</Postnr_><Bynavn>Kunoy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>785</Postnr_><Bynavn>Haraldssund</Bynavn></ooo_row>
+      <ooo_row><Postnr_>795</Postnr_><Bynavn>Sydradalur, Kalsoy</Bynavn></ooo_row>
+      <ooo_row><Postnr_>796</Postnr_><Bynavn>Húsar</Bynavn></ooo_row>
+      <ooo_row><Postnr_>797</Postnr_><Bynavn>Mikladalur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>798</Postnr_><Bynavn>Trøllanes</Bynavn></ooo_row>
+      <ooo_row><Postnr_>800</Postnr_><Bynavn>Tvøroyri</Bynavn></ooo_row>
+      <ooo_row><Postnr_>810</Postnr_><Bynavn>Tvøroyri</Bynavn></ooo_row>
+      <ooo_row><Postnr_>825</Postnr_><Bynavn>Frodba</Bynavn></ooo_row>
+      <ooo_row><Postnr_>826</Postnr_><Bynavn>Trongisvágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>827</Postnr_><Bynavn>Øravík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>850</Postnr_><Bynavn>Hvalba</Bynavn></ooo_row>
+      <ooo_row><Postnr_>860</Postnr_><Bynavn>Sandvík</Bynavn></ooo_row>
+      <ooo_row><Postnr_>870</Postnr_><Bynavn>Fámjin</Bynavn></ooo_row>
+      <ooo_row><Postnr_>900</Postnr_><Bynavn>Vágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>910</Postnr_><Bynavn>Vágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>925</Postnr_><Bynavn>Nes, Vágur</Bynavn></ooo_row>
+      <ooo_row><Postnr_>926</Postnr_><Bynavn>Lopra</Bynavn></ooo_row>
+      <ooo_row><Postnr_>927</Postnr_><Bynavn>Akrar</Bynavn></ooo_row>
+      <ooo_row><Postnr_>928</Postnr_><Bynavn>Vikarbyrgi</Bynavn></ooo_row>
+      <ooo_row><Postnr_>950</Postnr_><Bynavn>Porkeri</Bynavn></ooo_row>
+      <ooo_row><Postnr_>960</Postnr_><Bynavn>Hov</Bynavn></ooo_row>
+      <ooo_row><Postnr_>970</Postnr_><Bynavn>Sumba</Bynavn></ooo_row>
+   </ooo_sheet>
+</ooo_calc_export>

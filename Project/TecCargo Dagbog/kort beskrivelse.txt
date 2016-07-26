@@ -1,0 +1,2 @@
+Et lille program, som gør det muligt at holde dagbog/logbog på elever/personer 
+som man så kan udskrive eller læse igennem på et senere tidspunkt.

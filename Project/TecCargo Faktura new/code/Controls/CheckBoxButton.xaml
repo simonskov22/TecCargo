@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="TecCargo_Faktura.Controls.CheckBoxButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Local="clr-namespace:TecCargo_Faktura.Controls"
+             mc:Ignorable="d" x:Name="_CheckBoxButton" Loaded="_CheckBoxButton_Loaded"
+             >
+    <UserControl.Resources>
+
+        <Local:CheckBoxButtonImage x:Key="CheckBoxButtonImage" />
+    </UserControl.Resources>
+    <Grid>
+        <Button Grid.Row="5" Background="Transparent" BorderBrush="Transparent"
+                Height="auto" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                HorizontalContentAlignment="Left" Name="_Button">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="{Binding ImageSize, ElementName=_CheckBoxButton}" Name="_Image"
+                       Source="{Binding ElementName=_CheckBoxButton, Path=Checked, Converter={StaticResource CheckBoxButtonImage}}"/>
+                <Label Name="InputText" Content="{Binding Text, ElementName=_CheckBoxButton}" FontSize="{Binding TextSize,ElementName=_CheckBoxButton}" FontWeight="{Binding FontWeight,ElementName=_CheckBoxButton}"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</UserControl>

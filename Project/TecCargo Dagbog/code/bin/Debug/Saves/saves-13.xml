@@ -1,0 +1,56 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="general">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="version" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="indhold">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="navn" type="xs:string" minOccurs="0" />
+                <xs:element name="cvr" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="log">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="date" type="xs:string" minOccurs="0" />
+                <xs:element name="text" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="files">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="index" type="xs:string" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="path" type="xs:string" minOccurs="0" />
+                <xs:element name="isLink" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <general>
+    <version>1.7</version>
+  </general>
+  <indhold>
+    <navn />
+    <cvr />
+  </indhold>
+  <files>
+    <index>0</index>
+    <name>test</name>
+    <path>File-1.pdf</path>
+    <isLink>False</isLink>
+  </files>
+</NewDataSet>
