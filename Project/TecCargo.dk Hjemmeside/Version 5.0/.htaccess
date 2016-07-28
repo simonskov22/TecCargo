@@ -1,0 +1,14 @@
+# Clean URL
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    #RewriteRule ^[^\.]+\.php$ /example.php [L,NC]
+    RewriteRule ^(.*)$ index.php/$1 [NC,L]
+    # NC makes the rule non case sensitive
+    # L make this the last rule that this specific condition will match
+
+</IfModule>
